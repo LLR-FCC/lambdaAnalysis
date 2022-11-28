@@ -6,6 +6,10 @@ Git repository containing FCCSW & 'private' code to run the lambda measurement a
 
 /!\ This is a draft README pending tests of the instructions below
 
+- `FCCAnalyses`: copy of [official repository](https://github.com/HEP-FCC/FCCAnalyses). Should be retrieved from there at setup time instead (need to check if custom producers are there first)
+
+- `FCCeePhysicsPerformance`: copy of [official repository](https://github.com/HEP-FCC/FCCeePhysicsPerformance). Should be retrieved from there at setup time instead (need to check if custom producers are there first)
+
 ## Setup
 
 ```
