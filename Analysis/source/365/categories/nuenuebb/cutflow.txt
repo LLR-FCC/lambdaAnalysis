@@ -1,0 +1,52 @@
+open file  /eos/user/n/niharrin/llr/presel/365/source/wzp6_ee_nunuH_ecm365.root
+processed events  {'wzp6_ee_nunuH_ecm365': 1000000}
+events in ttree   {'wzp6_ee_nunuH_ecm365': 1000000}
+
+   running over process :  wzp6_ee_nunuH_ecm365
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                         : 1000000
+       After selection sel_noBDT_nuenuebb : 8530
+       After selection sel_nuenuebb : 8363
+     Saving outputs
+
+open file  /eos/user/n/niharrin/llr/presel/365/source/p8_ee_ZH_ecm365.root
+processed events  {'p8_ee_ZH_ecm365': 5000000}
+events in ttree   {'p8_ee_ZH_ecm365': 5000000}
+
+   running over process :  p8_ee_ZH_ecm365
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                         : 5000000
+       After selection sel_noBDT_nuenuebb : 17517
+       After selection sel_nuenuebb : 5428
+     Saving outputs
+
+open file  /eos/user/n/niharrin/llr/presel/365/source/p8_ee_WW_ecm365.root
+open file  /eos/user/n/niharrin/llr/presel/365/source/p8_ee_ZZ_ecm365.root
+processed events  {'p8_ee_WW_ecm365': 5000000, 'p8_ee_ZZ_ecm365': 5000000}
+events in ttree   {'p8_ee_WW_ecm365': 5000000, 'p8_ee_ZZ_ecm365': 5000000}
+
+   running over process :  p8_ee_WW_ecm365
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                         : 5000000
+       After selection sel_noBDT_nuenuebb : 2
+       After selection sel_nuenuebb : 0
+     Saving outputs
+
+   running over process :  p8_ee_ZZ_ecm365
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                         : 5000000
+       After selection sel_noBDT_nuenuebb : 2108
+       After selection sel_nuenuebb : 272
+     Saving outputs

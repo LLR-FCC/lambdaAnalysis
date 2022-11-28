@@ -1,0 +1,22 @@
+# exclude all presel root files
+*/presel/*
+**/presel/**
+
+*/presel_float/*
+**/presel_float/**
+
+*/presel_25/*
+**/presel_25/**
+
+*/presel_10/*
+**/presel_10/**
+
+*/presel_50/*
+**/presel_50/**
+
+*/TMVAClassification.root
+**/TMVAClassification.root
+**/*.root
+# exclude some random .root files
+Analysis/ee_bbH_inclusive/240/events_12.root
+Analysis/root.root

@@ -1,0 +1,26 @@
+{ decls }
+namespace std {  }
+namespace ROOT { namespace VecOps {  } }
+namespace edm4hep { class MCParticleData; }
+namespace ROOT { namespace VecOps { template <typename T> class RVec; } }
+namespace edm4hep { class Vector3d; }
+class TLorentzVector;
+namespace edm4hep { class ReconstructedParticleData; }
+namespace edm4hep { class TrackState; }
+class TVector3;
+namespace edm4hep { class VertexData; }
+
+[ libFCCAnalyses.so ]
+# List of selected classes
+class ROOT::VecOps::RVec<TLorentzVector>
+class ROOT::VecOps::RVec<TVector3>
+class ROOT::VecOps::RVec<edm4hep::MCParticleData>
+class ROOT::VecOps::RVec<edm4hep::ReconstructedParticleData>
+class ROOT::VecOps::RVec<edm4hep::TrackState>
+class ROOT::VecOps::RVec<edm4hep::Vector3d>
+class ROOT::VecOps::RVec<edm4hep::VertexData>
+class vector<TLorentzVector>
+class vector<std::string>
+class vector<std::vector<int> >
+class vector<string>
+class vector<vector<int> >

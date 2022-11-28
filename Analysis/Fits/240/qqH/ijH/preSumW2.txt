@@ -1,0 +1,871 @@
+Warning in <Minuit2>: MnPosDef Added to diagonal of Error matrix a value 0.500005
+Info in <Minuit2>: VariableMetricBuilder After Hessian
+Info in <Minuit2>: VariableMetricBuilder   49 - FCN =      -26199.34983 Edm =   0.0008236004246 NCalls =   1961
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -26199.3498268515759
+Edm   = 0.000823600424553451818
+Nfcn  = 1961
+BRmess_240GeV     = 1    +/-  0.00199793        (limited)
+Emess_240GeV      = 0.999992     +/-  0.00995682        (limited)
+Lmess_240GeV      = 0.999999     +/-  0.000995874       (limited)
+fsig      = 0.403511     +/-  0.0400248 (limited)
+fsig2     = 1.92115e-09  +/-  7.99696e-05       (limited)
+fsig3     = 0.923427     +/-  0.0229577 (limited)
+mean      = 131.74       +/-  0.61502   (limited)
+mean2     = 119.607      +/-  22.8497   (limited)
+mean3     = 128.139      +/-  0.0796331 (limited)
+mean4     = 143.964      +/-  0.55366   (limited)
+muZH_240GeV       = 0.999991     +/-  0.0110714 (limited)
+sigma     = 5.65249      +/-  0.281493  (limited)
+sigma2    = 13.7385      +/-  11.676    (limited)
+sigma3    = 3.26223      +/-  0.0870539 (limited)
+sigma4    = 3.42325      +/-  0.218551  (limited)
+Info in <Minuit2>: Minuit2Minimizer::Hesse Using max-calls 7500
+Warning in <Minuit2>: MnPosDef non-positive diagonal element in covariance matrix[ 12 ] = -3.57795e-06
+Warning in <Minuit2>: MnPosDef Added to diagonal of Error matrix a value 0.500005
+Info in <Minuit2>: Minuit2Minimizer::Hesse Hesse is valid - matrix is accurate
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: -26199.3, estimated distance to minimum: 0.000824054
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+         BRmess_240GeV    1.0000e+00 +/-  2.00e-03
+          Emess_240GeV    9.9999e-01 +/-  9.96e-03
+          Lmess_240GeV    1.0000e+00 +/-  9.96e-04
+                  fsig    4.0351e-01 +/-  3.72e-02
+                 fsig2    1.9212e-09 +/-  8.00e-05
+                 fsig3    9.2343e-01 +/-  2.14e-02
+                  mean    1.3174e+02 +/-  5.70e-01
+                 mean2    1.1961e+02 +/-  2.28e+01
+                 mean3    1.2814e+02 +/-  7.59e-02
+                 mean4    1.4396e+02 +/-  5.29e-01
+           muZH_240GeV    9.9999e-01 +/-  1.11e-02
+                 sigma    5.6525e+00 +/-  2.61e-01
+                sigma2    1.3738e+01 +/-  1.17e+01
+                sigma3    3.2622e+00 +/-  8.20e-02
+                sigma4    3.4232e+00 +/-  2.13e-01
+
+[#0] ERROR:InputArguments -- RooAbsData::plotOn(wdataHZsig) ERROR: unrecognized command: Bins
+[#0] ERROR:InputArguments -- RooAbsReal::plotOn(model) ERROR: unrecognized command: Bins
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bkgModel)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: (modelBare)
+[#0] ERROR:InputArguments -- RooAbsReal::plotOn(model) ERROR: unrecognized command: Bins
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (finalsig)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: (gauss_240GeV,gauss2_240GeV,finalsig_recursive_fraction_gauss2_240GeV,gauss3_240GeV,finalsig_recursive_fraction_gauss3_240GeV,gauss4_240GeV,finalsig_recursive_fraction_gauss4_240GeV,modelBare)
+[#0] ERROR:InputArguments -- RooAbsReal::plotOn(model) ERROR: unrecognized command: Bins
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/Fits/240/qqH/ijH/aplots/S_B_fit.pdf has been created
+\begin{tabular}{lc}
+$\verb+BRmess_240GeV+ $ & $  1.000\pm 0.002$\\
+$\verb+Emess_240GeV+ $ & $  1.000\pm 0.010$\\
+$\verb+Lmess_240GeV+ $ & $  1.0000\pm 0.0010$\\
+$\verb+N+ $ & $  0\pm 321$\\
+$\verb+fsig+ $ & $  0.40\pm 0.04$\\
+$\verb+fsig2+ $ & $  0.00000\pm 0.00008$\\
+$\verb+fsig3+ $ & $  0.92\pm 0.02$\\
+$\verb+mean+ $ & $  131.7\pm 0.6$\\
+$\verb+mean2+ $ & $  120\pm 23$\\
+$\verb+mean3+ $ & $  128.14\pm 0.08$\\
+$\verb+mean4+ $ & $  144.0\pm 0.5$\\
+$\verb+muZH_240GeV+ $ & $  1.00\pm 0.01$\\
+$\verb+sigma+ $ & $  5.7\pm 0.3$\\
+$\verb+sigma2+ $ & $  14\pm 12$\\
+$\verb+sigma3+ $ & $  3.26\pm 0.08$\\
+$\verb+sigma4+ $ & $  3.4\pm 0.2$\\
+\end{tabular}
+\begin{tabular}{lc|lc}
+$\verb+BRmess_240GeV+ $ & $  1.000\pm 0.002$ & $\verb+mean2+ $ & $  120\pm 23$\\
+$\verb+Emess_240GeV+ $ & $  1.000\pm 0.010$ & $\verb+mean3+ $ & $  128.14\pm 0.08$\\
+$\verb+Lmess_240GeV+ $ & $  1.0000\pm 0.0010$ & $\verb+mean4+ $ & $  144.0\pm 0.5$\\
+$\verb+N+ $ & $  0\pm 321$ & $\verb+muZH_240GeV+ $ & $  1.00\pm 0.01$\\
+$\verb+fsig+ $ & $  0.40\pm 0.04$ & $\verb+sigma+ $ & $  5.7\pm 0.3$\\
+$\verb+fsig2+ $ & $  0.00000\pm 0.00008$ & $\verb+sigma2+ $ & $  14\pm 12$\\
+$\verb+fsig3+ $ & $  0.92\pm 0.02$ & $\verb+sigma3+ $ & $  3.26\pm 0.08$\\
+$\verb+mean+ $ & $  131.7\pm 0.6$ & $\verb+sigma4+ $ & $  3.4\pm 0.2$\\
+\end{tabular}
+\begin{tabular}{lcc}
+$\verb+BRmess_240GeV+ $ & $  1.000\pm 0.002$ & $ 1$\\
+$\verb+Emess_240GeV+ $ & $  1.000\pm 0.010$ & $ 1$\\
+$\verb+Lmess_240GeV+ $ & $  1.0000\pm 0.0010$ & $ 1$\\
+$\verb+N+ $ & $  0\pm 321$ & $ 0\pm 321$\\
+$\verb+fsig+ $ & $  0.40\pm 0.04$ & $ 0.2$\\
+$\verb+fsig2+ $ & $  0.00000\pm 0.00008$ & $ 0.3$\\
+$\verb+fsig3+ $ & $  0.92\pm 0.02$ & $ 0.4$\\
+$\verb+mean+ $ & $  131.7\pm 0.6$ & $ 122$\\
+$\verb+mean2+ $ & $  120\pm 23$ & $ 115$\\
+$\verb+mean3+ $ & $  128.14\pm 0.08$ & $ 130$\\
+$\verb+mean4+ $ & $  144.0\pm 0.5$ & $ 139$\\
+$\verb+muZH_240GeV+ $ & $  1.00\pm 0.01$ & $ 1$\\
+$\verb+sigma+ $ & $  5.7\pm 0.3$ & $ 5$\\
+$\verb+sigma2+ $ & $  14\pm 12$ & $ 12$\\
+$\verb+sigma3+ $ & $  3.26\pm 0.08$ & $ 7$\\
+$\verb+sigma4+ $ & $  3.4\pm 0.2$ & $ 4$\\
+\end{tabular}
+\begin{tabular}{lcc|lcc}
+$\verb+BRmess_240GeV+ $ & $  1.000\pm 0.002$ & $ 1$ & $\verb+mean2+ $ & $  120\pm 23$ & $ 115$\\
+$\verb+Emess_240GeV+ $ & $  1.000\pm 0.010$ & $ 1$ & $\verb+mean3+ $ & $  128.14\pm 0.08$ & $ 130$\\
+$\verb+Lmess_240GeV+ $ & $  1.0000\pm 0.0010$ & $ 1$ & $\verb+mean4+ $ & $  144.0\pm 0.5$ & $ 139$\\
+$\verb+N+ $ & $  0\pm 321$ & $ 0\pm 321$ & $\verb+muZH_240GeV+ $ & $  1.00\pm 0.01$ & $ 1$\\
+$\verb+fsig+ $ & $  0.40\pm 0.04$ & $ 0.2$ & $\verb+sigma+ $ & $  5.7\pm 0.3$ & $ 5$\\
+$\verb+fsig2+ $ & $  0.00000\pm 0.00008$ & $ 0.3$ & $\verb+sigma2+ $ & $  14\pm 12$ & $ 12$\\
+$\verb+fsig3+ $ & $  0.92\pm 0.02$ & $ 0.4$ & $\verb+sigma3+ $ & $  3.26\pm 0.08$ & $ 7$\\
+$\verb+mean+ $ & $  131.7\pm 0.6$ & $ 122$ & $\verb+sigma4+ $ & $  3.4\pm 0.2$ & $ 4$\\
+\end{tabular}
+Background-only chi^2 = 77.4743
+S+B chi^2 = 44.1992
+chi^2 = 41.2526
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 0 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 1 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 2 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 3 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 4 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 5 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 6 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 7 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 8 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 9 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 10 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 11 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 12 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 54 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 55 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 56 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 57 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 58 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_wdataHZsig) WARNING: point 59 has zero error, setting residual to zero
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/Fits/240/qqH/ijH/aplots/pulls_resid.pdf has been created
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/Fits/240/qqH/ijH/aplots/Fit_pulls.pdf has been created
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooProdPdf::model
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooAddPdf::modelBare
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooKeysPdf::bkgModel
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::MRec
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::N
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooAddPdf::finalsig
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::gauss_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::mean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::sigma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::fsig
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::gauss2_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::mean2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::sigma2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRecursiveFraction::finalsig_recursive_fraction_gauss2_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::fsig2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::gauss3_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::mean3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::sigma3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRecursiveFraction::finalsig_recursive_fraction_gauss3_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::fsig3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::gauss4_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::mean4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::sigma4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRecursiveFraction::finalsig_recursive_fraction_gauss4_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooProduct::muZHsig
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::muZH_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooProduct::varL_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::Lmess_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::Lideal_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooProduct::varE_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::Emess_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::Eideal_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::CSTrue_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::BRideal_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::Lsmear_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::0.001
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::Esmear_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::0.01
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::BRsmear_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::BRmess_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::0.002
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::weight_T1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset dataHZ
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(w) changing name of dataset from  dataHZ to centrally_samples
+
+=== Using the following for  ===
+Observables:             RooArgSet:: = (MRec)
+Parameters of Interest:  RooArgSet:: = (muZH_240GeV)
+Nuisance Parameters:     RooArgSet:: = (sigma,sigma2,sigma3,sigma4,mean2,mean3,mean4,fsig,fsig2,fsig3,N,mean)
+Global Observables:      RooArgSet:: = (Lmess_240GeV,Emess_240GeV,BRmess_240GeV)
+PDF:                     RooProdPdf::model[ modelBare * Lsmear_240GeV * Esmear_240GeV * BRsmear_240GeV ] = 0.0844058
+Snapshot:                
+  1) 0x3457a80 RooRealVar:: muZH_240GeV = 1 +/- 0.0110714  L(0.5 - 1.5)  "muZH_240GeV"
+
+MakeAsimov: Setting poi muZH_240GeV to a constant value = 1
+MakeAsimov: doing a conditional fit for finding best nuisance values 
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET NOGRAD
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 fsig         4.03511e-01  3.72404e-02    0.00000e+00  1.00000e+00
+     2 fsig2        1.92115e-09  7.99627e-05    0.00000e+00  1.00000e+00
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE2 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE2 BROUGHT BACK INSIDE LIMITS.
+     3 fsig3        9.23427e-01  2.14024e-02    0.00000e+00  1.00000e+00
+     4 mean         1.31740e+02  5.70179e-01    1.15000e+02  1.40000e+02
+     5 mean2        1.19607e+02  2.28497e+01    9.00000e+01  1.20000e+02
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE5 BROUGHT BACK INSIDE LIMITS.
+     6 mean3        1.28139e+02  7.58981e-02    1.20000e+02  1.40000e+02
+     7 mean4        1.43964e+02  5.28942e-01    1.35000e+02  1.60000e+02
+     8 sigma        5.65249e+00  2.61468e-01    2.00000e-01  2.00000e+01
+     9 sigma2       1.37385e+01  1.16759e+01    5.00000e+00  2.00000e+01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE9 BROUGHT BACK INSIDE LIMITS.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE9 BROUGHT BACK INSIDE LIMITS.
+    10 sigma3       3.26223e+00  8.20021e-02    1.00000e+00  1.00000e+01
+    11 sigma4       3.42325e+00  2.13070e-01    1.00000e+00  1.00000e+01
+ **********
+ **    3 **SET ERR         0.5
+ **********
+ **********
+ **    4 **SET PRINT           0
+ **********
+ **********
+ **    5 **SET STR           1
+ **********
+ **********
+ **    6 **MIGRAD        5500           1
+ **********
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE2 IS AT ITS LOWER ALLOWED LIMIT.
+^C
+ *** Break *** keyboard interrupt
+Root > .q
+Error in <RooList::Delete>: A list is accessing an object (0x120543e0) already deleted (list name = RooList)
+[niharrin@lxplus797 ijH]$ root Zij_H.C
+Warning in <TInterpreter::ReadRootmapFile>: class  edm4hep::ObjectID found in libedm4hepDict.so  is already in libedm4drDict.so 
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.26/02                        https://root.cern |
+  | (c) 1995-2021, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Apr 12 2022, 16:28:03                 |
+  | From tags/v6-26-02@v6-26-02                                      |
+  | With g++ (Spack GCC) 11.2.0                                      |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+root [0] 
+Processing Zij_H.C...
+
+RooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+[#1] INFO:Eval -- RooRealVar::setRange(MRec) new range named 'LEFT' created with bounds [120,123.5]
+[#1] INFO:Eval -- RooRealVar::setRange(MRec) new range named 'RIGHT' created with bounds [130,140]
+[#1] INFO:Eval -- RooRealVar::setRange(MRec) new range named 'FULL' created with bounds [100,160]
+[#1] INFO:InputArguments -- The formula weight_T1 claims to use the variables (MRec) but only () seem to be in use.
+  inputs:         (0.068863636)
+[#1] INFO:InputArguments -- The formula weight_T2 claims to use the variables (MRec) but only () seem to be in use.
+  inputs:         (8.21925)
+[#1] INFO:InputArguments -- The formula weight_T3 claims to use the variables (MRec) but only () seem to be in use.
+  inputs:         (0.679495)
+[#1] INFO:InputArguments -- The formula weight_T4 claims to use the variables (MRec) but only () seem to be in use.
+  inputs:         (26.32695)
+RooDataSet::dataHZ[MRec,weight_T1] = 655619 entries
+RooDataSet::dataHZ[MRec,weight:weight_T1] = 655619 entries (45148.3 weighted)
+1
+RooDataSet::dataWW[MRec,weight_T2] = 5964 entries
+RooDataSet::dataWW[MRec,weight:weight_T2] = 5964 entries (49019.6 weighted)
+1
+RooDataSet::dataZZ[MRec,weight_T3] = 38674 entries
+RooDataSet::dataZZ[MRec,weight:weight_T3] = 38674 entries (26278.8 weighted)
+1
+RooDataSet::dataZqq[MRec,weight_T4] = 1050 entries
+RooDataSet::dataZqq[MRec,weight:weight_T4] = 1050 entries (27643.3 weighted)
+1
+RooDataSet::dataHZ[MRec,weight:weight_T1] = 701307 entries (148090 weighted)
+1
+RooDataSet::dataWW[MRec,weight:weight_T2] = 45688 entries (102942 weighted)
+1
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/Fits/240/qqH/ijH/aplots/data.pdf has been created
+[#1] INFO:Minimization -- p.d.f. provides expected number of events, including extended term in likelihood.
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_extmodel_dataWW) constructing test statistic for sub-range named FULL
+[#1] INFO:Eval -- RooRealVar::setRange(MRec) new range named 'NormalizationRangeForFULL' created with bounds [100,160]
+[#1] INFO:Eval -- RooRealVar::setRange(MRec) new range named 'fit_nll_extmodel_dataWW' created with bounds [100,160]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_extmodel_dataWW) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 8 remote server process.
+[#0] WARNING:InputArguments -- RooAbsPdf::fitTo(extmodel) WARNING: a likelihood fit is requested of what appears to be weighted data.
+       While the estimated values of the parameters will always be calculated taking the weights into account,
+       there are multiple ways to estimate the errors of the parameters. You are advised to make an 
+       explicit choice for the error calculation:
+           - Either provide SumW2Error(true), to calculate a sum-of-weights-corrected HESSE error matrix
+             (error will be proportional to the number of events in MC).
+           - Or provide SumW2Error(false), to return errors from original HESSE error matrix
+             (which will be proportional to the sum of the weights, i.e., a dataset with <sum of weights> events).
+           - Or provide AsymptoticError(true), to use the asymptotically correct expression
+             (for details see https://arxiv.org/abs/1911.01303).
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+Minuit2Minimizer: Minimize with max-calls 500 convergence for edm < 1 strategy 1
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_extmodel_dataWW_GOF0) first = 0 last = 5711 Likelihood offset now set to 145106
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_extmodel_dataWW_GOF1) first = 5711 last = 11422 Likelihood offset now set to 19143.6
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_extmodel_dataWW_GOF2) first = 11422 last = 17133 Likelihood offset now set to 13319.6
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_extmodel_dataWW_GOF5) first = 28555 last = 34266 Likelihood offset now set to 13262.6
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_extmodel_dataWW_GOF3) first = 17133 last = 22844 Likelihood offset now set to 13293.1
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_extmodel_dataWW_GOF6) first = 34266 last = 39977 Likelihood offset now set to 13287.3
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_extmodel_dataWW_GOF4) first = 22844 last = 28555 Likelihood offset now set to 13320.1
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_extmodel_dataWW_GOF7) first = 39977 last = 45688 Likelihood offset now set to -982928
+Info in <Minuit2>: MnSeedGenerator Initial state: FCN =                 0 Edm =   4.169613821e-15 NCalls =      7
+Info in <Minuit2>: VariableMetricBuilder Start iterating until Edm is < 0.001 with call limit = 500
+Info in <Minuit2>: VariableMetricBuilder    0 - FCN =                 0 Edm =   4.169613821e-15 NCalls =      7
+Info in <Minuit2>: VariableMetricBuilder    1 - FCN =  -2.328306437e-10 Edm =                 0 NCalls =     10
+Info in <Minuit2>: VariableMetricBuilder After Hessian
+Info in <Minuit2>: VariableMetricBuilder    2 - FCN =  -2.328306437e-10 Edm =   6.167111048e-14 NCalls =     17
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -2.32830643653869629e-10
+Edm   = 6.1671110477906634e-14
+Nfcn  = 17
+N         = 102942       +/-  320.82    (limited)
+Info in <Minuit2>: Minuit2Minimizer::Hesse Using max-calls 500
+Info in <Minuit2>: Minuit2Minimizer::Hesse Hesse is valid - matrix is accurate
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: -2.32831e-10, estimated distance to minimum: 3.93827e-14
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                     N    1.0294e+05 +/-  3.21e+02
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(extmodel) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+        - Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+        - Explicitly specify the plotting range: Range("<rangeName>").
+        - Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+        The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(extmodel) only plotting range 'fit_nll_extmodel_dataWW'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(extmodel) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_extmodel_dataWW'
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/Fits/240/qqH/ijH/aplots/bkg_only.pdf has been created
+RooArgSet::Snapshot of parameters = (BRmess_240GeV,Emess_240GeV,Lmess_240GeV,N,fsig,fsig2,fsig3,mean,mean2,mean3,mean4,muZH_240GeV,sigma,sigma2,sigma3,sigma4)
+102942
+[#1] INFO:Minimization -- RooProdPdf::getConstraints(model) omitting term BRsmear_240GeV as constraint term as it does not share any parameters with the other pdfs in product. To force inclusion in likelihood, add an explicit Constrain() argument for the target parameter
+[#1] INFO:Minimization --  Including the following constraint terms in minimization: (Lsmear_240GeV,Esmear_240GeV,BRsmear_240GeV)
+[#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (Emess_240GeV,Lmess_240GeV,N,fsig,fsig2,fsig3,mean,mean2,mean3,mean4,muZH_240GeV,sigma,sigma2,sigma3,sigma4)
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 8 remote server process.
+[#0] WARNING:InputArguments -- RooAbsPdf::fitTo(model) WARNING: a likelihood fit is requested of what appears to be weighted data.
+       While the estimated values of the parameters will always be calculated taking the weights into account,
+       there are multiple ways to estimate the errors of the parameters. You are advised to make an 
+       explicit choice for the error calculation:
+           - Either provide SumW2Error(true), to calculate a sum-of-weights-corrected HESSE error matrix
+             (error will be proportional to the number of events in MC).
+           - Or provide SumW2Error(false), to return errors from original HESSE error matrix
+             (which will be proportional to the sum of the weights, i.e., a dataset with <sum of weights> events).
+           - Or provide AsymptoticError(true), to use the asymptotically correct expression
+             (for details see https://arxiv.org/abs/1911.01303).
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_model_dataHZ_with_constr) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+Minuit2Minimizer: Minimize with max-calls 7500 convergence for edm < 1 strategy 1
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(nll_model_dataHZ_GOF0) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(nll_model_dataHZ_GOF5) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(nll_model_dataHZ_GOF2) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(nll_model_dataHZ_GOF1) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(nll_model_dataHZ_GOF3) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(nll_model_dataHZ_GOF4) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(nll_model_dataHZ_GOF6) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(nll_model_dataHZ_GOF7) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_dataHZ_GOF0) first = 0 last = 87663 Likelihood offset now set to 19375.8
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_dataHZ_GOF1) first = 87663 last = 175326 Likelihood offset now set to 19370.8
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_dataHZ_GOF3) first = 262990 last = 350653 Likelihood offset now set to 19375.3
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_dataHZ_GOF5) first = 438316 last = 525980 Likelihood offset now set to 19377.6
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_dataHZ_GOF6) first = 525980 last = 613643 Likelihood offset now set to 19394.1
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_dataHZ_GOF4) first = 350653 last = 438316 Likelihood offset now set to 19368.6
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_dataHZ_GOF2) first = 175326 last = 262990 Likelihood offset now set to 19356.2
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_dataHZ_GOF7) first = 613643 last = 701307 Likelihood offset now set to -1.26583e+06
+Info in <Minuit2>: MnSeedGenerator Initial state: FCN =      -9.675048399 Edm =       46034.91441 NCalls =     61
+Info in <Minuit2>: MnSeedGenerator Negative G2 found - new state: 
+  Minimum value : -1502.004019
+  Edm           : 33533.18326
+  Internal parameters:
+                0
+ -5.551115123e-16
+                0
+    -0.6435011088
+    -0.4115168461
+    -0.2013579208
+    -0.4555986734
+     0.7297276562
+                0
+    -0.7477626347
+                0
+    -0.5411844166
+   -0.06671614841
+    -0.2578796601
+    -0.4115168461
+  Internal gradient  :
+                0
+      892.9925375
+      89.29920053
+      333.4871468
+       8148.26421
+     -4136.351253
+     -7950.057986
+     -3523.406379
+      1083.009733
+      2872.213933
+      4464.965055
+      1615.419496
+     -1472.994867
+      2485.524956
+     -3089.518379
+  Internal covariance matrix:
+    0.005000003              0              0              0              0              0              0              0              0              0              0              0              0              0              0
+              0   0.0096702468              0              0              0              0              0              0              0              0              0              0              0              0              0
+              0              0    0.019788645              0              0              0              0              0              0              0              0              0              0              0              0
+              0              0              0  0.00051197183              0              0              0              0              0              0              0              0              0              0              0
+              0              0              0              0  0.00032801934              0              0              0              0              0              0              0              0              0              0
+              0              0              0              0              0  0.00088770608              0              0              0              0              0              0              0              0              0
+              0              0              0              0              0              0  0.00064437048              0              0              0              0              0              0              0              0
+              0              0              0              0              0              0              0  0.00078919372              0              0              0              0              0              0              0
+              0              0              0              0              0              0              0              0  0.00012382077              0              0              0              0              0              0
+              0              0              0              0              0              0              0              0              0  0.00097152382              0              0              0              0              0
+              0              0              0              0              0              0              0              0              0              0  0.00074892319              0              0              0              0
+              0              0              0              0              0              0              0              0              0              0              0  0.00042987124              0              0              0
+              0              0              0              0              0              0              0              0              0              0              0              0   0.0014639033              0              0
+              0              0              0              0              0              0              0              0              0              0              0              0              0   0.0011601383              0
+              0              0              0              0              0              0              0              0              0              0              0              0              0              0  0.00043588101
+Info in <Minuit2>: VariableMetricBuilder Start iterating until Edm is < 0.001 with call limit = 7500
+Info in <Minuit2>: VariableMetricBuilder    0 - FCN =      -1502.004019 Edm =       33533.18326 NCalls =    137
+Info in <Minuit2>: VariableMetricBuilder    1 - FCN =      -9506.548906 Edm =       2090.317999 NCalls =    192
+Info in <Minuit2>: VariableMetricBuilder    2 - FCN =      -11103.98436 Edm =       1203.479944 NCalls =    229
+Info in <Minuit2>: VariableMetricBuilder    3 - FCN =      -11639.61727 Edm =        1045.28458 NCalls =    269
+Info in <Minuit2>: VariableMetricBuilder    4 - FCN =      -11968.67403 Edm =       70.99530646 NCalls =    307
+Info in <Minuit2>: VariableMetricBuilder    5 - FCN =      -12015.90499 Edm =       32.85536783 NCalls =    343
+Info in <Minuit2>: VariableMetricBuilder    6 - FCN =      -12072.37495 Edm =       11.77886179 NCalls =    384
+Info in <Minuit2>: VariableMetricBuilder    7 - FCN =      -12087.05748 Edm =        4.39155789 NCalls =    420
+Info in <Minuit2>: VariableMetricBuilder    8 - FCN =      -12092.99092 Edm =       2.763500345 NCalls =    456
+Info in <Minuit2>: VariableMetricBuilder    9 - FCN =        -12098.258 Edm =       1.639638787 NCalls =    495
+Info in <Minuit2>: VariableMetricBuilder   10 - FCN =      -12100.96275 Edm =      0.7111165349 NCalls =    527
+Info in <Minuit2>: VariableMetricBuilder   11 - FCN =      -12107.78914 Edm =        6.55810699 NCalls =    567
+Info in <Minuit2>: VariableMetricBuilder   12 - FCN =      -12116.57361 Edm =       6.018368129 NCalls =    604
+Info in <Minuit2>: VariableMetricBuilder   13 - FCN =      -12123.82165 Edm =       8.934346288 NCalls =    645
+Info in <Minuit2>: VariableMetricBuilder   14 - FCN =      -12127.56923 Edm =      0.5067924171 NCalls =    677
+Info in <Minuit2>: VariableMetricBuilder   15 - FCN =      -12127.86861 Edm =      0.1073717479 NCalls =    709
+Info in <Minuit2>: VariableMetricBuilder   16 - FCN =      -12128.04105 Edm =      0.2312727353 NCalls =    741
+Info in <Minuit2>: VariableMetricBuilder   17 - FCN =      -12128.73706 Edm =      0.3333893997 NCalls =    779
+Info in <Minuit2>: VariableMetricBuilder   18 - FCN =      -12129.08533 Edm =     0.09616374937 NCalls =    810
+Info in <Minuit2>: VariableMetricBuilder   19 - FCN =      -12129.18507 Edm =     0.01620337623 NCalls =    842
+Info in <Minuit2>: VariableMetricBuilder   20 - FCN =      -12129.21958 Edm =     0.01165987963 NCalls =    875
+Info in <Minuit2>: VariableMetricBuilder   21 - FCN =      -12129.23642 Edm =    0.005546836688 NCalls =    907
+Info in <Minuit2>: VariableMetricBuilder   22 - FCN =      -12129.26149 Edm =    0.009681522141 NCalls =    943
+Info in <Minuit2>: VariableMetricBuilder   23 - FCN =      -12129.58197 Edm =      0.5516229743 NCalls =    987
+Info in <Minuit2>: VariableMetricBuilder   24 - FCN =      -12129.59004 Edm =     0.04061999246 NCalls =   1019
+Info in <Minuit2>: VariableMetricBuilder   25 - FCN =      -12129.96398 Edm =      0.4712545342 NCalls =   1060
+Info in <Minuit2>: VariableMetricBuilder   26 - FCN =      -12129.98051 Edm =     0.02174191512 NCalls =   1094
+Info in <Minuit2>: VariableMetricBuilder   27 - FCN =      -12130.03269 Edm =     0.08530414714 NCalls =   1129
+Info in <Minuit2>: VariableMetricBuilder   28 - FCN =       -12131.2091 Edm =      0.9339305822 NCalls =   1170
+Info in <Minuit2>: VariableMetricBuilder   29 - FCN =      -12132.86445 Edm =       1.788417786 NCalls =   1211
+Info in <Minuit2>: VariableMetricBuilder   30 - FCN =      -12134.32026 Edm =       2.298293503 NCalls =   1248
+Info in <Minuit2>: VariableMetricBuilder   31 - FCN =      -12136.96981 Edm =       2.268073192 NCalls =   1284
+Info in <Minuit2>: VariableMetricBuilder   32 - FCN =      -12138.86763 Edm =       7.060295768 NCalls =   1316
+Info in <Minuit2>: VariableMetricBuilder   33 - FCN =       -12144.1358 Edm =       5.121082238 NCalls =   1356
+Info in <Minuit2>: VariableMetricBuilder   34 - FCN =      -12144.85136 Edm =       1.329034765 NCalls =   1389
+Info in <Minuit2>: VariableMetricBuilder   35 - FCN =      -12148.86275 Edm =       3.655793116 NCalls =   1424
+Info in <Minuit2>: VariableMetricBuilder   36 - FCN =      -12151.29959 Edm =       3.782606362 NCalls =   1456
+Info in <Minuit2>: VariableMetricBuilder   37 - FCN =      -12153.87208 Edm =       1.793953413 NCalls =   1488
+Info in <Minuit2>: VariableMetricBuilder   38 - FCN =      -12155.57143 Edm =      0.6461777383 NCalls =   1520
+Info in <Minuit2>: VariableMetricBuilder   39 - FCN =      -12156.50086 Edm =       1.035270543 NCalls =   1553
+Info in <Minuit2>: VariableMetricBuilder   40 - FCN =      -12156.77914 Edm =      0.1602078668 NCalls =   1584
+Info in <Minuit2>: VariableMetricBuilder   41 - FCN =      -12156.94121 Edm =     0.04312605013 NCalls =   1616
+Info in <Minuit2>: VariableMetricBuilder   42 - FCN =      -12156.99292 Edm =     0.02907927911 NCalls =   1648
+Info in <Minuit2>: VariableMetricBuilder   43 - FCN =      -12157.05502 Edm =    0.007684990222 NCalls =   1680
+Info in <Minuit2>: VariableMetricBuilder   44 - FCN =        -12157.071 Edm =    0.007130516968 NCalls =   1712
+Info in <Minuit2>: VariableMetricBuilder   45 - FCN =      -12157.12007 Edm =      0.0454978586 NCalls =   1745
+Info in <Minuit2>: VariableMetricBuilder   46 - FCN =      -12157.32034 Edm =     0.07899438503 NCalls =   1780
+Info in <Minuit2>: VariableMetricBuilder   47 - FCN =      -12157.51225 Edm =     0.03908669052 NCalls =   1813
+Info in <Minuit2>: VariableMetricBuilder   48 - FCN =      -12157.54569 Edm =     0.03129764028 NCalls =   1845
+Info in <Minuit2>: VariableMetricBuilder   49 - FCN =      -12157.56539 Edm =    0.003867057338 NCalls =   1877
+Info in <Minuit2>: VariableMetricBuilder   50 - FCN =       -12157.5695 Edm =   0.0002145773116 NCalls =   1909
+Warning in <Minuit2>: MnPosDef non-positive diagonal element in covariance matrix[ 12 ] = -2.32144e-06
+Warning in <Minuit2>: MnPosDef Added to diagonal of Error matrix a value 0.500003
+Info in <Minuit2>: VariableMetricBuilder After Hessian
+Info in <Minuit2>: VariableMetricBuilder   51 - FCN =       -12157.5695 Edm =   0.0002257414338 NCalls =   2079
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -12157.5694995892354
+Edm   = 0.000225741433814107771
+Nfcn  = 2079
+BRmess_240GeV     = 1    +/-  0.00199792        (limited)
+Emess_240GeV      = 0.999977     +/-  0.00995923        (limited)
+Lmess_240GeV      = 0.999998     +/-  0.000995871       (limited)
+fsig      = 0.138156     +/-  0.0199869 (limited)
+fsig2     = 9.09002e-10  +/-  5.49382e-05       (limited)
+fsig3     = 0.973777     +/-  0.00783134        (limited)
+mean      = 138.245      +/-  1.00005   (limited)
+mean2     = 119.561      +/-  22.9239   (limited)
+mean3     = 128.598      +/-  0.122445  (limited)
+mean4     = 146.702      +/-  0.673672  (limited)
+muZH_240GeV       = 1.00221      +/-  0.0131633 (limited)
+sigma     = 4.24788      +/-  0.347097  (limited)
+sigma2    = 14.3588      +/-  11.8731   (limited)
+sigma3    = 3.70865      +/-  0.0724831 (limited)
+sigma4    = 2.19769      +/-  0.311434  (limited)
+Info in <Minuit2>: Minuit2Minimizer::Hesse Using max-calls 7500
+Warning in <Minuit2>: MnPosDef non-positive diagonal element in covariance matrix[ 12 ] = -2.04582e-06
+Warning in <Minuit2>: MnPosDef Added to diagonal of Error matrix a value 0.500003
+Info in <Minuit2>: Minuit2Minimizer::Hesse Hesse is valid - matrix is accurate
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: -12157.6, estimated distance to minimum: 0.000228359
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+         BRmess_240GeV    1.0000e+00 +/-  2.00e-03
+          Emess_240GeV    9.9998e-01 +/-  9.96e-03
+          Lmess_240GeV    1.0000e+00 +/-  9.96e-04
+                  fsig    1.3816e-01 +/-  1.98e-02
+                 fsig2    9.0900e-10 +/-  5.49e-05
+                 fsig3    9.7378e-01 +/-  7.93e-03
+                  mean    1.3825e+02 +/-  9.98e-01
+                 mean2    1.1956e+02 +/-  2.29e+01
+                 mean3    1.2860e+02 +/-  1.22e-01
+                 mean4    1.4670e+02 +/-  6.78e-01
+           muZH_240GeV    1.0022e+00 +/-  1.32e-02
+                 sigma    4.2479e+00 +/-  3.45e-01
+                sigma2    1.4359e+01 +/-  1.19e+01
+                sigma3    3.7087e+00 +/-  7.22e-02
+                sigma4    2.1977e+00 +/-  3.14e-01
+
+[#0] ERROR:InputArguments -- RooAbsData::plotOn(dataHZ) ERROR: unrecognized command: Bins
+[#0] ERROR:InputArguments -- RooAbsReal::plotOn(model) ERROR: unrecognized command: Bins
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bkgModel)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: (modelBare)
+[#0] ERROR:InputArguments -- RooAbsReal::plotOn(model) ERROR: unrecognized command: Bins
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (finalsig)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: (gauss_240GeV,gauss2_240GeV,finalsig_recursive_fraction_gauss2_240GeV,gauss3_240GeV,finalsig_recursive_fraction_gauss3_240GeV,gauss4_240GeV,finalsig_recursive_fraction_gauss4_240GeV,modelBare)
+[#0] ERROR:InputArguments -- RooAbsReal::plotOn(model) ERROR: unrecognized command: Bins
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/Fits/240/qqH/ijH/aplots/S_B_fit.pdf has been created
+\begin{tabular}{lc}
+$\verb+BRmess_240GeV+ $ & $  1.000\pm 0.002$\\
+$\verb+Emess_240GeV+ $ & $  1.000\pm 0.010$\\
+$\verb+Lmess_240GeV+ $ & $  1.0000\pm 0.0010$\\
+$\verb+N+ $ & $  102942\pm 321$\\
+$\verb+fsig+ $ & $  0.14\pm 0.02$\\
+$\verb+fsig2+ $ & $  0.00000\pm 0.00005$\\
+$\verb+fsig3+ $ & $  0.974\pm 0.008$\\
+$\verb+mean+ $ & $  138.2\pm 1.0$\\
+$\verb+mean2+ $ & $  120\pm 23$\\
+$\verb+mean3+ $ & $  128.6\pm 0.1$\\
+$\verb+mean4+ $ & $  146.7\pm 0.7$\\
+$\verb+muZH_240GeV+ $ & $  1.00\pm 0.01$\\
+$\verb+sigma+ $ & $  4.2\pm 0.3$\\
+$\verb+sigma2+ $ & $  14\pm 12$\\
+$\verb+sigma3+ $ & $  3.71\pm 0.07$\\
+$\verb+sigma4+ $ & $  2.2\pm 0.3$\\
+\end{tabular}
+\begin{tabular}{lc|lc}
+$\verb+BRmess_240GeV+ $ & $  1.000\pm 0.002$ & $\verb+mean2+ $ & $  120\pm 23$\\
+$\verb+Emess_240GeV+ $ & $  1.000\pm 0.010$ & $\verb+mean3+ $ & $  128.6\pm 0.1$\\
+$\verb+Lmess_240GeV+ $ & $  1.0000\pm 0.0010$ & $\verb+mean4+ $ & $  146.7\pm 0.7$\\
+$\verb+N+ $ & $  102942\pm 321$ & $\verb+muZH_240GeV+ $ & $  1.00\pm 0.01$\\
+$\verb+fsig+ $ & $  0.14\pm 0.02$ & $\verb+sigma+ $ & $  4.2\pm 0.3$\\
+$\verb+fsig2+ $ & $  0.00000\pm 0.00005$ & $\verb+sigma2+ $ & $  14\pm 12$\\
+$\verb+fsig3+ $ & $  0.974\pm 0.008$ & $\verb+sigma3+ $ & $  3.71\pm 0.07$\\
+$\verb+mean+ $ & $  138.2\pm 1.0$ & $\verb+sigma4+ $ & $  2.2\pm 0.3$\\
+\end{tabular}
+\begin{tabular}{lcc}
+$\verb+BRmess_240GeV+ $ & $  1.000\pm 0.002$ & $ 1$\\
+$\verb+Emess_240GeV+ $ & $  1.000\pm 0.010$ & $ 1$\\
+$\verb+Lmess_240GeV+ $ & $  1.0000\pm 0.0010$ & $ 1$\\
+$\verb+N+ $ & $  102942\pm 321$ & $ 102942\pm 321$\\
+$\verb+fsig+ $ & $  0.14\pm 0.02$ & $ 0.2$\\
+$\verb+fsig2+ $ & $  0.00000\pm 0.00005$ & $ 0.3$\\
+$\verb+fsig3+ $ & $  0.974\pm 0.008$ & $ 0.4$\\
+$\verb+mean+ $ & $  138.2\pm 1.0$ & $ 122$\\
+$\verb+mean2+ $ & $  120\pm 23$ & $ 115$\\
+$\verb+mean3+ $ & $  128.6\pm 0.1$ & $ 130$\\
+$\verb+mean4+ $ & $  146.7\pm 0.7$ & $ 139$\\
+$\verb+muZH_240GeV+ $ & $  1.00\pm 0.01$ & $ 1$\\
+$\verb+sigma+ $ & $  4.2\pm 0.3$ & $ 5$\\
+$\verb+sigma2+ $ & $  14\pm 12$ & $ 12$\\
+$\verb+sigma3+ $ & $  3.71\pm 0.07$ & $ 7$\\
+$\verb+sigma4+ $ & $  2.2\pm 0.3$ & $ 4$\\
+\end{tabular}
+\begin{tabular}{lcc|lcc}
+$\verb+BRmess_240GeV+ $ & $  1.000\pm 0.002$ & $ 1$ & $\verb+mean2+ $ & $  120\pm 23$ & $ 115$\\
+$\verb+Emess_240GeV+ $ & $  1.000\pm 0.010$ & $ 1$ & $\verb+mean3+ $ & $  128.6\pm 0.1$ & $ 130$\\
+$\verb+Lmess_240GeV+ $ & $  1.0000\pm 0.0010$ & $ 1$ & $\verb+mean4+ $ & $  146.7\pm 0.7$ & $ 139$\\
+$\verb+N+ $ & $  102942\pm 321$ & $ 102942\pm 321$ & $\verb+muZH_240GeV+ $ & $  1.00\pm 0.01$ & $ 1$\\
+$\verb+fsig+ $ & $  0.14\pm 0.02$ & $ 0.2$ & $\verb+sigma+ $ & $  4.2\pm 0.3$ & $ 5$\\
+$\verb+fsig2+ $ & $  0.00000\pm 0.00005$ & $ 0.3$ & $\verb+sigma2+ $ & $  14\pm 12$ & $ 12$\\
+$\verb+fsig3+ $ & $  0.974\pm 0.008$ & $ 0.4$ & $\verb+sigma3+ $ & $  3.71\pm 0.07$ & $ 7$\\
+$\verb+mean+ $ & $  138.2\pm 1.0$ & $ 122$ & $\verb+sigma4+ $ & $  2.2\pm 0.3$ & $ 4$\\
+\end{tabular}
+Background-only chi^2 = 77.4743
+S+B chi^2 = 111.642
+chi^2 = 104.2
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 0 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 1 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 2 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 3 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 4 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 5 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 6 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 7 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 8 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 9 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 10 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 11 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 12 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 54 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 55 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 56 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 57 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 58 has zero error, setting residual to zero
+[#0] WARNING:Plotting -- RooHist::makeResisHist(h_dataHZ) WARNING: point 59 has zero error, setting residual to zero
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/Fits/240/qqH/ijH/aplots/pulls_resid.pdf has been created
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/Fits/240/qqH/ijH/aplots/Fit_pulls.pdf has been created
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooProdPdf::model
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooAddPdf::modelBare
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooKeysPdf::bkgModel
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::MRec
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::N
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooAddPdf::finalsig
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::gauss_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::mean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::sigma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::fsig
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::gauss2_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::mean2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::sigma2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRecursiveFraction::finalsig_recursive_fraction_gauss2_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::fsig2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::gauss3_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::mean3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::sigma3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRecursiveFraction::finalsig_recursive_fraction_gauss3_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::fsig3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::gauss4_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::mean4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::sigma4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRecursiveFraction::finalsig_recursive_fraction_gauss4_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooProduct::muZHsig
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::muZH_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooProduct::varL_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::Lmess_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::Lideal_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooProduct::varE_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::Emess_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::Eideal_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::CSTrue_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::BRideal_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::Lsmear_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::0.001
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::Esmear_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::0.01
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooGaussian::BRsmear_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::BRmess_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooConstVar::0.002
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooRealVar::weight_T1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset dataHZ
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(w) changing name of dataset from  dataHZ to centrally_samples
+
+=== Using the following for  ===
+Observables:             RooArgSet:: = (MRec)
+Parameters of Interest:  RooArgSet:: = (muZH_240GeV)
+Nuisance Parameters:     RooArgSet:: = (sigma,sigma2,sigma3,sigma4,mean2,mean3,mean4,fsig,fsig2,fsig3,N,mean)
+Global Observables:      RooArgSet:: = (Lmess_240GeV,Emess_240GeV,BRmess_240GeV)
+PDF:                     RooProdPdf::model[ modelBare * Lsmear_240GeV * Esmear_240GeV * BRsmear_240GeV ] = 0.0691784
+Snapshot:                
+  1) 0x11347630 RooRealVar:: muZH_240GeV = 1 +/- 0.0131615  L(0.5 - 1.5)  "muZH_240GeV"
+
+MakeAsimov: Setting poi muZH_240GeV to a constant value = 1
+MakeAsimov: doing a conditional fit for finding best nuisance values 
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET NOGRAD
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 fsig         1.38156e-01  1.98164e-02    0.00000e+00  1.00000e+00
+     2 fsig2        9.09002e-10  5.49359e-05    0.00000e+00  1.00000e+00
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE2 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE2 BROUGHT BACK INSIDE LIMITS.
+     3 fsig3        9.73777e-01  7.93019e-03    0.00000e+00  1.00000e+00
+     4 mean         1.38245e+02  9.98070e-01    1.15000e+02  1.40000e+02
+     5 mean2        1.19561e+02  2.29239e+01    9.00000e+01  1.20000e+02
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE5 BROUGHT BACK INSIDE LIMITS.
+     6 mean3        1.28598e+02  1.21889e-01    1.20000e+02  1.40000e+02
+     7 mean4        1.46702e+02  6.77860e-01    1.35000e+02  1.60000e+02
+     8 sigma        4.24788e+00  3.45055e-01    2.00000e-01  2.00000e+01
+     9 sigma2       1.43588e+01  1.18730e+01    5.00000e+00  2.00000e+01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE9 BROUGHT BACK INSIDE LIMITS.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE9 BROUGHT BACK INSIDE LIMITS.
+    10 sigma3       3.70865e+00  7.21702e-02    1.00000e+00  1.00000e+01
+    11 sigma4       2.19769e+00  3.14398e-01    1.00000e+00  1.00000e+01
+ **********
+ **    3 **SET ERR         0.5
+ **********
+ **********
+ **    4 **SET PRINT           0
+ **********
+ **********
+ **    5 **SET STR           1
+ **********
+ **********
+ **    6 **MIGRAD        5500           1
+ **********
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE2 IS AT ITS LOWER ALLOWED LIMIT.
+ MACHINE ACCURACY LIMITS FURTHER IMPROVEMENT.
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ FCN=-1.14236e+06 FROM MIGRAD    STATUS=CONVERGED    1914 CALLS        1915 TOTAL
+                     EDM=0.00297338    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   0.0 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fsig         1.37909e-01   1.55812e-02  -0.00000e+00   6.46723e-01
+   2  fsig2        6.08684e-08   1.92742e-04   0.00000e+00** at limit **
+   3  fsig3        9.73944e-01   7.40253e-03   0.00000e+00  -2.10252e-01
+   4  mean         1.38265e+02   1.02583e+00   0.00000e+00   2.40232e-02
+   5  mean2        1.20000e+02   1.58594e+01   0.00000e+00   3.46825e-06
+   6  mean3        1.28599e+02   1.16408e-01   0.00000e+00  -9.76234e-01
+   7  mean4        1.46711e+02   6.57926e-01   0.00000e+00  -1.76635e-01
+   8  sigma        4.24402e+00   2.20684e-01  -0.00000e+00  -2.52303e-01
+   9  sigma2       5.00000e+00   1.49118e+01   0.00000e+00  -7.26897e-07
+  10  sigma3       3.70811e+00   6.69853e-02   0.00000e+00  -8.78400e-01
+  11  sigma4       2.19237e+00   2.98189e-01  -0.00000e+00   1.96576e-01
+                               ERR DEF= 0.5
+fit time Real time 0:09:59, CP time 599.800
+RooDataSet::AsimovData[MRec,weight:binWeightAsimov] = 100 entries (148089 weighted)
+Generated Asimov data for observables RooArgSet:: = (MRec)
+Generated Asimov data for global observables RooArgSet:: = (Lmess_240GeV,Emess_240GeV,BRmess_240GeV)
+[#1] INFO:Minimization -- createConstraintTerm picked up cached constraints from workspace with 0 entries
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 8 remote server process.
+[#0] WARNING:InputArguments -- RooAbsPdf::fitTo(model) WARNING: a likelihood fit is requested of what appears to be weighted data.
+       While the estimated values of the parameters will always be calculated taking the weights into account,
+       there are multiple ways to estimate the errors of the parameters. You are advised to make an 
+       explicit choice for the error calculation:
+           - Either provide SumW2Error(true), to calculate a sum-of-weights-corrected HESSE error matrix
+             (error will be proportional to the number of events in MC).
+           - Or provide SumW2Error(false), to return errors from original HESSE error matrix
+             (which will be proportional to the sum of the weights, i.e., a dataset with <sum of weights> events).
+           - Or provide AsymptoticError(true), to use the asymptotically correct expression
+             (for details see https://arxiv.org/abs/1911.01303).
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+Minuit2Minimizer: Minimize with max-calls 6000 convergence for edm < 1 strategy 1
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV,gauss2_240GeV,gauss3_240GeV,gauss4_240GeV)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV,gauss2_240GeV,gauss3_240GeV,gauss4_240GeV)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV,gauss2_240GeV,gauss3_240GeV,gauss4_240GeV)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_AsimovData_GOF0) first = 0 last = 12 Likelihood offset now set to 172.597
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_AsimovData_GOF6) first = 75 last = 87 Likelihood offset now set to 23292.1
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV,gauss2_240GeV,gauss3_240GeV,gauss4_240GeV)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_AsimovData_GOF2) first = 25 last = 37 Likelihood offset now set to 31032.6
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV,gauss2_240GeV,gauss3_240GeV,gauss4_240GeV)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV,gauss2_240GeV,gauss3_240GeV,gauss4_240GeV)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_AsimovData_GOF7) first = 87 last = 100 Likelihood offset now set to -1.61276e+06
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_AsimovData_GOF4) first = 50 last = 62 Likelihood offset now set to 154006
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV,gauss2_240GeV,gauss3_240GeV,gauss4_240GeV)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV,gauss2_240GeV,gauss3_240GeV,gauss4_240GeV)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_AsimovData_GOF3) first = 37 last = 50 Likelihood offset now set to 190089
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_AsimovData_GOF1) first = 12 last = 25 Likelihood offset now set to 2061.71
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_AsimovData_GOF5) first = 62 last = 75 Likelihood offset now set to 71346.6
+Info in <Minuit2>: MnSeedGenerator Initial state: FCN =                 0 Edm =   3.610805949e-08 NCalls =     59
+Info in <Minuit2>: MnSeedGenerator Negative G2 found - new state: 
+  Minimum value : -2.961084675e-07
+  Edm           : 2.929874216e-08
+  Internal parameters:
+    -0.8098470702
+     -1.570302896
+       1.24654041
+      1.037684237
+    0.04335782273
+    -0.1405225366
+   -0.06313837299
+                0
+    -0.6329340411
+     -1.569731028
+    -0.4095502357
+    -0.8257086745
+  Internal gradient  :
+  0.0001265775026
+ -0.0003290629816
+ -6.753903083e-05
+ -0.0001546671501
+ -9.121600706e-08
+   0.001928622586
+  6.169005461e-08
+ -0.0002190977648
+ -0.0009364461214
+  6.163958233e-10
+  -0.001281339594
+  -1.75010359e-06
+  Internal covariance matrix:
+  0.00032302809              0              0              0              0              0              0              0              0              0              0              0
+              0      1.0471148              0              0              0              0              0              0              0              0              0              0
+              0              0  0.00031439123              0              0              0              0              0              0              0              0              0
+              0              0              0   0.0017351698              0              0              0              0              0              0              0              0
+              0              0              0              0      338770.37              0              0              0              0              0              0              0
+              0              0              0              0              0  3.2384452e-05              0              0              0              0              0              0
+              0              0              0              0              0              0  0.00057643891              0              0              0              0              0
+              0              0              0              0              0              0              0  0.00055677959              0              0              0              0
+              0              0              0              0              0              0              0              0  0.00069842699              0              0              0
+              0              0              0              0              0              0              0              0              0      2934451.2              0              0
+              0              0              0              0              0              0              0              0              0              0  0.00011158918              0
+              0              0              0              0              0              0              0              0              0              0              0   0.0066193166
+Info in <Minuit2>: VariableMetricBuilder Start iterating until Edm is < 0.001 with call limit = 6000
+Info in <Minuit2>: VariableMetricBuilder    0 - FCN =  -2.961084675e-07 Edm =   2.929874216e-08 NCalls =     99
+Info in <Minuit2>: VariableMetricBuilder    1 - FCN =  -4.052210443e-07 Edm =   2.370163161e-08 NCalls =    129
+Info in <Minuit2>: VariableMetricBuilder After Hessian
+Info in <Minuit2>: VariableMetricBuilder    2 - FCN =  -4.052210443e-07 Edm =   4.240434949e-08 NCalls =    264
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -4.05221044275094755e-07
+Edm   = 4.24043494898956953e-08
+Nfcn  = 264
+fsig      = 0.137909     +/-  0.0539538 (limited)
+fsig2     = 1.10794e-07  +/-  0.0871045 (limited)
+fsig3     = 0.973944     +/-  0.0167222 (limited)
+mean      = 138.265      +/-  0.994609  (limited)
+mean2     = 105.882      +/-  22.17     (limited)
+mean3     = 128.599      +/-  0.183206  (limited)
+mean4     = 146.711      +/-  0.746862  (limited)
+muZH_240GeV       = 1    +/-  0.00850084        (limited)
+sigma     = 4.24402      +/-  1.48652   (limited)
+sigma2    = 5    +/-  7.58852   (limited)
+sigma3    = 3.70811      +/-  0.0850308 (limited)
+sigma4    = 2.19237      +/-  0.542938  (limited)

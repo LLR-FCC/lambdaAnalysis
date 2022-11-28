@@ -1,0 +1,83 @@
+"sel0":"zed_leptonic_m.size() == 1 && zed_leptonic_charge[0] == 0",
+            "sel1":"zed_leptonic_m.size() == 1 && zed_leptonic_m[0] > 86 &&  zed_leptonic_m[0] < 96 && zed_leptonic_charge[0] == 0",
+            "sel2":"zed_leptonic_m.size() == 1 && zed_leptonic_m[0] > 86 &&  zed_leptonic_m[0] < 96 && zed_leptonic_recoil_m[0] > 120 && zed_leptonic_recoil_m[0] < 140 && zed_leptonic_charge[0] == 0",
+            "sel3":"zed_leptonic_m.size() == 1 && zed_leptonic_m[0] > 86 &&  zed_leptonic_m[0] < 96 && zed_leptonic_recoil_m[0] > 120 && zed_leptonic_recoil_m[0] < 140 && zed_leptonic_pt[0] > 20 && zed_leptonic_pt[0] < 70 && zed_leptonic_charge[0] == 0",
+            "sel4":"zed_leptonic_m.size() == 1 && zed_leptonic_m[0] > 86 &&  zed_leptonic_m[0] < 96 && zed_leptonic_recoil_m[0] > 120 && zed_leptonic_recoil_m[0] < 140 && zed_leptonic_pt[0] > 20 && zed_leptonic_pt[0] < 70 && missingET_costheta.size() ==1 && missingET_costheta[0] > -0.98 && missingET_costheta[0] < 0.98 && zed_leptonic_charge[0] == 0"
+
+open file  /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_mumuH_inclusive/240/presel/wzp6_ee_mumuH_ecm240.root
+open file  /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_mumuH_inclusive/240/presel/p8_ee_ZZ_ecm240.root
+open file  /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_mumuH_inclusive/240/presel/p8_ee_WW_ecm240.root
+open file  /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_mumuH_inclusive/240/presel/p8_ee_Zll_ecm240.root
+open file  /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_mumuH_inclusive/240/presel/wzp6_gaga_mumu_60_ecm240.root
+processed events  {'wzp6_ee_mumuH_ecm240': 1000000, 'p8_ee_ZZ_ecm240': 10000000, 'p8_ee_WW_ecm240': 10000000, 'p8_ee_Zll_ecm240': 9900000, 'wzp6_gaga_mumu_60_ecm240': 30000000}
+events in ttree   {'wzp6_ee_mumuH_ecm240': 1000000, 'p8_ee_ZZ_ecm240': 10000000, 'p8_ee_WW_ecm240': 10000000, 'p8_ee_Zll_ecm240': 9900000, 'wzp6_gaga_mumu_60_ecm240': 30000000}
+
+   running over process :  wzp6_ee_mumuH_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events           : 1000000
+       After selection sel0 : 661647
+       After selection sel1 : 553187
+       After selection sel2 : 535197
+       After selection sel3 : 491029
+       After selection sel4 : 464897
+     Saving outputs
+
+   running over process :  p8_ee_ZZ_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events           : 10000000
+       After selection sel0 : 559055
+       After selection sel1 : 373836
+       After selection sel2 : 32194
+       After selection sel3 : 26958
+       After selection sel4 : 14992
+     Saving outputs
+
+   running over process :  p8_ee_WW_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events           : 10000000
+       After selection sel0 : 115517
+       After selection sel1 : 7151
+       After selection sel2 : 2193
+       After selection sel3 : 1822
+       After selection sel4 : 1822
+     Saving outputs
+
+   running over process :  p8_ee_Zll_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events           : 9900000
+       After selection sel0 : 2593592
+       After selection sel1 : 961266
+       After selection sel2 : 26241
+       After selection sel3 : 5727
+       After selection sel4 : 1221
+     Saving outputs
+
+   running over process :  wzp6_gaga_mumu_60_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events           : 30000000
+       After selection sel0 : 5060078
+       After selection sel1 : 528175
+       After selection sel2 : 138562
+       After selection sel3 : 212
+       After selection sel4 : 10
+     Saving outputs
+==============================SUMMARY==============================
+Elapsed time (H:M:S)     :   00:03:16
+Events Processed/Second  :   309561
+Total Events Processed   :   60900000
+===================================================================

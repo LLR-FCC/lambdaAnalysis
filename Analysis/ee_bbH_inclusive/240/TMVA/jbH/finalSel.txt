@@ -1,0 +1,61 @@
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel/wzp6_ee_qqH_ecm240.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel/p8_ee_Zqq_ecm240.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel/p8_ee_WW_ecm240.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel/p8_ee_ZZ_ecm240.root
+
+   running over process : wzp6_ee_qqH_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1000000
+       After selection selZjbFinal4      : 23114
+       After selection selZjbFinal3      : 31360
+       After selection selZjbFinal2      : 66573
+       After selection selZjbFinal       : 84011
+       After selection selZjbFinal_noBDT : 93007
+     Saving outputs
+
+   running over process : p8_ee_Zqq_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1100000
+       After selection selZjbFinal4      : 28
+       After selection selZjbFinal3      : 41
+       After selection selZjbFinal2      : 214
+       After selection selZjbFinal       : 396
+       After selection selZjbFinal_noBDT : 1901
+     Saving outputs
+
+   running over process : p8_ee_WW_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1100000
+       After selection selZjbFinal4      : 13
+       After selection selZjbFinal3      : 22
+       After selection selZjbFinal2      : 78
+       After selection selZjbFinal       : 139
+       After selection selZjbFinal_noBDT : 278
+     Saving outputs
+
+   running over process : p8_ee_ZZ_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1100000
+       After selection selZjbFinal4      : 1920
+       After selection selZjbFinal3      : 2955
+       After selection selZjbFinal2      : 9735
+       After selection selZjbFinal       : 15808
+       After selection selZjbFinal_noBDT : 23827
+     Saving outputs
+==============================SUMMARY==============================
+Elapsed time (H:M:S)     :  00:00:31
+Events Processed/Second  :  137056
+Total Events Processed   :  4300000
+===================================================================

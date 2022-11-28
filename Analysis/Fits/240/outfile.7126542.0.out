@@ -1,0 +1,803 @@
+Setting up the latest Key4HEP software stack from CVMFS ...
+ ...  Key4HEP release: key4hep-stack/2022-04-25
+ ... Use the following command to reproduce the current environment: 
+ ... 
+         source /cvmfs/sw.hsf.org/spackages5/key4hep-stack/2022-04-25/x86_64-centos7-gcc11.2.0-opt/4652u/setup.sh
+ ... 
+ ... done. 
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.26/02                        https://root.cern |
+  | (c) 1995-2021, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Apr 12 2022, 16:28:03                 |
+  | From tags/v6-26-02@v6-26-02                                      |
+  | With g++ (Spack GCC) 11.2.0                                      |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+
+Processing combinedModel.C...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+models = 0x30220f0 0x2ecbee0
+RooDataSet::centrally_samples[MRec,weight:weight_T1] = 458435 entries (48067.8 weighted)
+RooDataSet::centrally_samples[MRec,weight:weight_T1] = 312109 entries (40002.6 weighted)
+0x3167968
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  model to model_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  modelBare to modelBare_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  bkgModel to bkgModel_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  finalsig to finalsig_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  gauss_240GeV to gauss_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  CB1sig_240GeV to CB1sig_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  mean to mean_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  finalsig_recursive_fraction_CB1sig_240GeV to finalsig_recursive_fraction_CB1sig_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  CB2sig_240GeV to CB2sig_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  finalsig_recursive_fraction_CB2sig_240GeV to finalsig_recursive_fraction_CB2sig_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  muZHsig to muZHsig_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  varL_240GeV to varL_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  varE_240GeV to varE_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  Lsmear_240GeV to Lsmear_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  Esmear_240GeV to Esmear_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  mHsmear_240GeV to mHsmear_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  COMsmear_240GeV to COMsmear_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  BRsmear_240GeV to BRsmear_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable MRec to MRec_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable a0 to a0_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable a1 to a1_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable a2 to a2_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable a3 to a3_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable N to N_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable mean2_240GeV to mean2_240GeV_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable sigma2_240GeV to sigma2_240GeV_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable fsig to fsig_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable mHmess_240GeV to mHmess_240GeV_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable COMmess_240GeV to COMmess_240GeV_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable mZ to mZ_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable sigma to sigma_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable alphaL to alphaL_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable NL to NL_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable fsig2 to fsig2_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable alphaR to alphaR_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable NR to NR_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable muZH_240GeV to muZH_240GeV_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable Lmess_240GeV to Lmess_240GeV_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable Emess_240GeV to Emess_240GeV_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable BRmess_240GeV to BRmess_240GeV_mumuH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooProdPdf::model_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooAddPdf::modelBare_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooPolynomial::bkgModel_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::MRec_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::a0_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::a1_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::a2_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::a3_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::N_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooAddPdf::finalsig_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::gauss_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::mean2_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::sigma2_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::fsig_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooCrystalBall::CB1sig_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooFormulaVar::mean_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::mHmess_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::COMideal_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::COMmess_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::mZ_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::sigma_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::alphaL_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::NL_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRecursiveFraction::finalsig_recursive_fraction_CB1sig_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::fsig2_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooCrystalBall::CB2sig_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::alphaR_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::NR_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRecursiveFraction::finalsig_recursive_fraction_CB2sig_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooProduct::muZHsig_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::muZH_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooProduct::varL_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::Lmess_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::Lideal_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooProduct::varE_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::Emess_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::Eideal_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::CSTrue_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::BRideal_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::Lsmear_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::0.001
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::Esmear_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::0.01
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::mHsmear_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::125
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::0.14
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::COMsmear_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::0.0012
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::BRsmear_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::BRmess_240GeV_mumuH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooConstVar::0.002
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  model to model_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  modelBare to modelBare_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  bkgModel to bkgModel_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  finalsig to finalsig_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  CB1sig_240GeV to CB1sig_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  mean to mean_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  CB2sig_240GeV to CB2sig_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  finalsig_recursive_fraction_CB2sig_240GeV to finalsig_recursive_fraction_CB2sig_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  gauss_240GeV to gauss_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  finalsig_recursive_fraction_gauss_240GeV to finalsig_recursive_fraction_gauss_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  muZHsig to muZHsig_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  varL_240GeV to varL_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  varE_240GeV to varE_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  Lsmear_240GeV to Lsmear_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  Esmear_240GeV to Esmear_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  mHsmear_240GeV to mHsmear_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  COMsmear_240GeV to COMsmear_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Resolving name conflict in workspace by changing name of imported node  BRsmear_240GeV to BRsmear_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable MRec to MRec_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable a0 to a0_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable a1 to a1_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable a2 to a2_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable a3 to a3_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable N to N_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable mHmess_240GeV to mHmess_240GeV_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable COMmess_240GeV to COMmess_240GeV_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable mZ to mZ_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable sigma to sigma_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable alphaL to alphaL_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable NL to NL_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable fsig to fsig_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable alphaR to alphaR_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable NR to NR_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable fsig2 to fsig2_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable mean2_240GeV to mean2_240GeV_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable sigma2_240GeV to sigma2_240GeV_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable muZH_240GeV to muZH_240GeV_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable Lmess_240GeV to Lmess_240GeV_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable Emess_240GeV to Emess_240GeV_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) Changing name of variable BRmess_240GeV to BRmess_240GeV_eeH on request
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooProdPdf::model_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooAddPdf::modelBare_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooPolynomial::bkgModel_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::MRec_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::a0_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::a1_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::a2_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::a3_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::N_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooAddPdf::finalsig_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooCrystalBall::CB1sig_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooFormulaVar::mean_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::mHmess_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::COMmess_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::mZ_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::sigma_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::alphaL_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::NL_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::fsig_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooCrystalBall::CB2sig_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::alphaR_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::NR_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRecursiveFraction::finalsig_recursive_fraction_CB2sig_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::fsig2_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::gauss_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::mean2_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::sigma2_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRecursiveFraction::finalsig_recursive_fraction_gauss_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooProduct::muZHsig_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::muZH_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooProduct::varL_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::Lmess_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooProduct::varE_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::Emess_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::Lsmear_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::Esmear_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::mHsmear_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::COMsmear_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooGaussian::BRsmear_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::BRmess_240GeV_eeH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooCategory::channel
+hi3
+RooArgSet:: = (MRec)
+[#0] ERROR:InputArguments -- RooWorkspace(combWS) ERROR in file specification, expecting 'filename:wsname:objname', but 'weight_T1' given.
+Tokens read are:
+	weight_T1
+RooArgSet:: = (MRec)
+
+RooWorkspace(w) workspace contents
+
+variables
+---------
+(BRmess_240GeV,COMmess_240GeV,Emess_240GeV,Lmess_240GeV,MRec,N,NL,NR,a0,a1,a2,a3,alphaL,alphaR,fsig,fsig2,mHmess_240GeV,mZ,mean2_240GeV,muZH_240GeV,sigma,sigma2_240GeV,weight_T1)
+
+p.d.f.s
+-------
+RooGaussian::BRsmear_240GeV[ x=1 mean=BRmess_240GeV sigma=0.002 ] = 1
+RooCrystalBall::CB1sig_240GeV[ x=MRec x0=mean sigmaL=sigma sigmaR=sigma alphaL=alphaL nL=NL ] = 1.98575e-07
+RooCrystalBall::CB2sig_240GeV[ x=MRec x0=mean sigmaL=sigma sigmaR=sigma alphaL=alphaR nL=NR ] = 1.98575e-07
+RooGaussian::COMsmear_240GeV[ x=1 mean=COMmess_240GeV sigma=0.0012 ] = 1
+RooGaussian::Esmear_240GeV[ x=1 mean=Emess_240GeV sigma=0.01 ] = 1
+RooGaussian::Lsmear_240GeV[ x=1 mean=Lmess_240GeV sigma=0.001 ] = 1
+RooPolynomial::bkgModel[ x=MRec coefList=(a0,a1,a2,a3) ] = 13.8064
+RooAddPdf::finalsig[ fsig * gauss_240GeV + finalsig_recursive_fraction_CB1sig_240GeV * CB1sig_240GeV + finalsig_recursive_fraction_CB2sig_240GeV * CB2sig_240GeV ] = 0.0187632
+RooGaussian::gauss_240GeV[ x=MRec mean=mean2_240GeV sigma=sigma2_240GeV ] = 0.084658/2.25597
+RooGaussian::mHsmear_240GeV[ x=125 mean=mHmess_240GeV sigma=0.14 ] = 1
+RooProdPdf::model[ modelBare * Lsmear_240GeV * Esmear_240GeV * mHsmear_240GeV * COMsmear_240GeV * BRsmear_240GeV ] = 0.0402049
+RooAddPdf::modelBare[ N * bkgModel + muZHsig * finalsig ] = 0.0402049
+
+functions
+--------
+RooRecursiveFraction::finalsig_recursive_fraction_CB1sig_240GeV[ list=(fsig2,fsig) ] = 0.1
+RooRecursiveFraction::finalsig_recursive_fraction_CB2sig_240GeV[ list=(1,fsig2,fsig) ] = 0.4
+RooFormulaVar::mean[ actualVars=(mHmess_240GeV,COMideal_240GeV,COMmess_240GeV,mZ) formula="sqrt((( x[0])^2)*x[2]  + ((x[3])^2) + ((x[1])^2) - (x[2])*((x[3])^2 + ((x[1])^2)/((x[2])^2)))" ] = 125
+RooProduct::muZHsig[ muZH_240GeV * varL_240GeV * varE_240GeV * CSTrue_240GeV * BRideal_240GeV ] = 15723.5
+RooProduct::varE_240GeV[ Emess_240GeV * Eideal_240GeV ] = 0.464897
+RooProduct::varL_240GeV[ Lmess_240GeV * Lideal_240GeV ] = 5e+06
+
+datasets
+--------
+RooDataSet::centrally_samples(MRec)
+
+parameter snapshots
+-------------------
+snapshot = (muZH_240GeV=1)
+
+named sets
+----------
+_GlobalObservables:(Lmess_240GeV,Emess_240GeV,BRmess_240GeV,COMmess_240GeV)
+_NuisParams:(sigma,alphaL,alphaR,NL,NR,mean2_240GeV,sigma2_240GeV,fsig,fsig2,N,mHmess_240GeV)
+_Observables:(MRec)
+_POI:(muZH_240GeV)
+glob:(Lmess_240GeV,Emess_240GeV,BRmess_240GeV,COMmess_240GeV)
+np:(sigma,alphaL,alphaR,NL,NR,mean2_240GeV,sigma2_240GeV,fsig,fsig2,N,mHmess_240GeV)
+obs:(MRec)
+poi:(muZH_240GeV)
+snapshot:(muZH_240GeV)
+
+generic objects
+---------------
+RooStats::ModelConfig::
+
+wvars_eeH
+[#1] INFO:InputArguments -- The formula weight2 claims to use the variables (MRec) but only () seem to be in use.
+  inputs:         (0.103594239)
+[#1] INFO:InputArguments -- The formula weight2 claims to use the variables (MRec) but only () seem to be in use.
+  inputs:         (0.128168685)
+RooDataSet::combData[channel,MRec,weight:wvars_mumuH] = 458435 entries (48067.8 weighted)
+RooDataSet::combData[channel,MRec,weight:weight2] = 458435 entries (47491.2 weighted)
+1
+RooDataSet::combData1[channel,MRec,weight:wvars_eeH] = 312109 entries (40002.6 weighted)
+RooDataSet::combData1[channel,MRec,weight:weight2] = 312109 entries (40002.6 weighted)
+1
+RooDataSet::combData[channel,MRec,weight:weight2] = 770544 entries (87493.8 weighted)
+1
+hi
+RooDataSet::combData[channel,MRec,weight2,weight:wvars_mumuH] = 770544 entries (88070.4 weighted)
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::mHmess_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::muZH_240GeV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combWS) importing RooRealVar::MRec
+model joint split ....
+model combined ....
+[#1] INFO:Minimization -- RooProdPdf::getConstraints(model_eeH_combModel) omitting term BRsmear_240GeV_eeH as constraint term as it does not share any parameters with the other pdfs in product. To force inclusion in likelihood, add an explicit Constrain() argument for the target parameter
+[#1] INFO:Minimization -- RooProdPdf::getConstraints(model_mumuH_combModel) omitting term BRsmear_240GeV_mumuH as constraint term as it does not share any parameters with the other pdfs in product. To force inclusion in likelihood, add an explicit Constrain() argument for the target parameter
+[#1] INFO:Minimization -- createConstraintTerm: caching constraint set under name CACHE_CONSTR_OF_PDF_combModel_FOR_OBS_MRec:channel:weight2 with 11 entries
+[#1] INFO:Minimization --  Including the following constraint terms in minimization: (Lsmear_240GeV_eeH,Esmear_240GeV_eeH,mHsmear_240GeV_eeH_combModel,COMsmear_240GeV_eeH,Lsmear_240GeV_mumuH,Esmear_240GeV_mumuH,mHsmear_240GeV_mumuH_combModel,COMsmear_240GeV_mumuH,Lsmear_240GeV,Esmear_240GeV,COMsmear_240GeV)
+[#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (COMmess_240GeV_eeH,COMmess_240GeV_mumuH,Emess_240GeV_eeH,Emess_240GeV_mumuH,Lmess_240GeV_eeH,Lmess_240GeV_mumuH,NL_eeH,NL_mumuH,NR_eeH,NR_mumuH,N_eeH,N_mumuH,a0_eeH,a0_mumuH,a1_eeH,a1_mumuH,a2_eeH,a2_mumuH,a3_eeH,a3_mumuH,alphaL_eeH,alphaL_mumuH,alphaR_eeH,alphaR_mumuH,fsig2_eeH,fsig2_mumuH,fsig_eeH,fsig_mumuH,mHmess_240GeV,mZ_eeH,mZ_mumuH,mean2_240GeV_eeH,mean2_240GeV_mumuH,muZH_240GeV,sigma2_240GeV_eeH,sigma2_240GeV_mumuH,sigma_eeH,sigma_mumuH)
+RooAbsTestStatistic::initSimMode: creating slave calculator #0 for state eeH (312109 dataset entries)
+RooAbsTestStatistic::initSimMode: creating slave calculator #1 for state mumuH (458435 dataset entries)
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: created 2 slave calculators.
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 8 remote server process.
+[#0] WARNING:InputArguments -- RooAbsPdf::fitTo(combModel) WARNING: a likelihood fit is requested of what appears to be weighted data.
+       While the estimated values of the parameters will always be calculated taking the weights into account,
+       there are multiple ways to estimate the errors of the parameters. You are advised to make an 
+       explicit choice for the error calculation:
+           - Either provide SumW2Error(true), to calculate a sum-of-weights-corrected HESSE error matrix
+             (error will be proportional to the number of events in MC).
+           - Or provide SumW2Error(false), to return errors from original HESSE error matrix
+             (which will be proportional to the sum of the weights, i.e., a dataset with <sum of weights> events).
+           - Or provide AsymptoticError(true), to use the asymptotically correct expression
+             (for details see https://arxiv.org/abs/1911.01303).
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_combModel_combData_with_constr) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+Minuit2Minimizer: Minimize with max-calls 10000 convergence for edm < 1 strategy 1
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (CB1sig_240GeV_eeH_combModel,CB2sig_240GeV_eeH_combModel,gauss_240GeV_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (CB1sig_240GeV_eeH_combModel,CB2sig_240GeV_eeH_combModel,gauss_240GeV_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (CB1sig_240GeV_eeH_combModel,CB2sig_240GeV_eeH_combModel,gauss_240GeV_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (CB1sig_240GeV_eeH_combModel,CB2sig_240GeV_eeH_combModel,gauss_240GeV_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (CB1sig_240GeV_eeH_combModel,CB2sig_240GeV_eeH_combModel,gauss_240GeV_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (CB1sig_240GeV_eeH_combModel,CB2sig_240GeV_eeH_combModel,gauss_240GeV_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (CB1sig_240GeV_eeH_combModel,CB2sig_240GeV_eeH_combModel,gauss_240GeV_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (CB1sig_240GeV_eeH_combModel,CB2sig_240GeV_eeH_combModel,gauss_240GeV_eeH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV_mumuH_combModel,CB1sig_240GeV_mumuH_combModel,CB2sig_240GeV_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV_mumuH_combModel,CB1sig_240GeV_mumuH_combModel,CB2sig_240GeV_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV_mumuH_combModel,CB1sig_240GeV_mumuH_combModel,CB2sig_240GeV_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV_mumuH_combModel,CB1sig_240GeV_mumuH_combModel,CB2sig_240GeV_mumuH_combModel)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 156054 last = 195068 Likelihood offset now set to 4946.66
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 195068 last = 234081 Likelihood offset now set to 4946.5
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 0 last = 39013 Likelihood offset now set to 4945.86
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV_mumuH_combModel,CB1sig_240GeV_mumuH_combModel,CB2sig_240GeV_mumuH_combModel)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 229217 last = 286521 Likelihood offset now set to 6383.06
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 78027 last = 117040 Likelihood offset now set to 4949.8
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 273095 last = 312109 Likelihood offset now set to -274489
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 286521 last = 343826 Likelihood offset now set to 6375.07
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 0 last = 57304 Likelihood offset now set to 6380.84
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV_mumuH_combModel,CB1sig_240GeV_mumuH_combModel,CB2sig_240GeV_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV_mumuH_combModel,CB1sig_240GeV_mumuH_combModel,CB2sig_240GeV_mumuH_combModel)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 114608 last = 171913 Likelihood offset now set to 6382.91
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 401130 last = 458435 Likelihood offset now set to -341184
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 39013 last = 78027 Likelihood offset now set to 4948.86
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 117040 last = 156054 Likelihood offset now set to 4945.9
+[#1] INFO:Minimization --  The following expressions have been identified as constant and will be precalculated and cached: (bkgModel_mumuH_combModel)
+[#1] INFO:Minimization --  The following expressions will be evaluated in cache-and-track mode: (gauss_240GeV_mumuH_combModel,CB1sig_240GeV_mumuH_combModel,CB2sig_240GeV_mumuH_combModel)
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 57304 last = 114608 Likelihood offset now set to 6383.13
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 234081 last = 273095 Likelihood offset now set to 4951.78
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 171913 last = 229217 Likelihood offset now set to 6383.57
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 343826 last = 401130 Likelihood offset now set to 6378.02
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -5877.79768971906378
+Edm   = 0.000130094324478819117
+Nfcn  = 2440
+NL_eeH	  = 2.4529	 +/-  29.2645	(limited)
+NL_mumuH	  = 3.81043	 +/-  27.0305	(limited)
+NR_eeH	  = 0.745081	 +/-  31.9158	(limited)
+NR_mumuH	  = 14.2103	 +/-  31.6234	(limited)
+alphaL_eeH	  = 4.29132	 +/-  3.91161	(limited)
+alphaL_mumuH	  = 2.53446	 +/-  3.64421	(limited)
+alphaR_eeH	  = 3.46925	 +/-  3.93027	(limited)
+alphaR_mumuH	  = 4.62663	 +/-  3.89555	(limited)
+fsig2_eeH	  = 1.99499e-05	 +/-  0.901643	(limited)
+fsig2_mumuH	  = 5.98315e-06	 +/-  0.134236	(limited)
+fsig_eeH	  = 0.578776	 +/-  0.025708	(limited)
+fsig_mumuH	  = 0.317929	 +/-  0.0128081	(limited)
+mHmess_240GeV	  = 125.141	 +/-  0.00600952	(limited)
+mean2_240GeV_eeH	  = 127.229	 +/-  0.105586	(limited)
+mean2_240GeV_mumuH	  = 127.187	 +/-  0.113003	(limited)
+muZH_240GeV	  = 0.789509	 +/-  0.00828959	(limited)
+sigma2_240GeV_eeH	  = 1.9987	 +/-  0.0906817	(limited)
+sigma2_240GeV_mumuH	  = 1.77874	 +/-  0.0932376	(limited)
+sigma_eeH	  = 0.472131	 +/-  0.010196	(limited)
+sigma_mumuH	  = 0.446455	 +/-  0.00775264	(limited)
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: -5877.8, estimated distance to minimum: 0.000654232
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                NL_eeH    2.4529e+00 +/-  2.92e+01
+              NL_mumuH    3.8104e+00 +/-  2.71e+01
+                NR_eeH    7.4508e-01 +/-  3.20e+01
+              NR_mumuH    1.4210e+01 +/-  3.16e+01
+            alphaL_eeH    4.2913e+00 +/-  1.38e+00
+          alphaL_mumuH    2.5345e+00 +/-  3.64e+00
+            alphaR_eeH    3.4693e+00 +/-  3.96e+00
+          alphaR_mumuH    4.6266e+00 +/-  3.88e+00
+             fsig2_eeH    1.9950e-05 +/-  9.96e-01
+           fsig2_mumuH    5.9831e-06 +/-  1.33e-01
+              fsig_eeH    5.7878e-01 +/-  1.04e-01
+            fsig_mumuH    3.1793e-01 +/-  1.26e-02
+         mHmess_240GeV    1.2514e+02 +/-  5.98e-03
+      mean2_240GeV_eeH    1.2723e+02 +/-  1.06e-01
+    mean2_240GeV_mumuH    1.2719e+02 +/-  1.11e-01
+           muZH_240GeV    7.8951e-01 +/-  8.45e-03
+     sigma2_240GeV_eeH    1.9987e+00 +/-  9.20e-02
+   sigma2_240GeV_mumuH    1.7787e+00 +/-  9.22e-02
+             sigma_eeH    4.7213e-01 +/-  1.10e-02
+           sigma_mumuH    4.4646e-01 +/-  7.63e-03
+
+hi2
+RooDataSet::combData[channel,MRec,weight:weight2] = 770544 entries (87493.8 weighted)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(combData) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 48066.4 events out of 88070.4 total events
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(combModel) plot on MRec represents a slice in the index category (channel)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(model_mumuH_combModel) slice variable channel was not projected anyway
+[#1] INFO:InputArguments -- RooAbsData::plotOn(combData) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 40003.9 events out of 88070.4 total events
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(combModel) plot on MRec represents a slice in the index category (channel)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(model_eeH_combModel) slice variable channel was not projected anyway
+[#0] ERROR:InputArguments -- RooAbsPdf::createNLL(combModel) ERROR: unrecognized command: Save
+[#1] INFO:Minimization -- createConstraintTerm picked up cached constraints from workspace with 11 entries
+[#1] INFO:Minimization --  Including the following constraint terms in minimization: (Lsmear_240GeV_eeH,Esmear_240GeV_eeH,mHsmear_240GeV_eeH_combModel,COMsmear_240GeV_eeH,Lsmear_240GeV_mumuH,Esmear_240GeV_mumuH,mHsmear_240GeV_mumuH_combModel,COMsmear_240GeV_mumuH,Lsmear_240GeV,Esmear_240GeV,COMsmear_240GeV)
+[#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (BRmess_240GeV_eeH,BRmess_240GeV_mumuH,COMmess_240GeV_eeH,COMmess_240GeV_mumuH,Emess_240GeV_eeH,Emess_240GeV_mumuH,Lmess_240GeV_eeH,Lmess_240GeV_mumuH,NL_eeH,NL_mumuH,NR_eeH,NR_mumuH,N_eeH,N_mumuH,a0_eeH,a0_mumuH,a1_eeH,a1_mumuH,a2_eeH,a2_mumuH,a3_eeH,a3_mumuH,alphaL_eeH,alphaL_mumuH,alphaR_eeH,alphaR_mumuH,fsig2_eeH,fsig2_mumuH,fsig_eeH,fsig_mumuH,mHmess_240GeV,mZ_eeH,mZ_mumuH,mean2_240GeV_eeH,mean2_240GeV_mumuH,muZH_240GeV,sigma2_240GeV_eeH,sigma2_240GeV_mumuH,sigma_eeH,sigma_mumuH)
+RooAbsTestStatistic::initSimMode: creating slave calculator #0 for state eeH (312109 dataset entries)
+RooAbsTestStatistic::initSimMode: creating slave calculator #1 for state mumuH (458435 dataset entries)
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: created 2 slave calculators.
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 8 remote server process.
+[#0] ERROR:InputArguments -- RooAbsPdf::createNLL(model) ERROR: unrecognized command: Save
+[#1] INFO:Minimization -- RooProdPdf::getConstraints(model) omitting term BRsmear_240GeV as constraint term as it does not share any parameters with the other pdfs in product. To force inclusion in likelihood, add an explicit Constrain() argument for the target parameter
+[#1] INFO:Minimization -- createConstraintTerm: caching constraint set under name CACHE_CONSTR_OF_PDF_model_FOR_OBS_MRec with 5 entries
+[#1] INFO:Minimization --  Including the following constraint terms in minimization: (Lsmear_240GeV,Esmear_240GeV,mHsmear_240GeV,COMsmear_240GeV,BRsmear_240GeV)
+[#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (COMmess_240GeV,Emess_240GeV,Lmess_240GeV,N,NL,NR,a0,a1,a2,a3,alphaL,alphaR,fsig,fsig2,mHmess_240GeV,mZ,mean2_240GeV,muZH_240GeV,sigma,sigma2_240GeV)
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 8 remote server process.
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_combModel_combData_with_constr) Summation contains a RooNLLVar, using its error level
+ **********
+ **    1 **SET PRINT           1
+ **********
+ **********
+ **    2 **SET NOGRAD
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 NL_eeH       2.45290e+00  2.91831e+01    1.00000e-01  5.00000e+01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+     2 NL_mumuH     3.81043e+00  2.70632e+01    1.00000e-01  5.00000e+01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE2 BROUGHT BACK INSIDE LIMITS.
+     3 NR_eeH       7.45081e-01  3.19634e+01    1.00000e-01  5.00000e+01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE3 BROUGHT BACK INSIDE LIMITS.
+     4 NR_mumuH     1.42103e+01  3.16112e+01    1.00000e-01  5.00000e+01
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE4 BROUGHT BACK INSIDE LIMITS.
+     5 alphaL_eeH   4.29132e+00  1.38278e+00    1.00000e-01  5.00000e+00
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE5 BROUGHT BACK INSIDE LIMITS.
+     6 alphaL_mumuH   2.53446e+00  3.64481e+00    1.00000e-01  5.00000e+00
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE6 BROUGHT BACK INSIDE LIMITS.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE6 BROUGHT BACK INSIDE LIMITS.
+     7 alphaR_eeH   3.46925e+00  3.95586e+00    1.00000e-01  5.00000e+00
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE7 BROUGHT BACK INSIDE LIMITS.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE7 BROUGHT BACK INSIDE LIMITS.
+     8 alphaR_mumuH   4.62663e+00  3.88071e+00    1.00000e-01  5.00000e+00
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE8 BROUGHT BACK INSIDE LIMITS.
+     9 fsig2_eeH    1.99499e-05  9.95538e-01    0.00000e+00  1.00000e+00
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE9 BROUGHT BACK INSIDE LIMITS.
+    10 fsig2_mumuH   5.98315e-06  1.33132e-01    0.00000e+00  1.00000e+00
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE10 BROUGHT BACK INSIDE LIMITS.
+    11 fsig_eeH     5.78776e-01  1.04103e-01    0.00000e+00  1.00000e+00
+    12 fsig_mumuH   3.17929e-01  1.25863e-02    0.00000e+00  1.00000e+00
+    13 mHmess_240GeV   1.25141e+02  5.97732e-03    1.22000e+02  1.28000e+02
+    14 mean2_240GeV_eeH   1.27229e+02  1.06382e-01    1.25000e+02  1.30000e+02
+    15 mean2_240GeV_mumuH   1.27187e+02  1.11107e-01    1.25000e+02  1.30000e+02
+    16 muZH_240GeV   7.89509e-01  8.45006e-03    5.00000e-01  1.50000e+00
+    17 sigma2_240GeV_eeH   1.99870e+00  9.20349e-02    1.00000e-02  5.00000e+00
+    18 sigma2_240GeV_mumuH   1.77874e+00  9.22277e-02    1.00000e-02  5.00000e+00
+    19 sigma_eeH    4.72131e-01  1.09607e-02    1.00000e-02  1.00000e+00
+    20 sigma_mumuH   4.46455e-01  7.62585e-03    1.00000e-02  5.00000e+00
+ **********
+ **    3 **SET ERR         0.5
+ **********
+ **********
+ **    4 **SET PRINT           1
+ **********
+ **********
+ **    5 **SET STR           1
+ **********
+ NOW USING STRATEGY  1: TRY TO BALANCE SPEED AGAINST RELIABILITY
+ **********
+ **    6 **MIGRAD       1e+04           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 195068 last = 234081 Likelihood offset now set to 4618.32
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 117040 last = 156054 Likelihood offset now set to 4619.28
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 78027 last = 117040 Likelihood offset now set to 4625.75
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 39013 last = 78027 Likelihood offset now set to 4620.09
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 273095 last = 312109 Likelihood offset now set to -274255
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 234081 last = 273095 Likelihood offset now set to 4631.11
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 156054 last = 195068 Likelihood offset now set to 4618.92
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(eeH) first = 0 last = 39013 Likelihood offset now set to 4619.16
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 171913 last = 229217 Likelihood offset now set to 5702.28
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 286521 last = 343826 Likelihood offset now set to 5692.7
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 401130 last = 458435 Likelihood offset now set to -340213
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 57304 last = 114608 Likelihood offset now set to 5708.26
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 114608 last = 171913 Likelihood offset now set to 5707.86
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 343826 last = 401130 Likelihood offset now set to 5695.65
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 0 last = 57304 Likelihood offset now set to 5695.26
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(mumuH) first = 229217 last = 286521 Likelihood offset now set to 5696.15
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-32.0505 FROM MIGRAD    STATUS=INITIATE      240 CALLS         241 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  NL_eeH       2.45290e+00   2.91831e+01   0.00000e+00  -1.54397e-03
+   2  NL_mumuH     3.81043e+00   2.70632e+01   0.00000e+00  -5.89835e-05
+   3  NR_eeH       3.87691e+01   3.19634e+01   0.00000e+00  -2.04006e-08
+   4  NR_mumuH     1.42103e+01   3.16112e+01   0.00000e+00  -1.70174e-05
+   5  alphaL_eeH   4.63098e+00   1.38278e+00   0.00000e+00  -1.54712e-04
+   6  alphaL_mumuH   2.53446e+00   3.64481e+00   0.00000e+00  -1.19654e-04
+   7  alphaR_eeH   3.46925e+00   3.95586e+00   0.00000e+00  -1.19458e-05
+   8  alphaR_mumuH   4.99953e+00   3.88071e+00   5.39673e-01  -5.47108e-06
+   9  fsig2_eeH    1.99499e-05   9.95538e-01   0.00000e+00   1.00050e-03
+  10  fsig2_mumuH   5.98315e-06   1.33132e-01   0.00000e+00   6.10791e-03
+  11  fsig_eeH     5.78776e-01   1.04103e-01   0.00000e+00   1.74857e-01
+  12  fsig_mumuH   3.17929e-01   1.25863e-02   0.00000e+00   2.37781e-02
+  13  mHmess_240GeV   1.25141e+02   5.97732e-03   0.00000e+00  -2.45094e+00
+  14  mean2_240GeV_eeH   1.27229e+02   1.06382e-01   0.00000e+00  -2.99809e-01
+  15  mean2_240GeV_mumuH   1.27187e+02   1.11107e-01   0.00000e+00   5.00502e-02
+  16  muZH_240GeV   7.89509e-01   8.45006e-03   0.00000e+00   1.43170e-01
+  17  sigma2_240GeV_eeH   1.99870e+00   9.20349e-02   0.00000e+00   2.40690e-01
+  18  sigma2_240GeV_mumuH   1.77874e+00   9.22277e-02   0.00000e+00  -5.66871e-02
+  19  sigma_eeH    4.72131e-01   1.09607e-02   0.00000e+00   3.56042e-01
+  20  sigma_mumuH   4.46455e-01   7.62585e-03   0.00000e+00   1.44731e-01
+                               ERR DEF= 0.5
+ MIGRAD FAILS TO FIND IMPROVEMENT
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -7.7488e-02  1.9940e-01  2.2775e-01  2.7448e-01  5.3541e-01  6.4890e-01  7.7618e-01  9.1781e-01  9.7365e-01  9.7402e-01  9.8989e-01  1.0101e+00  1.0263e+00  1.0658e+00  1.2112e+00  1.2238e+00  1.4444e+00  2.0451e+00  2.1035e+00  2.4299e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.079918 TO DIAGONAL.
+ FCN=-32.0508 FROM HESSE     STATUS=NOT POSDEF    289 CALLS         641 TOTAL
+                     EDM=7.00021e-05    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  NL_eeH       7.07858e+00   2.74329e+01   1.05464e-01  -2.43345e-04
+   2  NL_mumuH     7.25484e+00   3.83105e+01   5.00000e-01  -8.84313e-08
+   3  NR_eeH       4.90219e+01   4.73968e+01   5.00000e-01  -7.95808e-12
+   4  NR_mumuH     2.87571e+01   3.54945e+01   5.00000e-01  -2.52420e-06
+   5  alphaL_eeH   4.58206e+00   2.64992e+00   5.00000e-01   4.68737e-04
+   6  alphaL_mumuH   3.10618e+00   2.60791e+00   5.00000e-01  -4.95930e-07
+   7  alphaR_eeH   4.12272e+00   2.72887e+00   5.00000e-01  -2.37605e-09
+   8  alphaR_mumuH   4.99995e+00   3.75032e+00   2.97635e-01   8.28077e-07
+   9  fsig2_eeH    3.06145e-06   9.94728e-01   1.06930e-02   4.36792e-04
+  10  fsig2_mumuH   2.91476e-07   9.93006e-01   9.39523e-03  -1.02390e-04
+  11  fsig_eeH     5.78808e-01   1.24206e-02   6.55030e-05   2.92633e-01
+  12  fsig_mumuH   3.17934e-01   1.11402e-02   6.60553e-05  -2.88721e-03
+  13  mHmess_240GeV   1.25141e+02   5.64577e-03   7.15472e-06  -3.48941e-02
+  14  mean2_240GeV_eeH   1.27229e+02   9.43948e-02   1.19038e-04  -8.60764e-02
+  15  mean2_240GeV_mumuH   1.27187e+02   1.02194e-01   1.33559e-04   8.92686e-04
+  16  muZH_240GeV   7.89491e-01   7.52778e-03   5.56110e-05   6.69986e-02
+  17  sigma2_240GeV_eeH   1.99851e+00   8.29028e-02   1.11778e-04   1.33239e-01
+  18  sigma2_240GeV_mumuH   1.77888e+00   8.46716e-02   1.15247e-04   8.21520e-03
+  19  sigma_eeH    4.72069e-01   9.16349e-03   6.13537e-05  -2.94180e-01
+  20  sigma_mumuH   4.46452e-01   7.01992e-03   1.68819e-05   9.66140e-02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 2 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 3 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-32.0508 FROM MIGRAD    STATUS=CONVERGED     965 CALLS         966 TOTAL
+                     EDM=3.46264e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  NL_eeH       7.21769e+00   1.46777e+01   4.21857e-02  -2.32993e-04
+   2  NL_mumuH     3.02912e+01   2.05262e+01   2.00000e-01  -2.82796e-09
+   3  NR_eeH       4.91607e+01   1.10836e+01   5.00000e-01  -6.25278e-10
+   4  NR_mumuH     2.92884e+01   2.06895e+01   2.00000e-01  -2.42479e-06
+   5  alphaL_eeH   4.58091e+00   1.15203e+00   2.37884e-02   4.67424e-04
+   6  alphaL_mumuH   4.93873e+00   1.09809e+00   2.00000e-01  -3.22586e-09
+   7  alphaR_eeH   4.12241e+00   1.58099e+00   2.00000e-01  -1.03739e-09
+   8  alphaR_mumuH   4.99994e+00   1.12609e+00   1.19054e-01   8.90127e-07
+   9  fsig2_eeH    3.56777e-06   2.09304e-01   4.27720e-03   4.45939e-04
+  10  fsig2_mumuH   6.31047e-05   2.29819e-01   1.27941e-01   2.86348e-08
+  11  fsig_eeH     5.78807e-01   1.32600e-02   6.55086e-05   2.76323e-01
+  12  fsig_mumuH   3.17934e-01   1.28031e-02   6.60552e-05  -2.80167e-03
+  13  mHmess_240GeV   1.25141e+02   6.00701e-03   7.15456e-06  -3.03529e-02
+  14  mean2_240GeV_eeH   1.27229e+02   1.05507e-01   1.19052e-04  -8.13505e-02
+  15  mean2_240GeV_mumuH   1.27187e+02   1.12726e-01   1.33559e-04   9.05250e-04
+  16  muZH_240GeV   7.89491e-01   8.29380e-03   5.56111e-05   6.31749e-02
+  17  sigma2_240GeV_eeH   1.99851e+00   9.07319e-02   1.11838e-04   1.26316e-01
+  18  sigma2_240GeV_mumuH   1.77888e+00   9.33301e-02   1.15247e-04   7.86281e-03
+  19  sigma_eeH    4.72070e-01   1.01947e-02   6.13456e-05  -2.79373e-01
+  20  sigma_mumuH   4.46451e-01   7.74194e-03   1.68820e-05   9.23546e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR= 20    ERR DEF=0.5
+ ELEMENTS ABOVE DIAGONAL ARE NOT PRINTED.
+  3.041e+02 
+ -5.415e-10  5.950e+02 
+  7.961e-10  8.954e-14  4.118e+01 
+ -7.381e-10 -3.397e-09  1.307e-13  6.045e+02 
+ -2.133e-03  1.001e-11  4.744e-10  8.759e-11  1.872e+00 
+ -7.308e-13  8.289e-10  1.414e-16 -1.844e-12  1.896e-13  2.965e-01 
+ -2.256e-07  2.718e-13 -1.179e-09  1.763e-12  2.421e-10  3.682e-15  3.530e+00 
+  6.847e-13 -2.920e-14 -1.271e-16  1.285e-06 -1.315e-13  1.895e-13 -2.581e-15  3.166e-04 
+ -9.088e-09 -5.345e-14  2.242e-10  1.684e-13  2.427e-09  5.023e-16 -2.092e-09 -3.202e-16  3.222e-06 
+ -4.439e-13 -3.370e-08  7.422e-17 -1.607e-08  1.515e-14  3.092e-09  3.534e-16  4.994e-11 -2.118e-17  6.310e-05 
+ -1.236e-07 -3.198e-09 -2.044e-09  1.508e-08 -8.014e-06  4.196e-11 -4.802e-11 -2.720e-11 -2.123e-06 -7.982e-13  1.759e-04 
+ -1.321e-07  1.867e-09  1.481e-11  2.390e-07 -5.798e-08 -6.231e-10 -1.071e-09 -4.488e-10 -2.102e-10  4.041e-12 -1.666e-05 
+ -1.321e-07  1.867e-09  1.481e-11  2.390e-07 -5.798e-08 -6.231e-10 -1.071e-09 -4.488e-10 -2.102e-10  4.041e-12 -1.666e-05  1.640e-04 
+  1.637e-06 -1.194e-08 -2.708e-10 -1.252e-08 -3.050e-08 -7.190e-12 -8.261e-10  9.073e-12  1.609e-10 -9.435e-12  9.610e-06 
+  1.637e-06 -1.194e-08 -2.708e-10 -1.252e-08 -3.050e-08 -7.190e-12 -8.261e-10  9.073e-12  1.609e-10 -9.435e-12  9.610e-06 -5.973e-06  3.608e-05 
+  7.103e-05 -4.241e-08 -1.270e-08 -1.271e-07 -3.470e-05 -2.221e-10 -3.898e-08  1.650e-10  1.182e-08 -4.127e-11  6.980e-04 
+  7.103e-05 -4.241e-08 -1.270e-08 -1.271e-07 -3.470e-05 -2.221e-10 -3.898e-08  1.650e-10  1.182e-08 -4.127e-11  6.980e-04  4.624e-05  1.285e-04  1.114e-02 
+  6.572e-06 -4.347e-08 -1.113e-09 -1.082e-06 -3.451e-07  5.051e-09 -7.507e-09  2.054e-09 -8.066e-11 -1.237e-10 -1.995e-05 
+  6.572e-06 -4.347e-08 -1.113e-09 -1.082e-06 -3.451e-07  5.051e-09 -7.507e-09  2.054e-09 -8.066e-11 -1.237e-10 -1.995e-05 -6.486e-04  1.335e-04  7.240e-04  1.272e-02 
+  5.417e-07 -1.938e-09 -1.033e-10 -4.471e-08 -1.275e-07 -1.028e-10 -2.484e-09  7.007e-11 -3.299e-10 -5.536e-12 -2.769e-05 
+  5.417e-07 -1.938e-09 -1.033e-10 -4.471e-08 -1.275e-07 -1.028e-10 -2.484e-09  7.007e-11 -3.299e-10 -5.536e-12 -2.769e-05  3.390e-05  5.989e-06  1.525e-04  1.507e-04  6.879e-05 
+  9.593e-05 -3.995e-08 -2.587e-10 -2.323e-07  2.682e-05 -4.774e-10 -2.848e-08  3.364e-10 -4.937e-09 -4.944e-11 -3.744e-04 
+  9.593e-05 -3.995e-08 -2.587e-10 -2.323e-07  2.682e-05 -4.774e-10 -2.848e-08  3.364e-10 -4.937e-09 -4.944e-11 -3.744e-04  1.356e-04  1.214e-04  2.658e-03  1.023e-03  3.226e-04  8.236e-03 
+  6.793e-06 -4.133e-08 -1.182e-09  9.450e-07 -6.273e-07 -4.091e-09 -1.285e-08 -1.875e-09 -9.662e-10 -1.225e-10 -9.173e-05 
+  6.793e-06 -4.133e-08 -1.182e-09  9.450e-07 -6.273e-07 -4.091e-09 -1.285e-08 -1.875e-09 -9.662e-10 -1.225e-10 -9.173e-05  5.506e-04  1.243e-04  1.002e-03  1.846e-03  3.097e-04  1.708e-03  8.715e-03 
+  1.683e-05 -4.020e-09 -2.510e-09 -6.135e-09 -5.760e-06 -6.988e-12 -3.035e-09  6.138e-12  1.218e-09 -3.357e-12  7.917e-05 
+  1.683e-05 -4.020e-09 -2.510e-09 -6.135e-09 -5.760e-06 -6.988e-12 -3.035e-09  6.138e-12  1.218e-09 -3.357e-12  7.917e-05 -4.445e-07  1.216e-05  5.389e-04  5.077e-05  5.065e-06  1.929e-05  5.488e-05  1.039e-04 
+  4.463e-07 -3.150e-09 -7.419e-11 -1.284e-07 -1.159e-08  2.246e-10 -2.868e-10  2.493e-10  3.317e-11 -1.100e-11  1.759e-06 
+  4.463e-07 -3.150e-09 -7.419e-11 -1.284e-07 -1.159e-08  2.246e-10 -2.868e-10  2.493e-10  3.317e-11 -1.100e-11  1.759e-06 -5.329e-05  9.670e-06  3.808e-05  4.083e-04  3.496e-06  4.096e-05 -5.277e-05  3.343e-06  5.994e-05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8      9     10     11     12     13     14     15     16
+        1  0.00016   1.000 -0.000  0.000 -0.000 -0.000 -0.000 -0.000  0.000 -0.000 -0.000 -0.000 -0.000  0.000  0.000  0.000  0.000
+        2  0.00000  -0.000  1.000  0.000 -0.000  0.000  0.000  0.000 -0.000 -0.000 -0.000 -0.000  0.000 -0.000 -0.000 -0.000 -0.000
+        3  0.00000   0.000  0.000  1.000  0.000  0.000  0.000 -0.000 -0.000  0.000  0.000 -0.000  0.000 -0.000 -0.000 -0.000 -0.000
+        4  0.00000  -0.000 -0.000  0.000  1.000  0.000 -0.000  0.000  0.000  0.000 -0.000  0.000  0.000 -0.000 -0.000 -0.000 -0.000
+        5  0.00053  -0.000  0.000  0.000  0.000  1.000  0.000  0.000 -0.000  0.000  0.000 -0.000 -0.000 -0.000 -0.000 -0.000 -0.000
+        6  0.00000  -0.000  0.000  0.000 -0.000  0.000  1.000  0.000  0.000  0.000  0.000  0.000 -0.000 -0.000 -0.000  0.000 -0.000
+        7  0.00000  -0.000  0.000 -0.000  0.000  0.000  0.000  1.000 -0.000 -0.000  0.000 -0.000 -0.000 -0.000 -0.000 -0.000 -0.000
+        8  0.00000   0.000 -0.000 -0.000  0.000 -0.000  0.000 -0.000  1.000 -0.000  0.000 -0.000 -0.000  0.000  0.000  0.000  0.000
+        9  0.14271  -0.000 -0.000  0.000  0.000  0.000  0.000 -0.000 -0.000  1.000 -0.000 -0.089 -0.000  0.000  0.000 -0.000 -0.000
+       10  0.00000  -0.000 -0.000  0.000 -0.000  0.000  0.000  0.000  0.000 -0.000  1.000 -0.000  0.000 -0.000 -0.000 -0.000 -0.000
+       11  0.78540  -0.000 -0.000 -0.000  0.000 -0.000  0.000 -0.000 -0.000 -0.089 -0.000  1.000 -0.098  0.121  0.499 -0.013 -0.252
+       12  0.79266  -0.000  0.000  0.000  0.000 -0.000 -0.000 -0.000 -0.000 -0.000  0.000 -0.098  1.000 -0.078  0.034 -0.449  0.319
+       13  0.42339   0.000 -0.000 -0.000 -0.000 -0.000 -0.000 -0.000  0.000  0.000 -0.000  0.121 -0.078  1.000  0.203  0.197  0.120
+       14  0.70292   0.000 -0.000 -0.000 -0.000 -0.000 -0.000 -0.000  0.000  0.000 -0.000  0.499  0.034  0.203  1.000  0.061  0.174
+       15  0.66679   0.000 -0.000 -0.000 -0.000 -0.000  0.000 -0.000  0.000 -0.000 -0.000 -0.013 -0.449  0.197  0.061  1.000  0.161
+       16  0.63593   0.000 -0.000 -0.000 -0.000 -0.000 -0.000 -0.000  0.000 -0.000 -0.000 -0.252  0.319  0.120  0.174  0.161  1.000
+       17  0.64538   0.000 -0.000 -0.000 -0.000  0.000 -0.000 -0.000  0.000 -0.000 -0.000 -0.311  0.117  0.223  0.277  0.100  0.429
+                     1.000  0.202  0.021  0.058
+       18  0.66409   0.000 -0.000 -0.000  0.000 -0.000 -0.000 -0.000 -0.000 -0.000 -0.000 -0.074  0.461  0.222  0.102  0.175  0.400
+                     0.202  1.000  0.058 -0.073
+       19  0.65661   0.000 -0.000 -0.000 -0.000 -0.000 -0.000 -0.000  0.000  0.000 -0.000  0.586 -0.003  0.199  0.501  0.044  0.060
+                     0.021  0.058  1.000  0.042
+       20  0.62545   0.000 -0.000 -0.000 -0.000 -0.000  0.000 -0.000  0.000  0.000 -0.000  0.017 -0.538  0.208  0.047  0.468  0.054
+                     0.058 -0.073  0.042  1.000
+ ELEMENTS ABOVE DIAGONAL ARE NOT PRINTED.
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_model_centrally_samples_with_constr) Summation contains a RooNLLVar, using its error level
+ **********
+ **    1 **SET PRINT           1
+ **********
+ **********
+ **    2 **SET NOGRAD
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 NL           1.50000e+00  7.00000e-01    1.00000e-01  5.00000e+01
+     2 NR           5.00000e-01  2.00000e-01    1.00000e-01  5.00000e+01
+     3 alphaL       1.00000e+00  4.50000e-01    1.00000e-01  5.00000e+00
+     4 alphaR       1.00000e+00  4.50000e-01    1.00000e-01  5.00000e+00
+     5 fsig         5.00000e-01  1.00000e-01    0.00000e+00  1.00000e+00
+     6 fsig2        2.00000e-01  1.00000e-01    0.00000e+00  1.00000e+00
+     7 mHmess_240GeV   1.25000e+02  6.00000e-01    1.22000e+02  1.28000e+02
+     8 mean2_240GeV   1.28000e+02  5.00000e-01    1.25000e+02  1.30000e+02
+     9 muZH_240GeV   1.00000e+00  1.00000e-01    5.00000e-01  1.50000e+00
+    10 sigma        9.00000e-01  4.45000e-01    1.00000e-02  5.00000e+00
+    11 sigma2_240GeV   9.00000e-01  4.45000e-01    1.00000e-02  5.00000e+00
+ **********
+ **    3 **SET ERR         0.5
+ **********
+ **********
+ **    4 **SET PRINT           1
+ **********
+ **********
+ **    5 **SET STR           1
+ **********
+ NOW USING STRATEGY  1: TRY TO BALANCE SPEED AGAINST RELIABILITY
+ **********
+ **    6 **MIGRAD        5500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_centrally_samples_GOF3) first = 171913 last = 229217 Likelihood offset now set to 5040.17
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_centrally_samples_GOF1) first = 57304 last = 114608 Likelihood offset now set to 5039.74
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_centrally_samples_GOF4) first = 229217 last = 286521 Likelihood offset now set to 5039.67
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_centrally_samples_GOF0) first = 0 last = 57304 Likelihood offset now set to 5037.44
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_centrally_samples_GOF7) first = 401130 last = 458435 Likelihood offset now set to -365099
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_centrally_samples_GOF6) first = 343826 last = 401130 Likelihood offset now set to 5034.63
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_centrally_samples_GOF5) first = 286521 last = 343826 Likelihood offset now set to 5031.65
+[#1] INFO:Minimization -- RooNLLVar::evaluatePartition(nll_model_centrally_samples_GOF2) first = 114608 last = 171913 Likelihood offset now set to 5039.49
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-3114.9 FROM MIGRAD    STATUS=INITIATE      252 CALLS         253 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  NL           1.50000e+00   7.00000e-01   0.00000e+00   1.32561e+01
+   2  NR           5.00000e-01   2.00000e-01   0.00000e+00   1.21355e+01
+   3  alphaL       1.00000e+00   4.50000e-01   0.00000e+00   5.19276e+01
+   4  alphaR       2.45533e+00   4.50000e-01   6.46325e-01  -1.09819e+00
+   5  fsig         5.00000e-01   1.00000e-01   0.00000e+00   3.44745e+02
+   6  fsig2        5.61896e-01   1.00000e-01   0.00000e+00  -1.27244e+01
+   7  mHmess_240GeV   1.25000e+02   6.00000e-01   0.00000e+00  -3.78042e+03
+   8  mean2_240GeV   1.26096e+02   5.00000e-01   0.00000e+00   7.24144e+02
+   9  muZH_240GeV   1.00000e+00   1.00000e-01   0.00000e+00   9.89988e+02
+  10  sigma        2.65114e-01   4.45000e-01   0.00000e+00  -3.13889e+03
+  11  sigma2_240GeV   9.00000e-01   4.45000e-01   0.00000e+00  -1.59940e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -1.0423e+00  2.3375e-01  2.8331e-01  9.0663e-01  9.4368e-01  9.6204e-01  1.0443e+00  1.0934e+00  1.4700e+00  2.0249e+00  3.0803e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 1.045424 TO DIAGONAL.
+ FCN=-3856.03 FROM HESSE     STATUS=NOT POSDEF    108 CALLS         814 TOTAL
+                     EDM=0.00297635    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  NL           4.08807e+00   2.76304e+01   5.00000e-01  -1.32508e-05
+   2  NR           2.02976e+00   3.99309e+01   2.75787e-01  -1.41521e-03
+   3  alphaL       2.72851e+00   3.25599e+00   5.00000e-01  -5.30158e-05
+   4  alphaR       4.62379e+00   3.48884e+00   1.95747e-01  -2.22597e-03
+   5  fsig         3.73014e-01   5.68986e-03   6.62299e-04  -1.12721e-01
+   6  fsig2        4.39830e-06   9.86461e-01   5.13154e-02  -2.67496e-03
+   7  mHmess_240GeV   1.25131e+02   4.92380e-03   9.97795e-05  -6.22763e-01
+   8  mean2_240GeV   1.27402e+02   6.73761e-02   1.56571e-03  -1.09944e-01
+   9  muZH_240GeV   9.02611e-01   7.12442e-03   8.51133e-04   1.90700e-02
+  10  sigma        4.47427e-01   4.40859e-03   1.84873e-04  -7.98342e-01
+  11  sigma2_240GeV   2.27642e+00   6.07931e-02   1.41093e-03   9.36649e-02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 6 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1.00014 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-3856.03 FROM MIGRAD    STATUS=CONVERGED     945 CALLS         946 TOTAL
+                     EDM=5.39385e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  NL           4.85371e+01   1.07956e+01   2.00000e-01  -3.58114e-10
+   2  NR           2.04458e+00   1.04542e+01   1.10315e-01  -1.37558e-03
+   3  alphaL       4.85906e+00   1.06133e+00   2.00000e-01   4.27178e-08
+   4  alphaR       4.62619e+00   1.09321e+00   7.82989e-02  -2.19307e-03
+   5  fsig         3.73013e-01   1.17498e-02   6.62277e-04  -1.07894e-01
+   6  fsig2        8.08841e-04   2.29477e-01   5.00000e-01  -8.06546e-06
+   7  mHmess_240GeV   1.25131e+02   7.42655e-03   9.97796e-05  -6.08940e-01
+   8  mean2_240GeV   1.27402e+02   1.23965e-01   1.56499e-03  -1.07052e-01
+   9  muZH_240GeV   9.02612e-01   1.31856e-02   8.51186e-04   1.97342e-02
+  10  sigma        4.47428e-01   7.64824e-03   1.84860e-04  -7.83596e-01
+  11  sigma2_240GeV   2.27642e+00   1.18539e-01   1.41126e-03   8.97767e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR= 11    ERR DEF=0.5
+  7.085e+01 
+  2.999e-09  9.209e+01 
+  2.107e-08  1.658e-08  6.707e-01 
+ -8.640e-11 -6.063e-02  3.616e-09  1.686e+00 
+  3.982e-10  6.265e-05 -2.773e-10  1.285e-05  1.381e-04 
+  1.378e-08 -3.784e-05 -3.550e-07 -8.252e-06  7.056e-09  8.082e-04 
+  1.697e-10  4.539e-06 -1.030e-12  6.788e-07 -5.838e-06  4.927e-10  5.515e-05 
+  4.211e-09 -1.777e-04  1.656e-09 -5.450e-05 -4.242e-04 -2.196e-08  1.882e-04  1.538e-02 
+  6.319e-10 -4.769e-06 -9.706e-13 -3.342e-07  7.131e-05 -1.315e-10  1.116e-05  4.321e-04  1.739e-04 
+  5.279e-11 -1.556e-05  9.562e-11 -5.776e-06 -4.110e-05 -1.866e-09  1.244e-05  4.216e-04  7.807e-06  5.850e-05 
+  9.945e-09  4.769e-04 -1.497e-09  8.042e-05  5.651e-04  5.365e-08  2.307e-04  5.815e-03  8.903e-04  7.095e-05  1.406e-02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8      9     10     11
+        1  0.00000   1.000  0.000  0.000 -0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000
+        2  0.00493   0.000  1.000  0.000 -0.005  0.001 -0.000  0.000 -0.000 -0.000 -0.000  0.000
+        3  0.00002   0.000  0.000  1.000  0.000 -0.000 -0.000 -0.000  0.000 -0.000  0.000 -0.000
+        4  0.00499  -0.000 -0.005  0.000  1.000  0.001 -0.000  0.000 -0.000 -0.000 -0.001  0.001
+        5  0.77209   0.000  0.001 -0.000  0.001  1.000  0.000 -0.067 -0.291  0.460 -0.457  0.406
+        6  0.00027   0.000 -0.000 -0.000 -0.000  0.000  1.000  0.000 -0.000 -0.000 -0.000  0.000
+        7  0.34386   0.000  0.000 -0.000  0.000 -0.067  0.000  1.000  0.204  0.114  0.219  0.262
+        8  0.67847   0.000 -0.000  0.000 -0.000 -0.291 -0.000  0.204  1.000  0.264  0.445  0.395
+        9  0.67476   0.000 -0.000 -0.000 -0.000  0.460 -0.000  0.114  0.264  1.000  0.077  0.569
+       10  0.60611   0.000 -0.000  0.000 -0.001 -0.457 -0.000  0.219  0.445  0.077  1.000  0.078
+       11  0.72464   0.000  0.000 -0.000  0.001  0.406  0.000  0.262  0.395  0.569  0.078  1.000
+[#1] INFO:Minimization -- RooProfileLL::evaluate(nll_combModel_combData_with_constr_Profile[muZH_240GeV]) Creating instance of MINUIT
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_combModel_combData_with_constr) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooProfileLL::evaluate(nll_combModel_combData_with_constr_Profile[muZH_240GeV]) determining minimum likelihood for current configurations w.r.t all observable
+RooAbsTestStatistic::initSimMode: creating slave calculator #0 for state eeH (312109 dataset entries)
+RooAbsTestStatistic::initSimMode: creating slave calculator #1 for state mumuH (458435 dataset entries)
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: created 2 slave calculators.
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 8 remote server process.
+[#1] INFO:Minimization -- RooProfileLL::evaluate(nll_combModel_combData_with_constr_Profile[muZH_240GeV]) minimum found at (muZH_240GeV=0.789504)
+...........................................................................................................................................................................
+[#1] INFO:Minimization -- RooProfileLL::evaluate(nll_model_centrally_samples_with_constr_Profile[muZH_240GeV]) Creating instance of MINUIT
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_model_centrally_samples_with_constr) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooProfileLL::evaluate(nll_model_centrally_samples_with_constr_Profile[muZH_240GeV]) determining minimum likelihood for current configurations w.r.t all observable
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 8 remote server process.
+[#1] INFO:Minimization -- RooProfileLL::evaluate(nll_model_centrally_samples_with_constr_Profile[muZH_240GeV]) minimum found at (muZH_240GeV=0.902581)
+.........................................................................................................................................................................

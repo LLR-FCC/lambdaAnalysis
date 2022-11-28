@@ -1,0 +1,408 @@
+Setting up the latest Key4HEP software stack from CVMFS ...
+ ...  Key4HEP release: key4hep-stack/2022-04-22
+ ... Use the following command to reproduce the current environment: 
+ ... 
+         source /cvmfs/sw.hsf.org/spackages5/key4hep-stack/2022-04-22/x86_64-centos7-gcc11.2.0-opt/mp3wm/setup.sh
+ ... 
+ ... done. 
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.26/02                        https://root.cern |
+  | (c) 1995-2021, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Apr 12 2022, 16:28:03                 |
+  | From tags/v6-26-02@v6-26-02                                      |
+  | With g++ (Spack GCC) 11.2.0                                      |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+
+Processing TMVA_cjH_classification.C...
+
+==> Start TMVAClassification
+DataSetInfo              : [dataset] : Added class "Signal"
+                         : Add Tree events of type Signal with 9900000 events
+DataSetInfo              : [dataset] : Added class "Background"
+                         : Add Tree events of type Background with 10000000 events
+                         : Add Tree events of type Background with 10000000 events
+                         : Add Tree events of type Background with 10000000 events
+Factory                  : Booking method: [1mBDT[0m
+                         : 
+                         : Rebuilding Dataset dataset
+                         : Building event vectors for type 2 Signal
+                         : Dataset[dataset] :  create input formulas for tree events
+                         : Building event vectors for type 2 Background
+                         : Dataset[dataset] :  create input formulas for tree events
+                         : Building event vectors for type 2 Background
+                         : Dataset[dataset] :  create input formulas for tree events
+                         : Building event vectors for type 2 Background
+                         : Dataset[dataset] :  create input formulas for tree events
+<WARNING>                : Found events with NaN and/or +-inf values
+<WARNING>                : Dataset[dataset] : Input expression resolves to indeterminate value (NaN): zed_hadronic_subjets_acollPaPb[0] (13 times)
+<WARNING>                : These NaN and/or +-infs were all removed by the specified cut, continuing.
+                         : 
+DataSetFactory           : [dataset] : Number of events in input trees
+                         : Dataset[dataset] :     Signal     requirement: "!(!((selected_muons_pt@.size()) == 2) && (selected_electrons_pt@.size()) == 2) && !(!((selected_electrons_pt@.size()) == 2) && (selected_muons_pt@.size()) == 2) && (zed_hadronic_subjets_btag@.size()) > 1 && !(zed_hadronic_subjets_btag[0] == 1 && zed_hadronic_subjets_btag[1] == 1) && !((zed_hadronic_subjets_btag[0] == 1 && zed_hadronic_subjets_btag[1] == 0) || (zed_hadronic_subjets_btag[0] == 0 && zed_hadronic_subjets_btag[1] == 1)) && !(zed_hadronic_subjets_ctag[0] == 1 && zed_hadronic_subjets_ctag[1] == 1) && ((zed_hadronic_subjets_ctag[0] == 1 && zed_hadronic_subjets_ctag[1] == 0) || (zed_hadronic_subjets_ctag[0] == 0 && zed_hadronic_subjets_ctag[1] == 1)) && zed_hadronic_m[0] > 86 && zed_hadronic_m[0] < 96"
+                         : Dataset[dataset] :     Signal          -- number of events passed: 416689  / sum of weights: 416689
+                         : Dataset[dataset] :     Signal          -- efficiency             : 0.0420921
+                         : Dataset[dataset] :     Background requirement: "!(!((selected_muons_pt@.size()) == 2) && (selected_electrons_pt@.size()) == 2) && !(!((selected_electrons_pt@.size()) == 2) && (selected_muons_pt@.size()) == 2) && !TMath::IsNaN(zed_hadronic_subjets_acollPaPb[0])"
+                         : Dataset[dataset] :     Background      -- number of events passed: 27762023  / sum of weights: 1.67772e+07
+                         : Dataset[dataset] :     Background      -- efficiency             : 1     
+                         : Dataset[dataset] :  you have opted for interpreting the requested number of training/testing events
+                         :  to be the number of events AFTER your preselection cuts
+                         : 
+                         : Dataset[dataset] :  you have opted for interpreting the requested number of training/testing events
+                         :  to be the number of events AFTER your preselection cuts
+                         : 
+                         : Number of training and testing events
+                         : ---------------------------------------------------------------------------
+                         : Signal     -- training events            : 20000
+                         : Signal     -- testing events             : 396689
+                         : Signal     -- training and testing events: 416689
+                         : Dataset[dataset] : Signal     -- due to the preselection a scaling factor has been applied to the numbers of requested events: 0.0420921
+                         : Background -- training events            : 120000
+                         : Background -- testing events             : 27642023
+                         : Background -- training and testing events: 27762023
+                         : Dataset[dataset] : Background -- due to the preselection a scaling factor has been applied to the numbers of requested events: 0.960233
+                         : 
+DataSetInfo              : Correlation matrix (Signal):
+                         : ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                                   jetNo_T bjetNo_T cjetNo_T zed_cjet1_T zed_cjet2_T zed_hadronic_subjets_E1_T zed_hadronic_subjets_E2_T zed_hadronic_subjets_pt1_T zed_hadronic_subjets_pt2_T zed_hadronic_subjets_acoll_T zed_hadronic_subjets_acollPaPb_T zed_hadronic_subjets_DeltaEta_T zed_hadronic_subjets_DeltaPhi_T zed_hadronic_m_T zed_hadronic_recoil_m_T zed_hadronic_pt_T missingET_e_T missingET_costheta_T jet_HT_T
+                         :                          jetNo_T:  +1.000   -0.101   +0.093      -0.001      +0.001                    -0.020                    -0.149                     +0.012                     -0.107                       -0.002                           +0.157                          -0.002                          +0.039           +0.015                  +0.246            -0.177        -0.283               +0.007   +0.198
+                         :                         bjetNo_T:  -0.101   +1.000   -0.047      +0.019      -0.019                    -0.015                    -0.014                     -0.010                     +0.003                       -0.001                           +0.013                          +0.001                          -0.008           -0.044                  +0.033            +0.001        -0.157               -0.008   +0.126
+                         :                         cjetNo_T:  +0.093   -0.047   +1.000      +0.012      -0.012                    +0.006                    -0.034                     +0.009                     -0.023                       +0.005                           +0.011                          +0.000                          +0.012           -0.006                  +0.040            -0.023        -0.046               -0.015   +0.040
+                         :                      zed_cjet1_T:  -0.001   +0.019   +0.012      +1.000      -1.000                    +0.036                    -0.036                     +0.011                     -0.009                       -0.011                           -0.015                          -0.000                          -0.009           +0.004                  +0.006            -0.003        +0.008               +0.005   -0.002
+                         :                      zed_cjet2_T:  +0.001   -0.019   -0.012      -1.000      +1.000                    -0.036                    +0.036                     -0.011                     +0.009                       +0.011                           +0.015                          +0.000                          +0.009           -0.004                  -0.006            +0.003        -0.008               -0.005   +0.002
+                         :        zed_hadronic_subjets_E1_T:  -0.020   -0.015   +0.006      +0.036      -0.036                    +1.000                    -0.712                     +0.239                     -0.343                       +0.003                           -0.556                          +0.116                          -0.129           +0.135                  -0.255            +0.003        -0.033               +0.007   -0.146
+                         :        zed_hadronic_subjets_E2_T:  -0.149   -0.014   -0.034      -0.036      +0.036                    -0.712                    +1.000                     -0.133                     +0.623                       -0.003                           -0.045                          -0.171                          -0.001           +0.097                  -0.485            +0.489        -0.051               -0.004   +0.199
+                         :       zed_hadronic_subjets_pt1_T:  +0.012   -0.010   +0.009      +0.011      -0.011                    +0.239                    -0.133                     +1.000                     +0.208                       -0.003                           -0.263                          -0.803                          +0.133           +0.092                  -0.116            -0.000        -0.030               -0.002   +0.392
+                         :       zed_hadronic_subjets_pt2_T:  -0.107   +0.003   -0.023      -0.009      +0.009                    -0.343                    +0.623                     +0.208                     +1.000                       -0.001                           -0.206                          -0.635                          +0.162           +0.089                  -0.422            +0.555        -0.069               -0.012   +0.521
+                         :     zed_hadronic_subjets_acoll_T:  -0.002   -0.001   +0.005      -0.011      +0.011                    +0.003                    -0.003                     -0.003                     -0.001                       +1.000                           +0.002                          +0.001                          +0.008           +0.004                  +0.003            -0.005        +0.003               -0.125   +0.001
+                         : zed_hadronic_subjets_acollPaPb_T:  +0.157   +0.013   +0.011      -0.015      +0.015                    -0.556                    -0.045                     -0.263                     -0.206                       +0.002                           +1.000                          +0.108                          +0.209           +0.018                  +0.750            -0.589        +0.093               -0.010   -0.085
+                         :  zed_hadronic_subjets_DeltaEta_T:  -0.002   +0.001   +0.000      -0.000      +0.000                    +0.116                    -0.171                     -0.803                     -0.635                       +0.001                           +0.108                          +1.000                          -0.273           -0.003                  +0.096            -0.036        +0.033               +0.008   -0.520
+                         :  zed_hadronic_subjets_DeltaPhi_T:  +0.039   -0.008   +0.012      -0.009      +0.009                    -0.129                    -0.001                     +0.133                     +0.162                       +0.008                           +0.209                          -0.273                          +1.000           +0.004                  +0.160            -0.255        +0.020               -0.003   +0.098
+                         :                 zed_hadronic_m_T:  +0.015   -0.044   -0.006      +0.004      -0.004                    +0.135                    +0.097                     +0.092                     +0.089                       +0.004                           +0.018                          -0.003                          +0.004           +1.000                  -0.179            +0.033        -0.041               -0.010   +0.023
+                         :          zed_hadronic_recoil_m_T:  +0.246   +0.033   +0.040      +0.006      -0.006                    -0.255                    -0.485                     -0.116                     -0.422                       +0.003                           +0.750                          +0.096                          +0.160           -0.179                  +1.000            -0.671        +0.110               -0.004   -0.094
+                         :                zed_hadronic_pt_T:  -0.177   +0.001   -0.023      -0.003      +0.003                    +0.003                    +0.489                     -0.000                     +0.555                       -0.005                           -0.589                          -0.036                          -0.255           +0.033                  -0.671            +1.000        -0.084               -0.006   +0.285
+                         :                    missingET_e_T:  -0.283   -0.157   -0.046      +0.008      -0.008                    -0.033                    -0.051                     -0.030                     -0.069                       +0.003                           +0.093                          +0.033                          +0.020           -0.041                  +0.110            -0.084        +1.000               +0.002   -0.484
+                         :             missingET_costheta_T:  +0.007   -0.008   -0.015      +0.005      -0.005                    +0.007                    -0.004                     -0.002                     -0.012                       -0.125                           -0.010                          +0.008                          -0.003           -0.010                  -0.004            -0.006        +0.002               +1.000   -0.005
+                         :                         jet_HT_T:  +0.198   +0.126   +0.040      -0.002      +0.002                    -0.146                    +0.199                     +0.392                     +0.521                       +0.001                           -0.085                          -0.520                          +0.098           +0.023                  -0.094            +0.285        -0.484               -0.005   +1.000
+                         : ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DataSetInfo              : Correlation matrix (Background):
+                         : ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                                   jetNo_T bjetNo_T cjetNo_T zed_cjet1_T zed_cjet2_T zed_hadronic_subjets_E1_T zed_hadronic_subjets_E2_T zed_hadronic_subjets_pt1_T zed_hadronic_subjets_pt2_T zed_hadronic_subjets_acoll_T zed_hadronic_subjets_acollPaPb_T zed_hadronic_subjets_DeltaEta_T zed_hadronic_subjets_DeltaPhi_T zed_hadronic_m_T zed_hadronic_recoil_m_T zed_hadronic_pt_T missingET_e_T missingET_costheta_T jet_HT_T
+                         :                          jetNo_T:  +1.000   +0.061   +0.189      +0.006      -0.016                    -0.193                    -0.114                     -0.164                     +0.117                       +0.003                           +0.083                          -0.019                          -0.113           -0.146                  +0.342            +0.350        -0.582               -0.001   +0.551
+                         :                         bjetNo_T:  +0.061   +1.000   +0.036      +0.003      +0.025                    -0.017                    -0.036                     -0.013                     -0.021                       +0.005                           -0.005                          -0.017                          +0.017           -0.030                  +0.059            -0.020        -0.030               -0.002   +0.012
+                         :                         cjetNo_T:  +0.189   +0.036   +1.000      +0.323      +0.330                    -0.024                    -0.009                     -0.005                     +0.039                       -0.002                           +0.023                          -0.015                          -0.018           -0.004                  +0.056            +0.065        -0.135               +0.005   +0.133
+                         :                      zed_cjet1_T:  +0.006   +0.003   +0.323      +1.000      +0.169                    -0.012                    +0.026                     +0.024                     +0.009                       +0.003                           -0.009                          -0.025                          +0.003           +0.009                  -0.002            -0.005        -0.024               -0.004   +0.020
+                         :                      zed_cjet2_T:  -0.016   +0.025   +0.330      +0.169      +1.000                    +0.030                    -0.011                     +0.017                     +0.005                       +0.000                           -0.006                          -0.006                          +0.008           +0.012                  -0.012            -0.015        +0.009               -0.002   -0.001
+                         :        zed_hadronic_subjets_E1_T:  -0.193   -0.017   -0.024      -0.012      +0.030                    +1.000                    -0.371                     +0.575                     -0.029                       -0.001                           +0.002                          +0.076                          +0.018           +0.618                  -0.383            -0.306        -0.029               -0.005   +0.009
+                         :        zed_hadronic_subjets_E2_T:  -0.114   -0.036   -0.009      +0.026      -0.011                    -0.371                    +1.000                     +0.115                     +0.439                       -0.002                           +0.262                          +0.003                          +0.050           +0.357                  -0.541            +0.173        -0.093               +0.003   +0.229
+                         :       zed_hadronic_subjets_pt1_T:  -0.164   -0.013   -0.005      +0.024      +0.017                    +0.575                    +0.115                     +1.000                     +0.336                       -0.000                           +0.085                          -0.449                          +0.105           +0.687                  -0.383            -0.198        -0.073               -0.000   +0.334
+                         :       zed_hadronic_subjets_pt2_T:  +0.117   -0.021   +0.039      +0.009      +0.005                    -0.029                    +0.439                     +0.336                     +1.000                       +0.002                           +0.187                          -0.507                          +0.035           +0.353                  -0.226            +0.627        -0.370               -0.000   +0.763
+                         :     zed_hadronic_subjets_acoll_T:  +0.003   +0.005   -0.002      +0.003      +0.000                    -0.001                    -0.002                     -0.000                     +0.002                       +1.000                           -0.000                          -0.004                          +0.001           -0.001                  +0.005            +0.001        -0.002               -0.554   +0.002
+                         : zed_hadronic_subjets_acollPaPb_T:  +0.083   -0.005   +0.023      -0.009      -0.006                    +0.002                    +0.262                     +0.085                     +0.187                       -0.000                           +1.000                          +0.349                          +0.116           +0.536                  +0.129            -0.099        -0.291               -0.004   +0.136
+                         :  zed_hadronic_subjets_DeltaEta_T:  -0.019   -0.017   -0.015      -0.025      -0.006                    +0.076                    +0.003                     -0.449                     -0.507                       -0.004                           +0.349                          +1.000                          -0.185           +0.117                  -0.007            -0.167        -0.021               -0.001   -0.397
+                         :  zed_hadronic_subjets_DeltaPhi_T:  -0.113   +0.017   -0.018      +0.003      +0.008                    +0.018                    +0.050                     +0.105                     +0.035                       +0.001                           +0.116                          -0.185                          +1.000           +0.073                  -0.047            -0.289        +0.123               -0.003   -0.078
+                         :                 zed_hadronic_m_T:  -0.146   -0.030   -0.004      +0.009      +0.012                    +0.618                    +0.357                     +0.687                     +0.353                       -0.001                           +0.536                          +0.117                          +0.073           +1.000                  -0.487            -0.168        -0.235               -0.004   +0.268
+                         :          zed_hadronic_recoil_m_T:  +0.342   +0.059   +0.056      -0.002      -0.012                    -0.383                    -0.541                     -0.383                     -0.226                       +0.005                           +0.129                          -0.007                          -0.047           -0.487                  +1.000            +0.089        -0.075               -0.001   -0.070
+                         :                zed_hadronic_pt_T:  +0.350   -0.020   +0.065      -0.005      -0.015                    -0.306                    +0.173                     -0.198                     +0.627                       +0.001                           -0.099                          -0.167                          -0.289           -0.168                  +0.089            +1.000        -0.431               +0.005   +0.636
+                         :                    missingET_e_T:  -0.582   -0.030   -0.135      -0.024      +0.009                    -0.029                    -0.093                     -0.073                     -0.370                       -0.002                           -0.291                          -0.021                          +0.123           -0.235                  -0.075            -0.431        +1.000               +0.001   -0.685
+                         :             missingET_costheta_T:  -0.001   -0.002   +0.005      -0.004      -0.002                    -0.005                    +0.003                     -0.000                     -0.000                       -0.554                           -0.004                          -0.001                          -0.003           -0.004                  -0.001            +0.005        +0.001               +1.000   +0.002
+                         :                         jet_HT_T:  +0.551   +0.012   +0.133      +0.020      -0.001                    +0.009                    +0.229                     +0.334                     +0.763                       +0.002                           +0.136                          -0.397                          -0.078           +0.268                  -0.070            +0.636        -0.685               +0.002   +1.000
+                         : ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DataSetFactory           : [dataset] :  
+                         : 
+Factory                  : [1mTrain all methods[0m
+Factory                  : [dataset] : Create Transformation "I" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'jetNo_T' <---> Output : variable 'jetNo_T'
+                         : Input : variable 'bjetNo_T' <---> Output : variable 'bjetNo_T'
+                         : Input : variable 'cjetNo_T' <---> Output : variable 'cjetNo_T'
+                         : Input : variable 'zed_cjet1_T' <---> Output : variable 'zed_cjet1_T'
+                         : Input : variable 'zed_cjet2_T' <---> Output : variable 'zed_cjet2_T'
+                         : Input : variable 'zed_hadronic_subjets_E1_T' <---> Output : variable 'zed_hadronic_subjets_E1_T'
+                         : Input : variable 'zed_hadronic_subjets_E2_T' <---> Output : variable 'zed_hadronic_subjets_E2_T'
+                         : Input : variable 'zed_hadronic_subjets_pt1_T' <---> Output : variable 'zed_hadronic_subjets_pt1_T'
+                         : Input : variable 'zed_hadronic_subjets_pt2_T' <---> Output : variable 'zed_hadronic_subjets_pt2_T'
+                         : Input : variable 'zed_hadronic_subjets_acoll_T' <---> Output : variable 'zed_hadronic_subjets_acoll_T'
+                         : Input : variable 'zed_hadronic_subjets_acollPaPb_T' <---> Output : variable 'zed_hadronic_subjets_acollPaPb_T'
+                         : Input : variable 'zed_hadronic_subjets_DeltaEta_T' <---> Output : variable 'zed_hadronic_subjets_DeltaEta_T'
+                         : Input : variable 'zed_hadronic_subjets_DeltaPhi_T' <---> Output : variable 'zed_hadronic_subjets_DeltaPhi_T'
+                         : Input : variable 'zed_hadronic_m_T' <---> Output : variable 'zed_hadronic_m_T'
+                         : Input : variable 'zed_hadronic_recoil_m_T' <---> Output : variable 'zed_hadronic_recoil_m_T'
+                         : Input : variable 'zed_hadronic_pt_T' <---> Output : variable 'zed_hadronic_pt_T'
+                         : Input : variable 'missingET_e_T' <---> Output : variable 'missingET_e_T'
+                         : Input : variable 'missingET_costheta_T' <---> Output : variable 'missingET_costheta_T'
+                         : Input : variable 'jet_HT_T' <---> Output : variable 'jet_HT_T'
+Factory                  : [dataset] : Create Transformation "P" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'jetNo_T' <---> Output : variable 'jetNo_T'
+                         : Input : variable 'bjetNo_T' <---> Output : variable 'bjetNo_T'
+                         : Input : variable 'cjetNo_T' <---> Output : variable 'cjetNo_T'
+                         : Input : variable 'zed_cjet1_T' <---> Output : variable 'zed_cjet1_T'
+                         : Input : variable 'zed_cjet2_T' <---> Output : variable 'zed_cjet2_T'
+                         : Input : variable 'zed_hadronic_subjets_E1_T' <---> Output : variable 'zed_hadronic_subjets_E1_T'
+                         : Input : variable 'zed_hadronic_subjets_E2_T' <---> Output : variable 'zed_hadronic_subjets_E2_T'
+                         : Input : variable 'zed_hadronic_subjets_pt1_T' <---> Output : variable 'zed_hadronic_subjets_pt1_T'
+                         : Input : variable 'zed_hadronic_subjets_pt2_T' <---> Output : variable 'zed_hadronic_subjets_pt2_T'
+                         : Input : variable 'zed_hadronic_subjets_acoll_T' <---> Output : variable 'zed_hadronic_subjets_acoll_T'
+                         : Input : variable 'zed_hadronic_subjets_acollPaPb_T' <---> Output : variable 'zed_hadronic_subjets_acollPaPb_T'
+                         : Input : variable 'zed_hadronic_subjets_DeltaEta_T' <---> Output : variable 'zed_hadronic_subjets_DeltaEta_T'
+                         : Input : variable 'zed_hadronic_subjets_DeltaPhi_T' <---> Output : variable 'zed_hadronic_subjets_DeltaPhi_T'
+                         : Input : variable 'zed_hadronic_m_T' <---> Output : variable 'zed_hadronic_m_T'
+                         : Input : variable 'zed_hadronic_recoil_m_T' <---> Output : variable 'zed_hadronic_recoil_m_T'
+                         : Input : variable 'zed_hadronic_pt_T' <---> Output : variable 'zed_hadronic_pt_T'
+                         : Input : variable 'missingET_e_T' <---> Output : variable 'missingET_e_T'
+                         : Input : variable 'missingET_costheta_T' <---> Output : variable 'missingET_costheta_T'
+                         : Input : variable 'jet_HT_T' <---> Output : variable 'jet_HT_T'
+Factory                  : [dataset] : Create Transformation "G" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'jetNo_T' <---> Output : variable 'jetNo_T'
+                         : Input : variable 'bjetNo_T' <---> Output : variable 'bjetNo_T'
+                         : Input : variable 'cjetNo_T' <---> Output : variable 'cjetNo_T'
+                         : Input : variable 'zed_cjet1_T' <---> Output : variable 'zed_cjet1_T'
+                         : Input : variable 'zed_cjet2_T' <---> Output : variable 'zed_cjet2_T'
+                         : Input : variable 'zed_hadronic_subjets_E1_T' <---> Output : variable 'zed_hadronic_subjets_E1_T'
+                         : Input : variable 'zed_hadronic_subjets_E2_T' <---> Output : variable 'zed_hadronic_subjets_E2_T'
+                         : Input : variable 'zed_hadronic_subjets_pt1_T' <---> Output : variable 'zed_hadronic_subjets_pt1_T'
+                         : Input : variable 'zed_hadronic_subjets_pt2_T' <---> Output : variable 'zed_hadronic_subjets_pt2_T'
+                         : Input : variable 'zed_hadronic_subjets_acoll_T' <---> Output : variable 'zed_hadronic_subjets_acoll_T'
+                         : Input : variable 'zed_hadronic_subjets_acollPaPb_T' <---> Output : variable 'zed_hadronic_subjets_acollPaPb_T'
+                         : Input : variable 'zed_hadronic_subjets_DeltaEta_T' <---> Output : variable 'zed_hadronic_subjets_DeltaEta_T'
+                         : Input : variable 'zed_hadronic_subjets_DeltaPhi_T' <---> Output : variable 'zed_hadronic_subjets_DeltaPhi_T'
+                         : Input : variable 'zed_hadronic_m_T' <---> Output : variable 'zed_hadronic_m_T'
+                         : Input : variable 'zed_hadronic_recoil_m_T' <---> Output : variable 'zed_hadronic_recoil_m_T'
+                         : Input : variable 'zed_hadronic_pt_T' <---> Output : variable 'zed_hadronic_pt_T'
+                         : Input : variable 'missingET_e_T' <---> Output : variable 'missingET_e_T'
+                         : Input : variable 'missingET_costheta_T' <---> Output : variable 'missingET_costheta_T'
+                         : Input : variable 'jet_HT_T' <---> Output : variable 'jet_HT_T'
+TFHandler_Factory        :                         Variable                                Mean                                RMS                        [        Min                                Max ]
+                         : -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                          jetNo_T:                            3.5476                            1.2636   [                            2.0000                            10.000 ]
+                         :                         bjetNo_T:                           0.36731                           0.72101   [                            0.0000                            5.0000 ]
+                         :                         cjetNo_T:                           0.48103                           0.73126   [                            0.0000                            6.0000 ]
+                         :                      zed_cjet1_T:                           0.17446                           0.37951   [                            0.0000                            1.0000 ]
+                         :                      zed_cjet2_T:                           0.16816                           0.37401   [                            0.0000                            1.0000 ]
+                         :        zed_hadronic_subjets_E1_T:                            44.102                            22.938   [                            5.0969                            126.74 ]
+                         :        zed_hadronic_subjets_E2_T:                            72.080                            22.880   [                            5.4570                            127.76 ]
+                         :       zed_hadronic_subjets_pt1_T:                            28.062                            14.930   [                            5.0007                            120.58 ]
+                         :       zed_hadronic_subjets_pt2_T:                            50.559                            20.108   [                            5.0995                            125.78 ]
+                         :     zed_hadronic_subjets_acoll_T:                         0.0011989                           0.92977   [                           -2.6316                            2.6309 ]
+                         : zed_hadronic_subjets_acollPaPb_T:                            2.0710                           0.46175   [                           0.50175                            3.1416 ]
+                         :  zed_hadronic_subjets_DeltaEta_T:                            1.3854                           0.95387   [                        1.2160e-05                            6.4148 ]
+                         :  zed_hadronic_subjets_DeltaPhi_T:                            2.7570                            1.0310   [                        0.00017789                            6.2100 ]
+                         :                 zed_hadronic_m_T:                            88.822                            28.990   [                            6.5623                            248.67 ]
+                         :          zed_hadronic_recoil_m_T:                            94.632                            40.352   [                           -65.032                            227.13 ]
+                         :                zed_hadronic_pt_T:                            37.413                            25.349   [                          0.023782                            120.95 ]
+                         :                    missingET_e_T:                            37.431                            35.631   [                          0.026844                            126.21 ]
+                         :             missingET_costheta_T:                       -0.00025454                           0.75875   [                           -1.0000                            1.0000 ]
+                         :                         jet_HT_T:                            124.06                            50.347   [                            10.104                            243.67 ]
+                         : -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         : Preparing the Principle Component (PCA) transformation...
+TFHandler_Factory        :                         Variable                                Mean                                RMS                        [        Min                                Max ]
+                         : -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                          jetNo_T:                       -6.3876e-09                            62.096   [                           -156.11                            157.28 ]
+                         :                         bjetNo_T:                       -6.6048e-09                            47.851   [                           -192.37                            166.61 ]
+                         :                         cjetNo_T:                        3.2027e-10                            32.360   [                           -93.223                            146.93 ]
+                         :                      zed_cjet1_T:                       -3.4644e-09                            23.067   [                           -70.895                            102.74 ]
+                         :                      zed_cjet2_T:                       -5.4866e-11                            21.066   [                           -119.02                            70.328 ]
+                         :        zed_hadronic_subjets_E1_T:                        6.4121e-10                            16.417   [                           -57.233                            68.515 ]
+                         :        zed_hadronic_subjets_E2_T:                        5.1467e-10                            9.0842   [                           -42.888                            31.733 ]
+                         :       zed_hadronic_subjets_pt1_T:                       -1.3128e-10                            8.1196   [                           -36.886                            23.851 ]
+                         :       zed_hadronic_subjets_pt2_T:                       -4.2069e-10                            2.8815   [                           -19.510                            14.819 ]
+                         :     zed_hadronic_subjets_acoll_T:                       -3.8624e-11                            1.0554   [                           -2.7581                            2.7532 ]
+                         : zed_hadronic_subjets_acollPaPb_T:                        1.0608e-10                           0.92499   [                           -2.9927                            4.9188 ]
+                         :  zed_hadronic_subjets_DeltaEta_T:                       -8.0149e-11                           0.77727   [                           -5.1012                            3.2842 ]
+                         :  zed_hadronic_subjets_DeltaPhi_T:                        3.9371e-11                           0.71473   [                           -2.4596                            4.0088 ]
+                         :                 zed_hadronic_m_T:                       -3.5565e-11                           0.66969   [                           -4.0715                            3.4656 ]
+                         :          zed_hadronic_recoil_m_T:                        4.3955e-11                           0.57111   [                           -2.1870                            2.1924 ]
+                         :                zed_hadronic_pt_T:                        2.9635e-11                           0.38164   [                           -1.3385                            1.5896 ]
+                         :                    missingET_e_T:                        4.1927e-11                           0.37315   [                           -2.4735                            1.9341 ]
+                         :             missingET_costheta_T:                       -4.4260e-11                           0.31151   [                           -1.3564                            1.3100 ]
+                         :                         jet_HT_T:                        5.1186e-12                           0.19946   [                           -1.0229                            1.1259 ]
+                         : -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         : Preparing the Gaussian transformation...
+<WARNING>                : Variable "zed_hadronic_subjets_ctag[0]" has zero, negative, or NaN RMS^2: -nan ==> set to zero. Please check the variable content
+<WARNING>                : Variable "zed_hadronic_subjets_ctag[0]" has zero, negative, or NaN RMS^2: -nan ==> set to zero. Please check the variable content
+<WARNING>                : Variable "zed_hadronic_subjets_ctag[1]" has zero, negative, or NaN RMS^2: -nan ==> set to zero. Please check the variable content
+<WARNING>                : Variable "zed_hadronic_subjets_ctag[1]" has zero, negative, or NaN RMS^2: -nan ==> set to zero. Please check the variable content
+TFHandler_Factory        :                         Variable                                Mean                                RMS                        [        Min                                Max ]
+                         : -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                          jetNo_T:                           0.20348                           0.83471   [                          -0.94480                            5.7307 ]
+                         :                         bjetNo_T:                          -0.39683                           0.64822   [                          -0.73775                            5.7307 ]
+                         :                         cjetNo_T:                         0.0059623                           0.75314   [                          -0.50751                            5.7307 ]
+                         :                      zed_cjet1_T:                           -5.7307                        5.2276e-06   [                           -5.7307                           -5.7307 ]
+                         :                      zed_cjet2_T:                           -5.7307                        5.2276e-06   [                           -5.7307                           -5.7307 ]
+                         :        zed_hadronic_subjets_E1_T:                         0.0033829                           0.99736   [                           -3.3019                            5.7307 ]
+                         :        zed_hadronic_subjets_E2_T:                         0.0035573                           0.99804   [                           -3.3019                            5.7307 ]
+                         :       zed_hadronic_subjets_pt1_T:                         0.0035375                           0.99819   [                           -3.3001                            5.7307 ]
+                         :       zed_hadronic_subjets_pt2_T:                         0.0034182                           0.99748   [                           -3.3019                            5.7307 ]
+                         :     zed_hadronic_subjets_acoll_T:                         0.0037696                           0.99920   [                           -3.3018                            5.7307 ]
+                         : zed_hadronic_subjets_acollPaPb_T:                         0.0037297                           0.99894   [                           -3.3012                            5.7307 ]
+                         :  zed_hadronic_subjets_DeltaEta_T:                         0.0034808                           0.99804   [                           -3.2515                            5.7307 ]
+                         :  zed_hadronic_subjets_DeltaPhi_T:                         0.0036425                           0.99866   [                           -3.2984                            5.7307 ]
+                         :                 zed_hadronic_m_T:                         0.0036094                           0.99825   [                           -3.3019                            5.7307 ]
+                         :          zed_hadronic_recoil_m_T:                         0.0037304                           0.99865   [                           -3.3019                            5.7307 ]
+                         :                zed_hadronic_pt_T:                         0.0034296                           0.99755   [                           -3.3017                            5.7307 ]
+                         :                    missingET_e_T:                         0.0033917                           0.99730   [                           -3.3018                            5.7307 ]
+                         :             missingET_costheta_T:                         -0.014974                           0.99346   [                           -3.1189                            2.0027 ]
+                         :                         jet_HT_T:                         0.0035680                           0.99815   [                           -3.3019                            5.7307 ]
+                         : -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         : Ranking input variables (method unspecific)...
+IdTransformation         : Ranking result (top variable is best ranked)
+                         : ---------------------------------------------------------
+                         : Rank : Variable                         : Separation
+                         : ---------------------------------------------------------
+                         :    1 : zed_hadronic_m_T                 : 4.256e-01
+                         :    2 : jetNo_T                          : 3.960e-01
+                         :    3 : zed_hadronic_recoil_m_T          : 3.444e-01
+                         :    4 : jet_HT_T                         : 2.670e-01
+                         :    5 : zed_hadronic_subjets_E2_T        : 2.534e-01
+                         :    6 : missingET_e_T                    : 2.264e-01
+                         :    7 : cjetNo_T                         : 2.199e-01
+                         :    8 : zed_hadronic_subjets_E1_T        : 2.084e-01
+                         :    9 : zed_cjet2_T                      : 1.890e-01
+                         :   10 : zed_hadronic_subjets_acollPaPb_T : 1.669e-01
+                         :   11 : zed_cjet1_T                      : 1.564e-01
+                         :   12 : zed_hadronic_pt_T                : 1.432e-01
+                         :   13 : zed_hadronic_subjets_acoll_T     : 1.355e-01
+                         :   14 : missingET_costheta_T             : 1.139e-01
+                         :   15 : zed_hadronic_subjets_pt2_T       : 8.991e-02
+                         :   16 : bjetNo_T                         : 8.809e-02
+                         :   17 : zed_hadronic_subjets_DeltaPhi_T  : 5.794e-02
+                         :   18 : zed_hadronic_subjets_pt1_T       : 4.247e-02
+                         :   19 : zed_hadronic_subjets_DeltaEta_T  : 3.423e-03
+                         : ---------------------------------------------------------
+Factory                  : Train method: BDT for Classification
+                         : 
+BDT                      : #events: (reweighted) sig: 70000 bkg: 70000
+                         : #events: (unweighted) sig: 20000 bkg: 120000
+                         : Training 800 Decision Trees ... patience please
+                         : Elapsed time for training with 140000 events: 63.8 sec         
+BDT                      : [dataset] : Evaluation of BDT on training sample (140000 events)
+                         : Elapsed time for evaluation of 140000 events: 4.68 sec       
+                         : Creating xml weight file: [0;36mdataset/weights/TMVAClassification_BDT.weights.xml[0m
+                         : Creating standalone class: [0;36mdataset/weights/TMVAClassification_BDT.class.C[0m
+                         : /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/source/240/categories/ZqqH/TMVA/cjH/output/TMVAClassification.root:/dataset/Method_BDT/BDT
+Factory                  : Training finished
+                         : 
+                         : Ranking input variables (method specific)...
+BDT                      : Ranking result (top variable is best ranked)
+                         : ------------------------------------------------------------------
+                         : Rank : Variable                         : Variable Importance
+                         : ------------------------------------------------------------------
+                         :    1 : zed_hadronic_m_T                 : 2.186e-01
+                         :    2 : zed_cjet1_T                      : 1.304e-01
+                         :    3 : zed_cjet2_T                      : 1.280e-01
+                         :    4 : jetNo_T                          : 1.139e-01
+                         :    5 : zed_hadronic_recoil_m_T          : 6.735e-02
+                         :    6 : missingET_e_T                    : 5.823e-02
+                         :    7 : missingET_costheta_T             : 4.136e-02
+                         :    8 : cjetNo_T                         : 4.116e-02
+                         :    9 : bjetNo_T                         : 3.668e-02
+                         :   10 : zed_hadronic_subjets_E2_T        : 3.621e-02
+                         :   11 : zed_hadronic_subjets_E1_T        : 3.096e-02
+                         :   12 : zed_hadronic_pt_T                : 2.450e-02
+                         :   13 : zed_hadronic_subjets_acollPaPb_T : 2.364e-02
+                         :   14 : jet_HT_T                         : 1.681e-02
+                         :   15 : zed_hadronic_subjets_pt2_T       : 1.542e-02
+                         :   16 : zed_hadronic_subjets_pt1_T       : 7.399e-03
+                         :   17 : zed_hadronic_subjets_acoll_T     : 4.143e-03
+                         :   18 : zed_hadronic_subjets_DeltaPhi_T  : 2.866e-03
+                         :   19 : zed_hadronic_subjets_DeltaEta_T  : 2.444e-03
+                         : ------------------------------------------------------------------
+Factory                  : === Destroy and recreate all methods via weight files for testing ===
+                         : 
+                         : Reading weight file: [0;36mdataset/weights/TMVAClassification_BDT.weights.xml[0m
+Factory                  : [1mTest all methods[0m
+Factory                  : Test method: BDT for Classification performance
+                         : 
+BDT                      : [dataset] : Evaluation of BDT on testing sample (28038712 events)
+                         : Elapsed time for evaluation of 28038712 events: 2.16e+03 sec       
+Factory                  : [1mEvaluate all methods[0m
+Factory                  : Evaluate classifier: BDT
+                         : 
+BDT                      : [dataset] : Loop over test events and fill histograms with classifier response...
+                         : 
+TFHandler_BDT            :                         Variable                                Mean                                RMS                        [        Min                                Max ]
+                         : -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                          jetNo_T:                            3.3396                            1.1589   [                            2.0000                            11.000 ]
+                         :                         bjetNo_T:                           0.30388                           0.65374   [                            0.0000                            6.0000 ]
+                         :                         cjetNo_T:                           0.37963                           0.63742   [                            0.0000                            6.0000 ]
+                         :                      zed_cjet1_T:                           0.12814                           0.33425   [                            0.0000                            1.0000 ]
+                         :                      zed_cjet2_T:                           0.11771                           0.32227   [                            0.0000                            1.0000 ]
+                         :        zed_hadronic_subjets_E1_T:                            44.272                            24.276   [                            5.0009                            129.49 ]
+                         :        zed_hadronic_subjets_E2_T:                            73.606                            23.696   [                            5.0869                            133.30 ]
+                         :       zed_hadronic_subjets_pt1_T:                            27.960                            15.532   [                            5.0000                            125.12 ]
+                         :       zed_hadronic_subjets_pt2_T:                            50.498                            20.944   [                            5.0124                            130.98 ]
+                         :     zed_hadronic_subjets_acoll_T:                        0.00084202                           0.96893   [                           -2.6527                            2.6486 ]
+                         : zed_hadronic_subjets_acollPaPb_T:                            2.0405                           0.47173   [                           0.46046                            3.1416 ]
+                         :  zed_hadronic_subjets_DeltaEta_T:                            1.3918                           0.95833   [                        5.0633e-08                            7.5559 ]
+                         :  zed_hadronic_subjets_DeltaPhi_T:                            2.7563                            1.0305   [                        4.2304e-07                            6.2810 ]
+                         :                 zed_hadronic_m_T:                            88.647                            31.198   [                            3.7338                            255.50 ]
+                         :          zed_hadronic_recoil_m_T:                            90.458                            41.128   [                           -76.688                            229.32 ]
+                         :                zed_hadronic_pt_T:                            36.985                            26.311   [                        0.00063975                            125.99 ]
+                         :                    missingET_e_T:                            41.013                            36.459   [                         0.0047793                            128.95 ]
+                         :             missingET_costheta_T:                        -0.0015708                           0.77597   [                           -1.0000                            1.0000 ]
+                         :                         jet_HT_T:                            118.63                            50.495   [                            10.014                            252.88 ]
+                         : -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : dataset       BDT            : 0.994
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : dataset              BDT            : 0.795 (0.804)       1.000 (1.000)      1.000 (1.000)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+Dataset:dataset          : Created tree 'TestTree' with 28038712 events
+                         : 
+Dataset:dataset          : Created tree 'TrainTree' with 140000 events
+                         : 
+Factory                  : [1mThank you for using TMVA![0m
+                         : [1mFor citation information, please visit: http://tmva.sf.net/citeTMVA.html[0m
+==> Wrote root file: /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/source/240/categories/ZqqH/TMVA/cjH/output/TMVAClassification.root
+==> TMVAClassification is done!
+(int) 0
+root [1] --- Opening root file TMVAClassification.root in read mode
+Info in <TCanvas::Print>: file dataset/plots/variables_id_c1.png has been created
+Info in <TCanvas::Print>: file dataset/plots/variables_id_c2.png has been created
+Info in <TCanvas::Print>: file dataset/plots/variables_id_c3.png has been created
+Info in <TCanvas::Print>: file dataset/plots/variables_id_c4.png has been created
+--- Found 1 classifier types
+--- Found 1 instance(s) of the method Method_BDT
+--- Found 1 classifier types
+--- Found 1 instance(s) of the method Method_BDT
+Info in <TCanvas::Print>: file dataset/plots/rejBvsS.png has been created
+--- Found directory for method: BDT::BDT containing MVA_BDT_S/_B
+--- Mean and RMS (S): 0.324139, 0.0998375
+--- Mean and RMS (B): -0.731104, 0.288193
+--- Found comparison histograms for overtraining check
+--- Perform Kolmogorov-Smirnov tests
+--- Goodness of signal (background) consistency: 0.15 (0.01)
+Info in <TCanvas::Print>: file dataset/plots/overtrain_BDT.png has been created
+--- Found directory: Method_BDT
+--- Classifier: BDT
+--- ==================================================================================================
+--- Classifier   (  #signal, #backgr.)  Optimal-cut  S/sqrt(S+B)      NSig      NBkg   EffSig   EffBkg
+--- --------------------------------------------------------------------------------------------------
+---        BDT:  (     1000,     1000)      -0.0124      31.0263  996.1784  34.71526   0.9962  0.03472
+--- --------------------------------------------------------------------------------------------------
+
+Info in <TCanvas::Print>: file dataset/plots/mvaeffs_BDT.png has been created
+--- ==================================================================================================
+--- Classifier   (  #signal, #backgr.)  Optimal-cut  S/sqrt(S+B)      NSig      NBkg   EffSig   EffBkg
+--- --------------------------------------------------------------------------------------------------
+---        BDT:  (    28694,  9305606)       0.3074      70.4422  17981.95   47182.1   0.6267  0.00507
+--- --------------------------------------------------------------------------------------------------
+
+Info in <TCanvas::Print>: file ./canvas1.png has been created

@@ -1,0 +1,78 @@
+000 (7136846.000.000) 05/09 19:12:05 Job submitted from host: <137.138.120.116:9618?addrs=137.138.120.116-9618+[2001-1458-d00-16--17b]-9618&alias=bigbird12.cern.ch&noUDP&sock=schedd_2298_d0b9>
+...
+000 (7136852.000.000) 05/09 20:31:22 Job submitted from host: <137.138.120.116:9618?addrs=137.138.120.116-9618+[2001-1458-d00-16--17b]-9618&alias=bigbird12.cern.ch&noUDP&sock=schedd_2298_d0b9>
+...
+000 (7136853.000.000) 05/09 20:31:37 Job submitted from host: <137.138.120.116:9618?addrs=137.138.120.116-9618+[2001-1458-d00-16--17b]-9618&alias=bigbird12.cern.ch&noUDP&sock=schedd_2298_d0b9>
+...
+009 (7136852.000.000) 05/09 20:42:00 Job was aborted.
+	via condor_rm (by user niharrin)
+...
+009 (7136853.000.000) 05/09 20:42:00 Job was aborted.
+	via condor_rm (by user niharrin)
+...
+000 (7136854.000.000) 05/09 20:42:12 Job submitted from host: <137.138.120.116:9618?addrs=137.138.120.116-9618+[2001-1458-d00-16--17b]-9618&alias=bigbird12.cern.ch&noUDP&sock=schedd_2298_d0b9>
+...
+040 (7136846.000.000) 05/10 13:33:38 Started transferring input files
+	Transferring to host: <188.184.164.70:9618?addrs=188.184.164.70-9618+[2001-1458-301-4e--100-40]-9618&alias=b7s13p7863.cern.ch&noUDP&sock=slot1_12_3600_468b_23816>
+...
+040 (7136846.000.000) 05/10 13:33:39 Finished transferring input files
+...
+001 (7136846.000.000) 05/10 13:33:40 Job executing on host: <188.184.164.70:9618?addrs=188.184.164.70-9618+[2001-1458-301-4e--100-40]-9618&alias=b7s13p7863.cern.ch&noUDP&sock=startd_3225_a904>
+...
+006 (7136846.000.000) 05/10 13:33:46 Image size of job updated: 126248
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (7136846.000.000) 05/10 13:33:46 Started transferring output files
+...
+040 (7136846.000.000) 05/10 13:33:46 Finished transferring output files
+...
+005 (7136846.000.000) 05/10 13:33:46 Job terminated.
+	(1) Normal termination (return value 2)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	777  -  Run Bytes Sent By Job
+	321  -  Run Bytes Received By Job
+	777  -  Total Bytes Sent By Job
+	321  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 8         8 
+	   Disk (KB)            :       17        1   3095667 
+	   Memory (MB)          :        0    16000     16000 
+
+	Job terminated of its own accord at 2022-05-10T11:33:46Z.
+...
+040 (7136854.000.000) 05/10 13:49:37 Started transferring input files
+	Transferring to host: <188.184.164.70:9618?addrs=188.184.164.70-9618+[2001-1458-301-4e--100-40]-9618&alias=b7s13p7863.cern.ch&noUDP&sock=slot1_12_3600_468b_23825>
+...
+040 (7136854.000.000) 05/10 13:49:37 Finished transferring input files
+...
+001 (7136854.000.000) 05/10 13:49:38 Job executing on host: <188.184.164.70:9618?addrs=188.184.164.70-9618+[2001-1458-301-4e--100-40]-9618&alias=b7s13p7863.cern.ch&noUDP&sock=startd_3225_a904>
+...
+006 (7136854.000.000) 05/10 13:49:41 Image size of job updated: 896
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (7136854.000.000) 05/10 13:49:41 Started transferring output files
+...
+040 (7136854.000.000) 05/10 13:49:41 Finished transferring output files
+...
+005 (7136854.000.000) 05/10 13:49:42 Job terminated.
+	(1) Normal termination (return value 2)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	777  -  Run Bytes Sent By Job
+	321  -  Run Bytes Received By Job
+	777  -  Total Bytes Sent By Job
+	321  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 8         8 
+	   Disk (KB)            :       18        1   3099938 
+	   Memory (MB)          :        0    16000     16000 
+
+	Job terminated of its own accord at 2022-05-10T11:49:41Z.
+...

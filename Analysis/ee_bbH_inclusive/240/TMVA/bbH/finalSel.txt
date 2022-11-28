@@ -1,0 +1,49 @@
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel_10/wzp6_ee_qqH_ecm240.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel_10/p8_ee_Zqq_ecm240.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel_10/p8_ee_WW_ecm240.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel_10/p8_ee_ZZ_ecm240.root
+
+   running over process : wzp6_ee_qqH_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1000000
+       After selection selZbbFinal       : 48790
+       After selection selZbbFinal_noBDT : 56306
+     Saving outputs
+
+   running over process : p8_ee_Zqq_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1100000
+       After selection selZbbFinal       : 83
+       After selection selZbbFinal_noBDT : 1200
+     Saving outputs
+
+   running over process : p8_ee_WW_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1100000
+       After selection selZbbFinal       : 0
+       After selection selZbbFinal_noBDT : 0
+     Saving outputs
+
+   running over process : p8_ee_ZZ_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1100000
+       After selection selZbbFinal       : 2749
+       After selection selZbbFinal_noBDT : 10623
+     Saving outputs
+==============================SUMMARY==============================
+Elapsed time (H:M:S)     :  00:03:19
+Events Processed/Second  :  21597
+Total Events Processed   :  4300000
+===================================================================

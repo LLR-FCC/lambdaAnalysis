@@ -1,0 +1,7 @@
+/afs/cern.ch/user/n/niharrin/work/public/MA/FCCeePhysicsPerformance/case-studies/higgs/dataframe/install/lib/libFCCAnalysesHiggs.so
+/afs/cern.ch/user/n/niharrin/work/public/MA/FCCeePhysicsPerformance/case-studies/higgs/dataframe/install/include/FCCAnalysesHiggs/APCHiggsTools.h
+/afs/cern.ch/user/n/niharrin/work/public/MA/FCCeePhysicsPerformance/case-studies/higgs/dataframe/install/include/FCCAnalysesHiggs/LLRHiggsTools.h
+/afs/cern.ch/user/n/niharrin/work/public/MA/FCCeePhysicsPerformance/case-studies/higgs/dataframe/install/include/FCCAnalysesHiggs/LinkDef.h
+/afs/cern.ch/user/n/niharrin/work/public/MA/FCCeePhysicsPerformance/case-studies/higgs/dataframe/install/include/FCCAnalysesHiggs/dummyLoaderHiggs.h
+/afs/cern.ch/user/n/niharrin/work/public/MA/FCCeePhysicsPerformance/case-studies/higgs/dataframe/install/lib/libFCCAnalysesHiggs.rootmap
+/afs/cern.ch/user/n/niharrin/work/public/MA/FCCeePhysicsPerformance/case-studies/higgs/dataframe/install/lib/libFCCAnalysesHiggs_rdict.pcm

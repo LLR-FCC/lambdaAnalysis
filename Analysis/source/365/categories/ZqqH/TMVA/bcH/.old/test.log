@@ -1,0 +1,47 @@
+000 (7056142.000.000) 04/12 18:01:13 Job submitted from host: <137.138.120.116:9618?addrs=137.138.120.116-9618+[2001-1458-d00-16--17b]-9618&alias=bigbird12.cern.ch&noUDP&sock=schedd_1884_d884>
+...
+040 (7056142.000.000) 04/12 18:05:05 Started transferring input files
+	Transferring to host: <188.184.195.229:9618?addrs=188.184.195.229-9618+[2001-1458-301-72--100-6a]-9618&alias=b7g47n9785.cern.ch&noUDP&sock=slot1_1_7357_6c04_113357>
+...
+040 (7056142.000.000) 04/12 18:05:05 Finished transferring input files
+...
+001 (7056142.000.000) 04/12 18:05:06 Job executing on host: <188.184.195.229:9618?addrs=188.184.195.229-9618+[2001-1458-301-72--100-6a]-9618&alias=b7g47n9785.cern.ch&noUDP&sock=startd_6780_1833>
+...
+006 (7056142.000.000) 04/12 18:05:15 Image size of job updated: 19360
+	2  -  MemoryUsage of job (MB)
+	1244  -  ResidentSetSize of job (KB)
+...
+006 (7056142.000.000) 04/12 18:10:16 Image size of job updated: 1612172
+	1108  -  MemoryUsage of job (MB)
+	1134052  -  ResidentSetSize of job (KB)
+...
+006 (7056142.000.000) 04/12 18:15:17 Image size of job updated: 2678396
+	2113  -  MemoryUsage of job (MB)
+	2162868  -  ResidentSetSize of job (KB)
+...
+006 (7056142.000.000) 04/12 18:19:56 Image size of job updated: 2720224
+	2113  -  MemoryUsage of job (MB)
+	2162868  -  ResidentSetSize of job (KB)
+...
+040 (7056142.000.000) 04/12 18:19:56 Started transferring output files
+...
+040 (7056142.000.000) 04/12 18:19:57 Finished transferring output files
+...
+005 (7056142.000.000) 04/12 18:19:57 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:09:45, Sys 0 00:00:27  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:09:45, Sys 0 00:00:27  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	51438  -  Run Bytes Sent By Job
+	330  -  Run Bytes Received By Job
+	51438  -  Total Bytes Sent By Job
+	330  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.49        1         1 
+	   Disk (KB)            :    84           1    173792 
+	   Gpus (Average)       :                 1         1 "CUDA0"
+	   Memory (MB)          :  2113        2000      2000 
+
+	Job terminated of its own accord at 2022-04-12T16:19:56Z.
+...

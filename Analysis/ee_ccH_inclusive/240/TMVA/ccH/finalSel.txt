@@ -1,0 +1,74 @@
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel_10/wzp6_ee_qqH_ecm240.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel_10/p8_ee_Zqq_ecm240.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel_10/p8_ee_WW_ecm240.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_bbH_inclusive/240/presel_10/p8_ee_ZZ_ecm240.root
+
+   running over process : wzp6_ee_qqH_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1000000
+       After selection selZccFinal_noBDT : 12352
+       After selection selZccFinal       : 11458
+       After selection selZccFinal2      : 10557
+       After selection selZccFinal3      : 9728
+       After selection selZccFinal4      : 9635
+       After selection selZccFinal5      : 9016
+       After selection selZccFinal6      : 6784
+       After selection selZccFinal7      : 5414
+       After selection selZccFinal_op    : 7818
+     Saving outputs
+
+   running over process : p8_ee_Zqq_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1100000
+       After selection selZccFinal_noBDT : 910
+       After selection selZccFinal       : 68
+       After selection selZccFinal2      : 53
+       After selection selZccFinal3      : 47
+       After selection selZccFinal4      : 47
+       After selection selZccFinal5      : 33
+       After selection selZccFinal6      : 24
+       After selection selZccFinal7      : 8
+       After selection selZccFinal_op    : 9
+     Saving outputs
+
+   running over process : p8_ee_WW_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1100000
+       After selection selZccFinal_noBDT : 1376
+       After selection selZccFinal       : 778
+       After selection selZccFinal2      : 742
+       After selection selZccFinal3      : 684
+       After selection selZccFinal4      : 674
+       After selection selZccFinal5      : 648
+       After selection selZccFinal6      : 327
+       After selection selZccFinal7      : 102
+       After selection selZccFinal_op    : 81
+     Saving outputs
+
+   running over process : p8_ee_ZZ_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                        : 1100000
+       After selection selZccFinal_noBDT : 6720
+       After selection selZccFinal       : 1291
+       After selection selZccFinal2      : 1159
+       After selection selZccFinal3      : 923
+       After selection selZccFinal4      : 914
+       After selection selZccFinal5      : 855
+       After selection selZccFinal6      : 584
+       After selection selZccFinal7      : 200
+       After selection selZccFinal_op    : 276
+     Saving outputs
+==============================SUMMARY==============================
+Elapsed time (H:M:S)     :  00:03:12

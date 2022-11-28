@@ -1,0 +1,148 @@
+Warning in <TInterpreter::ReadRootmapFile>: class  edm4hep::ObjectID found in libedm4hepDict.so  is already in libedm4drDict.so 
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class RooCrystalBall read from file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/Fits/240/mumuH/ZmumuH240_muZH.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(RooCrystalBall,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'RooCrystalBall' differs from 
+the in-memory layout version 1:
+   RooTemplateProxy<RooAbsReal> alphaR_; //
+vs
+   unique_ptr<RooTemplateProxy<RooAbsReal>,default_delete<RooTemplateProxy<RooAbsReal> > > alphaR_; //
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'RooCrystalBall' differs from 
+the in-memory layout version 1:
+   RooTemplateProxy<RooAbsReal> nR_; //
+vs
+   unique_ptr<RooTemplateProxy<RooAbsReal>,default_delete<RooTemplateProxy<RooAbsReal> > > nR_; //
+Error in <TClass::RegisterStreamerInfo>: Register StreamerInfo for RooCrystalBall on non-empty slot (1).
+cling::DynamicLibraryManager::loadLibrary(): libfastjet.so.0: cannot open shared object file: No such file or directory
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libFCCAnalyses.so for vector<vector<int> >
+cling::DynamicLibraryManager::loadLibrary(): libfastjet.so.0: cannot open shared object file: No such file or directory
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libFCCAnalyses.so for vector<vector<int> >
+cling::DynamicLibraryManager::loadLibrary(): libfastjet.so.0: cannot open shared object file: No such file or directory
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libFCCAnalyses.so for vector<vector<int> >
+cling::DynamicLibraryManager::loadLibrary(): libfastjet.so.0: cannot open shared object file: No such file or directory
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libFCCAnalyses.so for vector<vector<int> >
+cling::DynamicLibraryManager::loadLibrary(): libfastjet.so.0: cannot open shared object file: No such file or directory
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libFCCAnalyses.so for vector<vector<int> >
+cling::DynamicLibraryManager::loadLibrary(): libfastjet.so.0: cannot open shared object file: No such file or directory
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libFCCAnalyses.so for vector<vector<int> >
+Info in <Minuit2>: MnSeedGenerator Initial state: FCN =      -33.05743582 Edm =       33899.34223 NCalls =     79
+Info in <Minuit2>: MnSeedGenerator Negative G2 found - new state: 
+  Minimum value : -1495.562991
+  Edm           : 13023.53365
+  Internal parameters:
+     -1.234210573
+     -1.234210573
+     -1.391491636
+     -1.391491636
+    -0.6849742386
+    -0.6849742386
+      0.118163377
+    0.06194047408
+    -0.6435011088
+    -0.4615945699
+                0
+                0
+                0
+     0.2013579208
+     0.2013579208
+                0
+    -0.6987832295
+    -0.6987832295
+     0.1039477454
+    -0.6987832295
+  Internal gradient  :
+     -1195.872019
+     -332.0406081
+     -25.09352357
+     -95.06576821
+     -1406.836037
+     -464.9810588
+     -26.86604209
+     -116.6235594
+     -1044.370039
+         228.2543
+       -1606.8092
+      5092.712147
+     -10691.49294
+      1192.906171
+      709.4778236
+      1678.793303
+     -3148.371751
+     -3810.391663
+      112.2345634
+      6413.031751
+  Internal covariance matrix:
+   0.0001810644              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0
+              0   0.0010203517              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0
+              0              0     0.01174036              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0
+              0              0              0   0.0034481832              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0
+              0              0              0              0  0.00043867637              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0
+              0              0              0              0              0   0.0023723248              0              0              0              0              0              0              0              0              0              0              0              0              0              0
+              0              0              0              0              0              0    0.010205808              0              0              0              0              0              0              0              0              0              0              0              0              0
+              0              0              0              0              0              0              0   0.0022692351              0              0              0              0              0              0              0              0              0              0              0              0
+              0              0              0              0              0              0              0              0   0.0035527054              0              0              0              0              0              0              0              0              0              0              0
+              0              0              0              0              0              0              0              0              0     0.01106363              0              0              0              0              0              0              0              0              0              0
+              0              0              0              0              0              0              0              0              0              0  0.00047651156              0              0              0              0              0              0              0              0              0
+              0              0              0              0              0              0              0              0              0              0              0  0.00027104423              0              0              0              0              0              0              0              0
+              0              0              0              0              0              0              0              0              0              0              0              0   1.228502e-05              0              0              0              0              0              0              0
+              0              0              0              0              0              0              0              0              0              0              0              0              0   0.0016096096              0              0              0              0              0              0
+              0              0              0              0              0              0              0              0              0              0              0              0              0              0   0.0038946906              0              0              0              0              0
+              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0   0.0004844778              0              0              0              0
+              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0  0.00023534643              0              0              0
+              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0  0.00064999041              0              0
+              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0  0.00070770607              0
+              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0              0  0.00045599644
+Info in <Minuit2>: VariableMetricBuilder Start iterating until Edm is < 0.001 with call limit = 10000
+Info in <Minuit2>: VariableMetricBuilder    0 - FCN =      -1495.562991 Edm =       13023.53365 NCalls =    405
+Info in <Minuit2>: VariableMetricBuilder    1 - FCN =      -4423.179137 Edm =       1974.693304 NCalls =    485
+Info in <Minuit2>: VariableMetricBuilder    2 - FCN =      -4586.249718 Edm =       865.5702731 NCalls =    545
+Info in <Minuit2>: VariableMetricBuilder    3 - FCN =      -4884.836144 Edm =       22.51421954 NCalls =    605
+Info in <Minuit2>: VariableMetricBuilder    4 - FCN =      -5069.160998 Edm =       291.4504963 NCalls =    667
+Info in <Minuit2>: VariableMetricBuilder    5 - FCN =      -5084.463062 Edm =       13.30808978 NCalls =    717
+Info in <Minuit2>: VariableMetricBuilder    6 - FCN =      -5197.823671 Edm =       126.6063651 NCalls =    783
+Info in <Minuit2>: VariableMetricBuilder    7 - FCN =      -5349.648409 Edm =       211.9569655 NCalls =    851
+Info in <Minuit2>: VariableMetricBuilder    8 - FCN =      -5675.173962 Edm =       55.49911888 NCalls =    912
+Info in <Minuit2>: VariableMetricBuilder    9 - FCN =      -5761.037691 Edm =       15.07540059 NCalls =    965
+Info in <Minuit2>: VariableMetricBuilder   10 - FCN =      -5794.138998 Edm =       13.46234113 NCalls =   1018
+Info in <Minuit2>: VariableMetricBuilder   11 - FCN =      -5842.961595 Edm =       15.16656215 NCalls =   1070
+Info in <Minuit2>: VariableMetricBuilder   12 - FCN =      -5855.922164 Edm =       12.17663865 NCalls =   1116
+Info in <Minuit2>: VariableMetricBuilder   13 - FCN =      -5867.275372 Edm =       2.179497447 NCalls =   1164
+Info in <Minuit2>: VariableMetricBuilder   14 - FCN =      -5870.153599 Edm =        2.30829445 NCalls =   1207
+Info in <Minuit2>: VariableMetricBuilder   15 - FCN =      -5874.035844 Edm =      0.7566431911 NCalls =   1255
+Info in <Minuit2>: VariableMetricBuilder   16 - FCN =      -5875.079894 Edm =      0.3401058964 NCalls =   1299
+Info in <Minuit2>: VariableMetricBuilder   17 - FCN =      -5876.276468 Edm =       0.619012103 NCalls =   1345
+Info in <Minuit2>: VariableMetricBuilder   18 - FCN =      -5877.569068 Edm =      0.1246274307 NCalls =   1389
+Info in <Minuit2>: VariableMetricBuilder   19 - FCN =      -5877.657918 Edm =    0.003034070878 NCalls =   1433
+Info in <Minuit2>: VariableMetricBuilder   20 - FCN =      -5877.661556 Edm =      0.0010326001 NCalls =   1475
+Info in <Minuit2>: VariableMetricBuilder   21 - FCN =      -5877.667071 Edm =     0.00108487965 NCalls =   1518
+Info in <Minuit2>: VariableMetricBuilder   22 - FCN =      -5877.668553 Edm =   0.0004042992892 NCalls =   1560
+Warning in <Minuit2>: MnPosDef non-positive diagonal element in covariance matrix[ 2 ] = -0.000590398
+Warning in <Minuit2>: MnPosDef Added to diagonal of Error matrix a value 0.500591
+Warning in <Minuit2>: MnPosDef Matrix forced pos-def by adding to diagonal 0.120836
+Info in <Minuit2>: VariableMetricBuilder After Hessian
+Info in <Minuit2>: VariableMetricBuilder   23 - FCN =      -5877.668553 Edm =      0.1328829826 NCalls =   1849
+Info in <Minuit2>: VariableMetricBuilder Tolerance not sufficient, continue minimization; Edm 0.132883 Required 0.001
+Info in <Minuit2>: VariableMetricBuilder   24 - FCN =      -5877.680278 Edm =       0.630871993 NCalls =   1897
+Info in <Minuit2>: VariableMetricBuilder   25 - FCN =      -5877.728994 Edm =      0.1840267128 NCalls =   1947
+Info in <Minuit2>: VariableMetricBuilder   26 - FCN =      -5877.782441 Edm =    0.005194905853 NCalls =   2001
+Info in <Minuit2>: VariableMetricBuilder   27 - FCN =      -5877.788966 Edm =    0.001016745252 NCalls =   2048
+Info in <Minuit2>: VariableMetricBuilder   28 - FCN =      -5877.794838 Edm =    0.001199292724 NCalls =   2096
+Info in <Minuit2>: VariableMetricBuilder   29 - FCN =       -5877.79769 Edm =   0.0002186499044 NCalls =   2151
+Warning in <Minuit2>: MnPosDef non-positive diagonal element in covariance matrix[ 0 ] = -0.0329224
+Warning in <Minuit2>: MnPosDef non-positive diagonal element in covariance matrix[ 2 ] = -6.4124e-06
+Warning in <Minuit2>: MnPosDef Added to diagonal of Error matrix a value 0.532923
+Info in <Minuit2>: VariableMetricBuilder After Hessian
+Info in <Minuit2>: VariableMetricBuilder   30 - FCN =       -5877.79769 Edm =   0.0001300943245 NCalls =   2440
+Info in <Minuit2>: Minuit2Minimizer::Hesse Using max-calls 10000
+Warning in <Minuit2>: MnPosDef non-positive diagonal element in covariance matrix[ 0 ] = -0.0240674
+Warning in <Minuit2>: MnPosDef non-positive diagonal element in covariance matrix[ 2 ] = -6.4124e-06
+Warning in <Minuit2>: MnPosDef Added to diagonal of Error matrix a value 0.524068
+Warning in <Minuit2>: MnPosDef Matrix forced pos-def by adding to diagonal 0.0110278
+Info in <Minuit2>: Minuit2Minimizer::Hesse Hesse is valid - matrix is full but made positive defined
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/Fits/240/combined_plots/NLL_prf_muZH.pdf has been created

@@ -1,0 +1,140 @@
+000 (7160437.000.000) 05/18 10:19:40 Job submitted from host: <137.138.120.116:9618?addrs=137.138.120.116-9618+[2001-1458-d00-16--17b]-9618&alias=bigbird12.cern.ch&noUDP&sock=schedd_2298_d0b9>
+...
+000 (7160438.000.000) 05/18 10:20:51 Job submitted from host: <137.138.120.116:9618?addrs=137.138.120.116-9618+[2001-1458-d00-16--17b]-9618&alias=bigbird12.cern.ch&noUDP&sock=schedd_2298_d0b9>
+...
+009 (7160438.000.000) 05/18 10:21:26 Job was aborted.
+	via condor_rm (by user niharrin)
+...
+009 (7160437.000.000) 05/18 10:22:12 Job was aborted.
+	via condor_rm (by user niharrin)
+...
+000 (7160439.000.000) 05/18 10:22:51 Job submitted from host: <137.138.120.116:9618?addrs=137.138.120.116-9618+[2001-1458-d00-16--17b]-9618&alias=bigbird12.cern.ch&noUDP&sock=schedd_2298_d0b9>
+...
+040 (7160439.000.000) 05/18 10:23:16 Started transferring input files
+	Transferring to host: <128.142.58.149:9618?addrs=128.142.58.149-9618+[2001-1458-301-16--100-94]-9618&alias=b7s03p9597.cern.ch&noUDP&sock=slot1_3_54333_437b_3540>
+...
+040 (7160439.000.000) 05/18 10:23:16 Finished transferring input files
+...
+001 (7160439.000.000) 05/18 10:23:17 Job executing on host: <128.142.58.149:9618?addrs=128.142.58.149-9618+[2001-1458-301-16--100-94]-9618&alias=b7s03p9597.cern.ch&noUDP&sock=startd_2828_59eb>
+...
+006 (7160439.000.000) 05/18 10:23:25 Image size of job updated: 62440
+	36  -  MemoryUsage of job (MB)
+	36352  -  ResidentSetSize of job (KB)
+...
+000 (7160440.000.000) 05/18 10:25:09 Job submitted from host: <137.138.120.116:9618?addrs=137.138.120.116-9618+[2001-1458-d00-16--17b]-9618&alias=bigbird12.cern.ch&noUDP&sock=schedd_2298_d0b9>
+...
+006 (7160439.000.000) 05/18 10:25:19 Image size of job updated: 639312
+	36  -  MemoryUsage of job (MB)
+	36360  -  ResidentSetSize of job (KB)
+...
+040 (7160439.000.000) 05/18 10:25:19 Started transferring output files
+...
+040 (7160439.000.000) 05/18 10:25:19 Finished transferring output files
+...
+007 (7160439.000.000) 05/18 10:25:20 Shadow exception!
+	Error from slot1_3@b7s03p9597.cern.ch: STARTER at 128.142.58.149 failed to send file(s) to <137.138.120.116:9618>; SHADOW at 137.138.120.116 failed to write to file /afs/cern.ch/work/n/niharrin/public/MA/Analysis/source/365/categories/nuenuebb/condor/outfile.7160439.0.out: (errno 122) Disk quota exceeded
+	35190  -  Run Bytes Sent By Job
+	336  -  Run Bytes Received By Job
+...
+012 (7160439.000.000) 05/18 10:25:20 Job was held.
+	Error from slot1_3@b7s03p9597.cern.ch: STARTER at 128.142.58.149 failed to send file(s) to <137.138.120.116:9618>; SHADOW at 137.138.120.116 failed to write to file /afs/cern.ch/work/n/niharrin/public/MA/Analysis/source/365/categories/nuenuebb/condor/outfile.7160439.0.out: (errno 122) Disk quota exceeded
+	Code 12 Subcode 122
+...
+040 (7160440.000.000) 05/18 10:25:21 Started transferring input files
+	Transferring to host: <128.142.58.149:9618?addrs=128.142.58.149-9618+[2001-1458-301-16--100-94]-9618&alias=b7s03p9597.cern.ch&noUDP&sock=slot1_3_54333_437b_3545>
+...
+040 (7160440.000.000) 05/18 10:25:21 Finished transferring input files
+...
+001 (7160440.000.000) 05/18 10:25:22 Job executing on host: <128.142.58.149:9618?addrs=128.142.58.149-9618+[2001-1458-301-16--100-94]-9618&alias=b7s03p9597.cern.ch&noUDP&sock=startd_2828_59eb>
+...
+006 (7160440.000.000) 05/18 10:25:30 Image size of job updated: 615428
+	124  -  MemoryUsage of job (MB)
+	126296  -  ResidentSetSize of job (KB)
+...
+006 (7160440.000.000) 05/18 10:30:30 Image size of job updated: 644816
+	153  -  MemoryUsage of job (MB)
+	155652  -  ResidentSetSize of job (KB)
+...
+040 (7160440.000.000) 05/18 10:34:40 Started transferring output files
+...
+040 (7160440.000.000) 05/18 10:34:40 Finished transferring output files
+...
+007 (7160440.000.000) 05/18 10:34:40 Shadow exception!
+	Error from slot1_3@b7s03p9597.cern.ch: STARTER at 128.142.58.149 failed to send file(s) to <137.138.120.116:9618>; SHADOW at 137.138.120.116 failed to write to file /afs/cern.ch/work/n/niharrin/public/MA/Analysis/source/365/categories/nuenuebb/condor/outfile.7160440.0.out: (errno 122) Disk quota exceeded
+	171354  -  Run Bytes Sent By Job
+	336  -  Run Bytes Received By Job
+...
+012 (7160440.000.000) 05/18 10:34:40 Job was held.
+	Error from slot1_3@b7s03p9597.cern.ch: STARTER at 128.142.58.149 failed to send file(s) to <137.138.120.116:9618>; SHADOW at 137.138.120.116 failed to write to file /afs/cern.ch/work/n/niharrin/public/MA/Analysis/source/365/categories/nuenuebb/condor/outfile.7160440.0.out: (errno 122) Disk quota exceeded
+	Code 12 Subcode 122
+...
+013 (7160439.000.000) 05/18 10:38:44 Job was released.
+	via condor_release (by user niharrin)
+...
+013 (7160440.000.000) 05/18 10:42:23 Job was released.
+	via condor_release (by user niharrin)
+...
+040 (7160439.000.000) 05/18 10:43:12 Started transferring input files
+	Transferring to host: <128.142.128.107:9618?addrs=128.142.128.107-9618+[2001-1458-301-10--100-6a]-9618&alias=b7g25p8123.cern.ch&noUDP&sock=slot1_3_3834_2655_36746>
+...
+040 (7160439.000.000) 05/18 10:43:12 Finished transferring input files
+...
+040 (7160440.000.000) 05/18 10:43:12 Started transferring input files
+	Transferring to host: <128.142.60.12:9618?addrs=128.142.60.12-9618+[2001-1458-301-22--100-b]-9618&alias=b7s05p2504.cern.ch&noUDP&sock=slot1_9_3554_dd4a_32147>
+...
+040 (7160440.000.000) 05/18 10:43:12 Finished transferring input files
+...
+001 (7160439.000.000) 05/18 10:43:13 Job executing on host: <128.142.128.107:9618?addrs=128.142.128.107-9618+[2001-1458-301-10--100-6a]-9618&alias=b7g25p8123.cern.ch&noUDP&sock=startd_3785_c60e>
+...
+001 (7160440.000.000) 05/18 10:43:13 Job executing on host: <128.142.60.12:9618?addrs=128.142.60.12-9618+[2001-1458-301-22--100-b]-9618&alias=b7s05p2504.cern.ch&noUDP&sock=startd_2894_9f2b>
+...
+006 (7160439.000.000) 05/18 10:48:21 Image size of job updated: 750000
+	152  -  MemoryUsage of job (MB)
+	155644  -  ResidentSetSize of job (KB)
+...
+040 (7160440.000.000) 05/18 10:52:59 Started transferring output files
+...
+040 (7160440.000.000) 05/18 10:53:00 Finished transferring output files
+...
+005 (7160440.000.000) 05/18 10:53:00 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:37, Sys 0 00:00:11  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:13:02, Sys 0 00:00:21  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	170877  -  Run Bytes Sent By Job
+	336  -  Run Bytes Received By Job
+	342231  -  Total Bytes Sent By Job
+	672  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.78        8         8 
+	   Disk (KB)            :   192         200   1348166 
+	   Memory (MB)          :   171       16000     16000 
+
+	Job terminated of its own accord at 2022-05-18T08:52:59Z.
+...
+006 (7160439.000.000) 05/18 10:53:21 Image size of job updated: 750000
+	153  -  MemoryUsage of job (MB)
+	155672  -  ResidentSetSize of job (KB)
+...
+040 (7160439.000.000) 05/18 10:53:32 Started transferring output files
+...
+040 (7160439.000.000) 05/18 10:53:32 Finished transferring output files
+...
+005 (7160439.000.000) 05/18 10:53:33 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:52, Sys 0 00:00:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:08:20, Sys 0 00:00:12  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	170877  -  Run Bytes Sent By Job
+	336  -  Run Bytes Received By Job
+	206067  -  Total Bytes Sent By Job
+	672  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.81        8         8 
+	   Disk (KB)            :   192          50   2901562 
+	   Memory (MB)          :   153       16000     16000 
+
+	Job terminated of its own accord at 2022-05-18T08:53:32Z.
+...

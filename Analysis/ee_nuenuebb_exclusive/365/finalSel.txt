@@ -1,0 +1,65 @@
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_nuenuebb_exclusive/365/presel/wzp6_ee_nunuH_ecm365.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_nuenuebb_exclusive/365/presel/p8_ee_WW_ecm365.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_nuenuebb_exclusive/365/presel/p8_ee_ZZ_ecm365.root
+open file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_nuenuebb_exclusive/365/presel/p8_ee_ZH_ecm365.root
+
+   running over process : wzp6_ee_nunuH_ecm365
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                   : 200000
+       After selection selVBF_noBDT : 64730
+       After selection selVBF       : 62943
+       After selection selVBF1      : 43820
+       After selection selVBF2      : 39606
+       After selection selVBF3      : 35014
+       After selection selVBF4      : 30125
+     Saving outputs
+
+   running over process : p8_ee_WW_ecm365
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                   : 600000
+       After selection selVBF_noBDT : 5
+       After selection selVBF       : 0
+       After selection selVBF1      : 0
+       After selection selVBF2      : 0
+       After selection selVBF3      : 0
+       After selection selVBF4      : 0
+     Saving outputs
+
+   running over process : p8_ee_ZZ_ecm365
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                   : 600000
+       After selection selVBF_noBDT : 20893
+       After selection selVBF       : 4535
+       After selection selVBF1      : 3744
+       After selection selVBF2      : 3413
+       After selection selVBF3      : 3049
+       After selection selVBF4      : 2682
+     Saving outputs
+
+   running over process : p8_ee_ZH_ecm365
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                   : 600000
+       After selection selVBF_noBDT : 76431
+       After selection selVBF       : 32061
+       After selection selVBF1      : 15677
+       After selection selVBF2      : 12533
+       After selection selVBF3      : 9895
+       After selection selVBF4      : 7554
+     Saving outputs
+==============================SUMMARY==============================
+Elapsed time (H:M:S)     :  00:00:27
+Events Processed/Second  :  71863
+Total Events Processed   :  2000000
+===================================================================

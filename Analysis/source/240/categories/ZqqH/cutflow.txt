@@ -1,0 +1,203 @@
+Load cxx analyzers ... 
+cling::DynamicLibraryManager::loadLibrary(): libTMVA.so.6.26: cannot open shared object file: No such file or directory
+open file  /eos/user/n/niharrin/llr/presel/240/qqH/wzp6_ee_qqH_ecm240.root
+open file  /eos/user/n/niharrin/llr/presel/240/qqH/p8_ee_Zqq_ecm240.root
+open file  /eos/user/n/niharrin/llr/presel/240/qqH/p8_ee_WW_ecm240.root
+open file  /eos/user/n/niharrin/llr/presel/240/qqH/p8_ee_ZZ_ecm240.root
+processed events  {'wzp6_ee_qqH_ecm240': 9900000, 'p8_ee_Zqq_ecm240': 10000000, 'p8_ee_WW_ecm240': 10000000, 'p8_ee_ZZ_ecm240': 10000000}
+events in ttree   {'wzp6_ee_qqH_ecm240': 9900000, 'p8_ee_Zqq_ecm240': 10000000, 'p8_ee_WW_ecm240': 10000000, 'p8_ee_ZZ_ecm240': 10000000}
+
+   running over process :  wzp6_ee_qqH_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                         : 9900000
+       After selection sel_noBDT_bbH      : 522496
+       After selection sel_bbH            : 477855
+       After selection selZbbcombZbbMC    : 1122917
+       After selection selZbbcombZccMC    : 634
+       After selection selZbbcombZbbMCext : 508120
+       After selection selZbbcombZccMCext : 325
+       After selection selZbbMC           : 980791
+       After selection sel_noBDT_bjH      : 1132123
+       After selection sel_bjH            : 1015542
+       After selection selZbjcombZbbMC    : 560614
+       After selection selZbjcombZccMC    : 15660
+       After selection selZbjcombZbbMCext : 254426
+       After selection selZbjcombZccMCext : 8103
+       After selection selZbjMC           : 1059717
+       After selection sel_noBDT_bcH      : 309654
+       After selection sel_bcH            : 293668
+       After selection selZbccombZbbMC    : 124925
+       After selection selZbccombZccMC    : 47004
+       After selection selZbccombZbbMCext : 56606
+       After selection selZbccombZccMCext : 24325
+       After selection selZbcMC           : 271050
+       After selection sel_noBDT_ccH      : 111374
+       After selection selZcccombZbbMC    : 902
+       After selection selZcccombZccMC    : 203093
+       After selection selZcccombZbbMCext : 371
+       After selection selZcccombZccMCext : 105293
+       After selection selZccMC           : 344299
+       After selection sel_noBDT_cjH      : 416689
+       After selection selZcjcombZbbMC    : 15683
+       After selection selZcjcombZccMC    : 269284
+       After selection selZcjcombZbbMCext : 7231
+       After selection selZcjcombZccMCext : 139866
+       After selection selZcjMC           : 324235
+       After selection sel_noBDT_ijH      : 2220147
+       After selection selZijcombZbbMC    : 69891
+       After selection selZijcombZccMC    : 89593
+       After selection selZijcombZbbMCext : 31716
+       After selection selZijcombZccMCext : 46457
+       After selection selZijMC           : 1900569
+     Saving outputs
+
+   running over process :  p8_ee_Zqq_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                         : 10000000
+       After selection sel_noBDT_bbH      : 104452
+       After selection sel_bbH            : 1944
+       After selection selZbbcombZbbMC    : 642752
+       After selection selZbbcombZccMC    : 1238
+       After selection selZbbcombZbbMCext : 103384
+       After selection selZbbcombZccMCext : 264
+       After selection selZbbMC           : 198794
+       After selection sel_noBDT_bjH      : 147271
+       After selection sel_bjH            : 11576
+       After selection selZbjcombZbbMC    : 322038
+       After selection selZbjcombZccMC    : 28973
+       After selection selZbjcombZbbMCext : 51300
+       After selection selZbjcombZccMCext : 6411
+       After selection selZbjMC           : 75380
+       After selection sel_noBDT_bcH      : 44766
+       After selection sel_bcH            : 3319
+       After selection selZbccombZbbMC    : 71458
+       After selection selZbccombZccMC    : 86874
+       After selection selZbccombZbbMCext : 11385
+       After selection selZbccombZccMCext : 19203
+       After selection selZbcMC           : 1770
+       After selection sel_noBDT_ccH      : 84041
+       After selection selZcccombZbbMC    : 481
+       After selection selZcccombZccMC    : 373427
+       After selection selZcccombZbbMCext : 80
+       After selection selZcccombZccMCext : 82800
+       After selection selZccMC           : 272638
+       After selection sel_noBDT_cjH      : 209922
+       After selection selZcjcombZbbMC    : 8998
+       After selection selZcjcombZccMC    : 499833
+       After selection selZcjcombZbbMCext : 1446
+       After selection selZcjcombZccMCext : 110995
+       After selection selZcjMC           : 112559
+       After selection sel_noBDT_ijH      : 1674602
+       After selection selZijcombZbbMC    : 40523
+       After selection selZijcombZccMC    : 166891
+       After selection selZijcombZbbMCext : 6434
+       After selection selZijcombZccMCext : 37036
+       After selection selZijMC           : 1645091
+     Saving outputs
+
+   running over process :  p8_ee_WW_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                         : 10000000
+       After selection sel_noBDT_bbH      : 445
+       After selection sel_bbH            : 35
+       After selection selZbbcombZbbMC    : 31
+       After selection selZbbcombZccMC    : 110
+       After selection selZbbcombZbbMCext : 8
+       After selection selZbbcombZccMCext : 41
+       After selection selZbbMC           : 11
+       After selection sel_noBDT_bjH      : 55859
+       After selection sel_bjH            : 6899
+       After selection selZbjcombZbbMC    : 8
+       After selection selZbjcombZccMC    : 2605
+       After selection selZbjcombZbbMCext : 1
+       After selection selZbjcombZccMCext : 1046
+       After selection selZbjMC           : 3782
+       After selection sel_noBDT_bcH      : 41400
+       After selection sel_bcH            : 15442
+       After selection selZbccombZbbMC    : 2
+       After selection selZbccombZccMC    : 8127
+       After selection selZbccombZbbMCext : 0
+       After selection selZbccombZccMCext : 3267
+       After selection selZbcMC           : 933
+       After selection sel_noBDT_ccH      : 18440
+       After selection selZcccombZbbMC    : 1
+       After selection selZcccombZccMC    : 35197
+       After selection selZcccombZbbMCext : 0
+       After selection selZcccombZccMCext : 14158
+       After selection selZccMC           : 46106
+       After selection sel_noBDT_cjH      : 429603
+       After selection selZcjcombZbbMC    : 0
+       After selection selZcjcombZccMC    : 47114
+       After selection selZcjcombZbbMCext : 0
+       After selection selZcjcombZccMCext : 18664
+       After selection selZcjMC           : 696541
+       After selection sel_noBDT_ijH      : 1621853
+       After selection selZijcombZbbMC    : 4
+       After selection selZijcombZccMC    : 15772
+       After selection selZijcombZbbMCext : 1
+       After selection selZijcombZccMCext : 6243
+       After selection selZijMC           : 1423780
+     Saving outputs
+
+   running over process :  p8_ee_ZZ_ecm240
+     Defining snapshots and histograms
+     Evaluating...
+     Done
+     Cutflow
+       All events                         : 10000000
+       After selection sel_noBDT_bbH      : 150197
+       After selection sel_bbH            : 50797
+       After selection selZbbcombZbbMC    : 467670
+       After selection selZbbcombZccMC    : 849
+       After selection selZbbcombZbbMCext : 146227
+       After selection selZbbcombZccMCext : 357
+       After selection selZbbMC           : 281983
+       After selection sel_noBDT_bjH      : 351911
+       After selection sel_bjH            : 199195
+       After selection selZbjcombZbbMC    : 233520
+       After selection selZbjcombZccMC    : 20260
+       After selection selZbjcombZbbMCext : 73011
+       After selection selZbjcombZccMCext : 8382
+       After selection selZbjMC           : 280312
+       After selection sel_noBDT_bcH      : 106452
+       After selection sel_bcH            : 65730
+       After selection selZbccombZbbMC    : 51843
+       After selection selZbccombZccMC    : 60820
+       After selection selZbccombZbbMCext : 16198
+       After selection selZbccombZccMCext : 24998
+       After selection selZbcMC           : 56073
+       After selection sel_noBDT_ccH      : 111707
+       After selection selZcccombZbbMC    : 362
+       After selection selZcccombZccMC    : 263488
+       After selection selZcccombZbbMCext : 112
+       After selection selZcccombZccMCext : 108635
+       After selection selZccMC           : 354827
+       After selection sel_noBDT_cjH      : 364959
+       After selection selZcjcombZbbMC    : 6518
+       After selection selZcjcombZccMC    : 349936
+       After selection selZcjcombZbbMCext : 2112
+       After selection selZcjcombZccMCext : 144007
+       After selection selZcjMC           : 286755
+       After selection sel_noBDT_ijH      : 2556845
+       After selection selZijcombZbbMC    : 29146
+       After selection selZijcombZccMC    : 116854
+       After selection selZijcombZbbMCext : 9139
+       After selection selZijcombZccMCext : 47998
+       After selection selZijMC           : 2443481
+     Saving outputs
+==============================SUMMARY==============================
+Elapsed time (H:M:S)     :   00:26:37
+Events Processed/Second  :   24983
+Total Events Processed   :   39900000
+
+VERGLEICHE NUR ext und MC
+selZothercombZbbMC und so fehlt, da Zother rejected wird!

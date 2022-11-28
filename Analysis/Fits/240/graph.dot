@@ -1,0 +1,1282 @@
+digraph "combModel"{
+"combModel" [ color=red, label="RooSimultaneous
+combModel
+0.000009"];
+"model_bbH_combModel" [ color=red, label="RooProdPdf
+model_bbH_combModel
+0.000000"];
+"modelBare_bbH_combModel" [ color=red, label="RooAddPdf
+modelBare_bbH_combModel
+0.000000"];
+"bkgModel_bbH_combModel" [ color=red, label="RooKeysPdf
+bkgModel_bbH_combModel
+0.000000"];
+"MRec" [ color=blue, label="RooRealVar
+MRec
+20.700000"];
+"finalsig_bbH_combModel" [ color=red, label="RooAddPdf
+finalsig_bbH_combModel
+0.000000"];
+"gauss_240GeV_bbH_combModel" [ color=red, label="RooGaussian
+gauss_240GeV_bbH_combModel
+0.000000"];
+"mean_bbH" [ color=blue, label="RooRealVar
+mean_bbH
+78.562238"];
+"sigma_bbH" [ color=blue, label="RooRealVar
+sigma_bbH
+5.217260"];
+"gauss2_240GeV_bbH_combModel" [ color=red, label="RooGaussian
+gauss2_240GeV_bbH_combModel
+0.000000"];
+"mean2_bbH" [ color=blue, label="RooRealVar
+mean2_bbH
+111.336805"];
+"sigma2_bbH" [ color=blue, label="RooRealVar
+sigma2_bbH
+10.072050"];
+"gauss3_240GeV_bbH_combModel" [ color=red, label="RooGaussian
+gauss3_240GeV_bbH_combModel
+0.000000"];
+"mean3_bbH" [ color=blue, label="RooRealVar
+mean3_bbH
+130.952197"];
+"sigma3_bbH" [ color=blue, label="RooRealVar
+sigma3_bbH
+6.690451"];
+"gauss4_240GeV_bbH_combModel" [ color=red, label="RooGaussian
+gauss4_240GeV_bbH_combModel
+0.000000"];
+"mean4_bbH" [ color=blue, label="RooRealVar
+mean4_bbH
+143.788004"];
+"sigma4_bbH" [ color=blue, label="RooRealVar
+sigma4_bbH
+3.013224"];
+"fsig_bbH" [ color=blue, label="RooRealVar
+fsig_bbH
+0.098156"];
+"finalsig_recursive_fraction_gauss2_240GeV_bbH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss2_240GeV_bbH
+0.180148"];
+"fsig2_bbH" [ color=blue, label="RooRealVar
+fsig2_bbH
+0.199755"];
+"finalsig_recursive_fraction_gauss3_240GeV_bbH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss3_240GeV_bbH
+0.612997"];
+"fsig3_bbH" [ color=blue, label="RooRealVar
+fsig3_bbH
+0.849384"];
+"finalsig_recursive_fraction_gauss4_240GeV_bbH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss4_240GeV_bbH
+0.108699"];
+"1" [ color=red, label="RooConstVar
+1
+1.000000"];
+"muZHsig_bbH_combModel" [ color=red, label="RooProduct
+muZHsig_bbH_combModel
+34009.498917"];
+"varL_240GeV_bbH" [ color=red, label="RooProduct
+varL_240GeV_bbH
+5000000.000342"];
+"Lmess_240GeV_bbH" [ color=blue, label="RooRealVar
+Lmess_240GeV_bbH
+1.000000"];
+"Lideal_240GeV" [ color=red, label="RooConstVar
+Lideal_240GeV
+5000000.000000"];
+"varE_240GeV_bbH" [ color=red, label="RooProduct
+varE_240GeV_bbH
+0.048268"];
+"Emess_240GeV_bbH" [ color=blue, label="RooRealVar
+Emess_240GeV_bbH
+1.000000"];
+"Eideal_240GeV" [ color=red, label="RooConstVar
+Eideal_240GeV
+0.048268"];
+"CSTrue_240GeV" [ color=red, label="RooConstVar
+CSTrue_240GeV
+0.136350"];
+"BRideal_240GeV" [ color=red, label="RooConstVar
+BRideal_240GeV
+1.000000"];
+"muZH_240GeV" [ color=blue, label="RooRealVar
+muZH_240GeV
+1.033509"];
+"N_bbH" [ color=blue, label="RooRealVar
+N_bbH
+71383.575940"];
+"Lsmear_240GeV_bbH" [ color=red, label="RooGaussian
+Lsmear_240GeV_bbH
+1.000000"];
+"0.001" [ color=red, label="RooConstVar
+0.001
+0.001000"];
+"Esmear_240GeV_bbH" [ color=red, label="RooGaussian
+Esmear_240GeV_bbH
+1.000000"];
+"0.01" [ color=red, label="RooConstVar
+0.01
+0.010000"];
+"BRsmear_240GeV_bbH" [ color=red, label="RooGaussian
+BRsmear_240GeV_bbH
+1.000000"];
+"BRmess_240GeV_bbH" [ color=blue, label="RooRealVar
+BRmess_240GeV_bbH
+1.000000"];
+"0.002" [ color=red, label="RooConstVar
+0.002
+0.002000"];
+"model_bcH_combModel" [ color=red, label="RooProdPdf
+model_bcH_combModel
+0.000000"];
+"modelBare_bcH_combModel" [ color=red, label="RooAddPdf
+modelBare_bcH_combModel
+0.000000"];
+"bkgModel_bcH_combModel" [ color=red, label="RooKeysPdf
+bkgModel_bcH_combModel
+0.000000"];
+"finalsig_bcH_combModel" [ color=red, label="RooAddPdf
+finalsig_bcH_combModel
+0.000000"];
+"gauss_240GeV_bcH_combModel" [ color=red, label="RooGaussian
+gauss_240GeV_bcH_combModel
+0.000001"];
+"mean_bcH" [ color=blue, label="RooRealVar
+mean_bcH
+71.363934"];
+"sigma_bcH" [ color=blue, label="RooRealVar
+sigma_bcH
+9.437968"];
+"gauss2_240GeV_bcH_combModel" [ color=red, label="RooGaussian
+gauss2_240GeV_bcH_combModel
+0.000000"];
+"mean2_bcH" [ color=blue, label="RooRealVar
+mean2_bcH
+106.760672"];
+"sigma2_bcH" [ color=blue, label="RooRealVar
+sigma2_bcH
+7.056426"];
+"gauss3_240GeV_bcH_combModel" [ color=red, label="RooGaussian
+gauss3_240GeV_bcH_combModel
+0.000000"];
+"mean3_bcH" [ color=blue, label="RooRealVar
+mean3_bcH
+129.552991"];
+"sigma3_bcH" [ color=blue, label="RooRealVar
+sigma3_bcH
+7.701946"];
+"gauss4_240GeV_bcH_combModel" [ color=red, label="RooGaussian
+gauss4_240GeV_bcH_combModel
+0.000000"];
+"mean4_bcH" [ color=blue, label="RooRealVar
+mean4_bcH
+145.871077"];
+"sigma4_bcH" [ color=blue, label="RooRealVar
+sigma4_bcH
+2.091977"];
+"fsig_bcH" [ color=blue, label="RooRealVar
+fsig_bcH
+0.527529"];
+"finalsig_recursive_fraction_gauss2_240GeV_bcH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss2_240GeV_bcH
+0.116845"];
+"fsig2_bcH" [ color=blue, label="RooRealVar
+fsig2_bcH
+0.247306"];
+"finalsig_recursive_fraction_gauss3_240GeV_bcH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss3_240GeV_bcH
+0.297731"];
+"fsig3_bcH" [ color=blue, label="RooRealVar
+fsig3_bcH
+0.837201"];
+"finalsig_recursive_fraction_gauss4_240GeV_bcH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss4_240GeV_bcH
+0.057895"];
+"muZHsig_bcH_combModel" [ color=red, label="RooProduct
+muZHsig_bcH_combModel
+34009.501059"];
+"varL_240GeV_bcH" [ color=red, label="RooProduct
+varL_240GeV_bcH
+5000000.003710"];
+"Lmess_240GeV_bcH" [ color=blue, label="RooRealVar
+Lmess_240GeV_bcH
+1.000000"];
+"varE_240GeV_bcH" [ color=red, label="RooProduct
+varE_240GeV_bcH
+0.048268"];
+"Emess_240GeV_bcH" [ color=blue, label="RooRealVar
+Emess_240GeV_bcH
+1.000000"];
+"N_bcH" [ color=blue, label="RooRealVar
+N_bcH
+212919.838501"];
+"Lsmear_240GeV_bcH" [ color=red, label="RooGaussian
+Lsmear_240GeV_bcH
+1.000000"];
+"Esmear_240GeV_bcH" [ color=red, label="RooGaussian
+Esmear_240GeV_bcH
+1.000000"];
+"BRsmear_240GeV_bcH" [ color=red, label="RooGaussian
+BRsmear_240GeV_bcH
+1.000000"];
+"BRmess_240GeV_bcH" [ color=blue, label="RooRealVar
+BRmess_240GeV_bcH
+1.000000"];
+"model_bjH_combModel" [ color=red, label="RooProdPdf
+model_bjH_combModel
+0.000730"];
+"modelBare_bjH_combModel" [ color=red, label="RooAddPdf
+modelBare_bjH_combModel
+0.000730"];
+"bkgModel_bjH_combModel" [ color=red, label="RooKeysPdf
+bkgModel_bjH_combModel
+0.000729"];
+"finalsig_bjH_combModel" [ color=red, label="RooAddPdf
+finalsig_bjH_combModel
+0.000643"];
+"gauss_240GeV_bjH_combModel" [ color=red, label="RooGaussian
+gauss_240GeV_bjH_combModel
+0.085574"];
+"mean_bjH" [ color=blue, label="RooRealVar
+mean_bjH
+39.200690"];
+"sigma_bjH" [ color=blue, label="RooRealVar
+sigma_bjH
+8.343521"];
+"gauss2_240GeV_bjH_combModel" [ color=red, label="RooGaussian
+gauss2_240GeV_bjH_combModel
+0.000000"];
+"mean2_bjH" [ color=blue, label="RooRealVar
+mean2_bjH
+104.130095"];
+"sigma2_bjH" [ color=blue, label="RooRealVar
+sigma2_bjH
+8.877185"];
+"gauss3_240GeV_bjH_combModel" [ color=red, label="RooGaussian
+gauss3_240GeV_bjH_combModel
+0.000000"];
+"mean3_bjH" [ color=blue, label="RooRealVar
+mean3_bjH
+129.062959"];
+"sigma3_bjH" [ color=blue, label="RooRealVar
+sigma3_bjH
+6.302554"];
+"gauss4_240GeV_bjH_combModel" [ color=red, label="RooGaussian
+gauss4_240GeV_bjH_combModel
+0.000000"];
+"mean4_bjH" [ color=blue, label="RooRealVar
+mean4_bjH
+143.484194"];
+"sigma4_bjH" [ color=blue, label="RooRealVar
+sigma4_bjH
+2.302998"];
+"fsig_bjH" [ color=blue, label="RooRealVar
+fsig_bjH
+0.155553"];
+"finalsig_recursive_fraction_gauss2_240GeV_bjH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss2_240GeV_bjH
+0.182264"];
+"fsig2_bjH" [ color=blue, label="RooRealVar
+fsig2_bjH
+0.215839"];
+"finalsig_recursive_fraction_gauss3_240GeV_bjH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss3_240GeV_bjH
+0.497268"];
+"fsig3_bjH" [ color=blue, label="RooRealVar
+fsig3_bjH
+0.750954"];
+"finalsig_recursive_fraction_gauss4_240GeV_bjH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss4_240GeV_bjH
+0.164914"];
+"muZHsig_bjH_combModel" [ color=red, label="RooProduct
+muZHsig_bjH_combModel
+34012.754999"];
+"varL_240GeV_bjH" [ color=red, label="RooProduct
+varL_240GeV_bjH
+5000006.466778"];
+"Lmess_240GeV_bjH" [ color=blue, label="RooRealVar
+Lmess_240GeV_bjH
+1.000001"];
+"varE_240GeV_bjH" [ color=red, label="RooProduct
+varE_240GeV_bjH
+0.048273"];
+"Emess_240GeV_bjH" [ color=blue, label="RooRealVar
+Emess_240GeV_bjH
+1.000094"];
+"N_bjH" [ color=blue, label="RooRealVar
+N_bjH
+489166.381326"];
+"Lsmear_240GeV_bjH" [ color=red, label="RooGaussian
+Lsmear_240GeV_bjH
+0.999999"];
+"Esmear_240GeV_bjH" [ color=red, label="RooGaussian
+Esmear_240GeV_bjH
+0.999955"];
+"BRsmear_240GeV_bjH" [ color=red, label="RooGaussian
+BRsmear_240GeV_bjH
+1.000000"];
+"BRmess_240GeV_bjH" [ color=blue, label="RooRealVar
+BRmess_240GeV_bjH
+1.000000"];
+"model_ccH_combModel" [ color=red, label="RooProdPdf
+model_ccH_combModel
+0.000000"];
+"modelBare_ccH_combModel" [ color=red, label="RooAddPdf
+modelBare_ccH_combModel
+0.000000"];
+"bkgModel_ccH_combModel" [ color=red, label="RooKeysPdf
+bkgModel_ccH_combModel
+0.000000"];
+"finalsig_ccH_combModel" [ color=red, label="RooAddPdf
+finalsig_ccH_combModel
+0.000000"];
+"gauss_240GeV_ccH_combModel" [ color=red, label="RooGaussian
+gauss_240GeV_ccH_combModel
+0.000000"];
+"mean_ccH" [ color=blue, label="RooRealVar
+mean_ccH
+128.943207"];
+"sigma_ccH" [ color=blue, label="RooRealVar
+sigma_ccH
+3.650870"];
+"gauss2_240GeV_ccH_combModel" [ color=red, label="RooGaussian
+gauss2_240GeV_ccH_combModel
+0.000000"];
+"mean2_ccH" [ color=blue, label="RooRealVar
+mean2_ccH
+134.102338"];
+"sigma2_ccH" [ color=blue, label="RooRealVar
+sigma2_ccH
+6.251704"];
+"fsig_ccH" [ color=blue, label="RooRealVar
+fsig_ccH
+0.757916"];
+"finalsig_recursive_fraction_gauss2_240GeV_ccH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss2_240GeV_ccH
+0.242084"];
+"muZHsig_ccH_combModel" [ color=red, label="RooProduct
+muZHsig_ccH_combModel
+34009.715336"];
+"varL_240GeV_ccH" [ color=red, label="RooProduct
+varL_240GeV_ccH
+5000009.859827"];
+"Lmess_240GeV_ccH" [ color=blue, label="RooRealVar
+Lmess_240GeV_ccH
+1.000002"];
+"varE_240GeV_ccH" [ color=red, label="RooProduct
+varE_240GeV_ccH
+0.048268"];
+"Emess_240GeV_ccH" [ color=blue, label="RooRealVar
+Emess_240GeV_ccH
+1.000004"];
+"N_ccH" [ color=blue, label="RooRealVar
+N_ccH
+9607.411745"];
+"Lsmear_240GeV_ccH" [ color=red, label="RooGaussian
+Lsmear_240GeV_ccH
+0.999998"];
+"Esmear_240GeV_ccH" [ color=red, label="RooGaussian
+Esmear_240GeV_ccH
+1.000000"];
+"BRsmear_240GeV_ccH" [ color=red, label="RooGaussian
+BRsmear_240GeV_ccH
+1.000000"];
+"BRmess_240GeV_ccH" [ color=blue, label="RooRealVar
+BRmess_240GeV_ccH
+1.000000"];
+"model_cjH_combModel" [ color=red, label="RooProdPdf
+model_cjH_combModel
+0.000000"];
+"modelBare_cjH_combModel" [ color=red, label="RooAddPdf
+modelBare_cjH_combModel
+0.000000"];
+"bkgModel_cjH_combModel" [ color=red, label="RooKeysPdf
+bkgModel_cjH_combModel
+0.000000"];
+"finalsig_cjH_combModel" [ color=red, label="RooAddPdf
+finalsig_cjH_combModel
+0.000000"];
+"gauss_240GeV_cjH_combModel" [ color=red, label="RooGaussian
+gauss_240GeV_cjH_combModel
+0.000000"];
+"mean_cjH" [ color=blue, label="RooRealVar
+mean_cjH
+126.104832"];
+"sigma_cjH" [ color=blue, label="RooRealVar
+sigma_cjH
+4.302787"];
+"gauss2_240GeV_cjH_combModel" [ color=red, label="RooGaussian
+gauss2_240GeV_cjH_combModel
+0.000000"];
+"mean2_cjH" [ color=blue, label="RooRealVar
+mean2_cjH
+113.476057"];
+"sigma2_cjH" [ color=blue, label="RooRealVar
+sigma2_cjH
+2.564433"];
+"gauss3_240GeV_cjH_combModel" [ color=red, label="RooGaussian
+gauss3_240GeV_cjH_combModel
+0.000000"];
+"mean3_cjH" [ color=blue, label="RooRealVar
+mean3_cjH
+146.557673"];
+"sigma3_cjH" [ color=blue, label="RooRealVar
+sigma3_cjH
+1.714892"];
+"gauss4_240GeV_cjH_combModel" [ color=red, label="RooGaussian
+gauss4_240GeV_cjH_combModel
+0.000000"];
+"mean4_cjH" [ color=blue, label="RooRealVar
+mean4_cjH
+135.097072"];
+"sigma4_cjH" [ color=blue, label="RooRealVar
+sigma4_cjH
+6.226286"];
+"fsig_cjH" [ color=blue, label="RooRealVar
+fsig_cjH
+0.409056"];
+"finalsig_recursive_fraction_gauss2_240GeV_cjH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss2_240GeV_cjH
+0.044407"];
+"fsig2_cjH" [ color=blue, label="RooRealVar
+fsig2_cjH
+0.075146"];
+"finalsig_recursive_fraction_gauss3_240GeV_cjH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss3_240GeV_cjH
+0.065130"];
+"fsig3_cjH" [ color=blue, label="RooRealVar
+fsig3_cjH
+0.119169"];
+"finalsig_recursive_fraction_gauss4_240GeV_cjH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss4_240GeV_cjH
+0.481406"];
+"muZHsig_cjH_combModel" [ color=red, label="RooProduct
+muZHsig_cjH_combModel
+34010.508153"];
+"varL_240GeV_cjH" [ color=red, label="RooProduct
+varL_240GeV_cjH
+5000001.046627"];
+"Lmess_240GeV_cjH" [ color=blue, label="RooRealVar
+Lmess_240GeV_cjH
+1.000000"];
+"varE_240GeV_cjH" [ color=red, label="RooProduct
+varE_240GeV_cjH
+0.048270"];
+"Emess_240GeV_cjH" [ color=blue, label="RooRealVar
+Emess_240GeV_cjH
+1.000029"];
+"N_cjH" [ color=blue, label="RooRealVar
+N_cjH
+484610.059257"];
+"Lsmear_240GeV_cjH" [ color=red, label="RooGaussian
+Lsmear_240GeV_cjH
+1.000000"];
+"Esmear_240GeV_cjH" [ color=red, label="RooGaussian
+Esmear_240GeV_cjH
+0.999996"];
+"BRsmear_240GeV_cjH" [ color=red, label="RooGaussian
+BRsmear_240GeV_cjH
+1.000000"];
+"BRmess_240GeV_cjH" [ color=blue, label="RooRealVar
+BRmess_240GeV_cjH
+1.000000"];
+"model_eeH_combModel" [ color=red, label="RooProdPdf
+model_eeH_combModel
+0.000223"];
+"modelBare_eeH_combModel" [ color=red, label="RooAddPdf
+modelBare_eeH_combModel
+0.002496"];
+"bkgModel_eeH_combModel" [ color=red, label="RooPolynomial
+bkgModel_eeH_combModel
+2.315802"];
+"a0_eeH" [ color=blue, label="RooRealVar
+a0_eeH
+0.072724"];
+"a1_eeH" [ color=blue, label="RooRealVar
+a1_eeH
+-0.000442"];
+"finalsig_eeH_combModel" [ color=red, label="RooAddPdf
+finalsig_eeH_combModel
+0.000000"];
+"CB1sig_240GeV_eeH_combModel" [ color=red, label="RooCrystalBall
+CB1sig_240GeV_eeH_combModel
+0.000000"];
+"mean_eeH_combModel" [ color=red, label="RooFormulaVar
+mean_eeH_combModel
+125.307833"];
+"COMmess_240GeV_eeH" [ color=blue, label="RooRealVar
+COMmess_240GeV_eeH
+1.000000"];
+"mZ_eeH" [ color=blue, label="RooRealVar
+mZ_eeH
+91.188000"];
+"COMideal_240GeV" [ color=red, label="RooConstVar
+COMideal_240GeV
+240.000000"];
+"mHmess_240GeV" [ color=blue, label="RooRealVar
+mHmess_240GeV
+125.307758"];
+"sigma_eeH" [ color=blue, label="RooRealVar
+sigma_eeH
+3.041497"];
+"alphaL_eeH" [ color=blue, label="RooRealVar
+alphaL_eeH
+6.247268"];
+"NL_eeH" [ color=blue, label="RooRealVar
+NL_eeH
+9.975766"];
+"CB2sig_240GeV_eeH_combModel" [ color=red, label="RooCrystalBall
+CB2sig_240GeV_eeH_combModel
+0.000000"];
+"alphaR_eeH" [ color=blue, label="RooRealVar
+alphaR_eeH
+6.298333"];
+"NR_eeH" [ color=blue, label="RooRealVar
+NR_eeH
+9.964398"];
+"gauss_240GeV_eeH_combModel" [ color=red, label="RooGaussian
+gauss_240GeV_eeH_combModel
+0.000000"];
+"mean2_240GeV_eeH" [ color=blue, label="RooRealVar
+mean2_240GeV_eeH
+135.564362"];
+"sigma2_240GeV_eeH" [ color=blue, label="RooRealVar
+sigma2_240GeV_eeH
+4.003911"];
+"fsig_eeH" [ color=blue, label="RooRealVar
+fsig_eeH
+0.602180"];
+"finalsig_recursive_fraction_CB2sig_240GeV_eeH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_CB2sig_240GeV_eeH
+0.058343"];
+"fsig2_eeH" [ color=blue, label="RooRealVar
+fsig2_eeH
+0.146656"];
+"finalsig_recursive_fraction_gauss_240GeV_eeH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss_240GeV_eeH
+0.339477"];
+"muZHsig_eeH_combModel" [ color=red, label="RooProduct
+muZHsig_eeH_combModel
+34008.943878"];
+"varL_240GeV_eeH" [ color=red, label="RooProduct
+varL_240GeV_eeH
+5000008.359764"];
+"Lmess_240GeV_eeH" [ color=blue, label="RooRealVar
+Lmess_240GeV_eeH
+1.000002"];
+"varE_240GeV_eeH" [ color=red, label="RooProduct
+varE_240GeV_eeH
+0.048267"];
+"Emess_240GeV_eeH" [ color=blue, label="RooRealVar
+Emess_240GeV_eeH
+0.999982"];
+"N_eeH" [ color=blue, label="RooRealVar
+N_eeH
+32498.927709"];
+"mHsmear_240GeV_eeH_combModel" [ color=red, label="RooGaussian
+mHsmear_240GeV_eeH_combModel
+0.089260"];
+"125" [ color=red, label="RooConstVar
+125
+125.000000"];
+"0.14" [ color=red, label="RooConstVar
+0.14
+0.140000"];
+"Lsmear_240GeV_eeH" [ color=red, label="RooGaussian
+Lsmear_240GeV_eeH
+0.999999"];
+"Esmear_240GeV_eeH" [ color=red, label="RooGaussian
+Esmear_240GeV_eeH
+0.999998"];
+"COMsmear_240GeV_eeH" [ color=red, label="RooGaussian
+COMsmear_240GeV_eeH
+0.999707"];
+"1.2e-05" [ color=red, label="RooConstVar
+1.2e-05
+0.000012"];
+"BRsmear_240GeV_eeH" [ color=red, label="RooGaussian
+BRsmear_240GeV_eeH
+1.000000"];
+"BRmess_240GeV_eeH" [ color=blue, label="RooRealVar
+BRmess_240GeV_eeH
+1.000000"];
+"model_ijH_combModel" [ color=red, label="RooProdPdf
+model_ijH_combModel
+0.000000"];
+"modelBare_ijH_combModel" [ color=red, label="RooAddPdf
+modelBare_ijH_combModel
+0.000000"];
+"bkgModel_ijH_combModel" [ color=red, label="RooKeysPdf
+bkgModel_ijH_combModel
+0.000000"];
+"finalsig_ijH_combModel" [ color=red, label="RooAddPdf
+finalsig_ijH_combModel
+0.000000"];
+"gauss_240GeV_ijH_combModel" [ color=red, label="RooGaussian
+gauss_240GeV_ijH_combModel
+0.000000"];
+"mean_ijH" [ color=blue, label="RooRealVar
+mean_ijH
+130.634894"];
+"sigma_ijH" [ color=blue, label="RooRealVar
+sigma_ijH
+2.011039"];
+"gauss2_240GeV_ijH_combModel" [ color=red, label="RooGaussian
+gauss2_240GeV_ijH_combModel
+0.000000"];
+"mean2_ijH" [ color=blue, label="RooRealVar
+mean2_ijH
+127.387543"];
+"sigma2_ijH" [ color=blue, label="RooRealVar
+sigma2_ijH
+1.069638"];
+"gauss3_240GeV_ijH_combModel" [ color=red, label="RooGaussian
+gauss3_240GeV_ijH_combModel
+0.000000"];
+"mean3_ijH" [ color=blue, label="RooRealVar
+mean3_ijH
+124.300000"];
+"sigma3_ijH" [ color=blue, label="RooRealVar
+sigma3_ijH
+0.010000"];
+"gauss4_240GeV_ijH_combModel" [ color=red, label="RooGaussian
+gauss4_240GeV_ijH_combModel
+0.000000"];
+"mean4_ijH" [ color=blue, label="RooRealVar
+mean4_ijH
+138.212111"];
+"sigma4_ijH" [ color=blue, label="RooRealVar
+sigma4_ijH
+4.998753"];
+"fsig_ijH" [ color=blue, label="RooRealVar
+fsig_ijH
+0.357139"];
+"finalsig_recursive_fraction_gauss2_240GeV_ijH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss2_240GeV_ijH
+0.195262"];
+"fsig2_ijH" [ color=blue, label="RooRealVar
+fsig2_ijH
+0.303740"];
+"finalsig_recursive_fraction_gauss3_240GeV_ijH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss3_240GeV_ijH
+0.295687"];
+"fsig3_ijH" [ color=blue, label="RooRealVar
+fsig3_ijH
+0.660607"];
+"finalsig_recursive_fraction_gauss4_240GeV_ijH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss4_240GeV_ijH
+0.151912"];
+"muZHsig_ijH_combModel" [ color=red, label="RooProduct
+muZHsig_ijH_combModel
+34009.519386"];
+"varL_240GeV_ijH" [ color=red, label="RooProduct
+varL_240GeV_ijH
+4999997.285665"];
+"Lmess_240GeV_ijH" [ color=blue, label="RooRealVar
+Lmess_240GeV_ijH
+0.999999"];
+"varE_240GeV_ijH" [ color=red, label="RooProduct
+varE_240GeV_ijH
+0.048268"];
+"Emess_240GeV_ijH" [ color=blue, label="RooRealVar
+Emess_240GeV_ijH
+1.000001"];
+"N_ijH" [ color=blue, label="RooRealVar
+N_ijH
+102941.694159"];
+"Lsmear_240GeV_ijH" [ color=red, label="RooGaussian
+Lsmear_240GeV_ijH
+1.000000"];
+"Esmear_240GeV_ijH" [ color=red, label="RooGaussian
+Esmear_240GeV_ijH
+1.000000"];
+"BRsmear_240GeV_ijH" [ color=red, label="RooGaussian
+BRsmear_240GeV_ijH
+1.000000"];
+"BRmess_240GeV_ijH" [ color=blue, label="RooRealVar
+BRmess_240GeV_ijH
+1.000000"];
+"model_mumuH_combModel" [ color=red, label="RooProdPdf
+model_mumuH_combModel
+0.000395"];
+"modelBare_mumuH_combModel" [ color=red, label="RooAddPdf
+modelBare_mumuH_combModel
+0.004425"];
+"bkgModel_mumuH_combModel" [ color=red, label="RooPolynomial
+bkgModel_mumuH_combModel
+1.072740"];
+"a0_mumuH" [ color=blue, label="RooRealVar
+a0_mumuH
+0.004612"];
+"a1_mumuH" [ color=blue, label="RooRealVar
+a1_mumuH
+-0.000053"];
+"finalsig_mumuH_combModel" [ color=red, label="RooAddPdf
+finalsig_mumuH_combModel
+0.000465"];
+"CB1sig_240GeV_mumuH_combModel" [ color=red, label="RooCrystalBall
+CB1sig_240GeV_mumuH_combModel
+0.005145"];
+"mean_mumuH_combModel" [ color=red, label="RooFormulaVar
+mean_mumuH_combModel
+125.307818"];
+"COMmess_240GeV_mumuH" [ color=blue, label="RooRealVar
+COMmess_240GeV_mumuH
+1.000000"];
+"mZ_mumuH" [ color=blue, label="RooRealVar
+mZ_mumuH
+91.188000"];
+"sigma_mumuH" [ color=blue, label="RooRealVar
+sigma_mumuH
+0.725594"];
+"alphaL_mumuH" [ color=blue, label="RooRealVar
+alphaL_mumuH
+2.978362"];
+"NL_mumuH" [ color=blue, label="RooRealVar
+NL_mumuH
+0.100004"];
+"CB2sig_240GeV_mumuH_combModel" [ color=red, label="RooCrystalBall
+CB2sig_240GeV_mumuH_combModel
+0.005151"];
+"alphaR_mumuH" [ color=blue, label="RooRealVar
+alphaR_mumuH
+2.977879"];
+"NR_mumuH" [ color=blue, label="RooRealVar
+NR_mumuH
+0.100044"];
+"gauss_240GeV_mumuH_combModel" [ color=red, label="RooGaussian
+gauss_240GeV_mumuH_combModel
+0.000000"];
+"mean2_240GeV_mumuH" [ color=blue, label="RooRealVar
+mean2_240GeV_mumuH
+128.318158"];
+"sigma2_240GeV_mumuH" [ color=blue, label="RooRealVar
+sigma2_240GeV_mumuH
+7.095798"];
+"fsig_mumuH" [ color=blue, label="RooRealVar
+fsig_mumuH
+0.217296"];
+"finalsig_recursive_fraction_CB2sig_240GeV_mumuH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_CB2sig_240GeV_mumuH
+0.000000"];
+"fsig2_mumuH" [ color=blue, label="RooRealVar
+fsig2_mumuH
+0.000000"];
+"finalsig_recursive_fraction_gauss_240GeV_mumuH" [ color=red, label="RooRecursiveFraction
+finalsig_recursive_fraction_gauss_240GeV_mumuH
+0.782704"];
+"muZHsig_mumuH_combModel" [ color=red, label="RooProduct
+muZHsig_mumuH_combModel
+34009.515042"];
+"varL_240GeV_mumuH" [ color=red, label="RooProduct
+varL_240GeV_mumuH
+5000000.095143"];
+"Lmess_240GeV_mumuH" [ color=blue, label="RooRealVar
+Lmess_240GeV_mumuH
+1.000000"];
+"varE_240GeV_mumuH" [ color=red, label="RooProduct
+varE_240GeV_mumuH
+0.048268"];
+"Emess_240GeV_mumuH" [ color=blue, label="RooRealVar
+Emess_240GeV_mumuH
+1.000000"];
+"N_mumuH" [ color=blue, label="RooRealVar
+N_mumuH
+32870.972897"];
+"mHsmear_240GeV_mumuH_combModel" [ color=red, label="RooGaussian
+mHsmear_240GeV_mumuH_combModel
+0.089260"];
+"Lsmear_240GeV_mumuH" [ color=red, label="RooGaussian
+Lsmear_240GeV_mumuH
+1.000000"];
+"Esmear_240GeV_mumuH" [ color=red, label="RooGaussian
+Esmear_240GeV_mumuH
+1.000000"];
+"COMsmear_240GeV_mumuH" [ color=red, label="RooGaussian
+COMsmear_240GeV_mumuH
+0.999817"];
+"BRsmear_240GeV_mumuH" [ color=red, label="RooGaussian
+BRsmear_240GeV_mumuH
+1.000000"];
+"BRmess_240GeV_mumuH" [ color=blue, label="RooRealVar
+BRmess_240GeV_mumuH
+1.000000"];
+"channel" [ color=blue, label="RooCategory
+channel"];
+"finalsig_recursive_fraction_gauss2_240GeV_ijH" -> "fsig_ijH";
+"finalsig_recursive_fraction_gauss2_240GeV_ijH" -> "fsig2_ijH";
+"finalsig_recursive_fraction_gauss3_240GeV_ijH" -> "fsig_ijH";
+"finalsig_recursive_fraction_gauss3_240GeV_ijH" -> "fsig2_ijH";
+"finalsig_recursive_fraction_gauss3_240GeV_ijH" -> "fsig3_ijH";
+"finalsig_recursive_fraction_gauss4_240GeV_ijH" -> "fsig_ijH";
+"finalsig_recursive_fraction_gauss4_240GeV_ijH" -> "fsig2_ijH";
+"finalsig_recursive_fraction_gauss4_240GeV_ijH" -> "fsig3_ijH";
+"finalsig_recursive_fraction_gauss4_240GeV_ijH" -> "1";
+"gauss_240GeV_bbH_combModel" -> "mean_bbH";
+"gauss_240GeV_bbH_combModel" -> "sigma_bbH";
+"gauss_240GeV_bbH_combModel" -> "MRec";
+"modelBare_bbH_combModel" -> "MRec";
+"modelBare_bbH_combModel" -> "bkgModel_bbH_combModel";
+"modelBare_bbH_combModel" -> "finalsig_bbH_combModel";
+"modelBare_bbH_combModel" -> "muZHsig_bbH_combModel";
+"modelBare_bbH_combModel" -> "N_bbH";
+"bkgModel_bbH_combModel" -> "MRec";
+"finalsig_bbH_combModel" -> "gauss_240GeV_bbH_combModel";
+"finalsig_bbH_combModel" -> "MRec";
+"finalsig_bbH_combModel" -> "gauss2_240GeV_bbH_combModel";
+"finalsig_bbH_combModel" -> "gauss3_240GeV_bbH_combModel";
+"finalsig_bbH_combModel" -> "gauss4_240GeV_bbH_combModel";
+"finalsig_bbH_combModel" -> "fsig_bbH";
+"finalsig_bbH_combModel" -> "finalsig_recursive_fraction_gauss2_240GeV_bbH";
+"finalsig_bbH_combModel" -> "finalsig_recursive_fraction_gauss3_240GeV_bbH";
+"finalsig_bbH_combModel" -> "finalsig_recursive_fraction_gauss4_240GeV_bbH";
+"gauss2_240GeV_bbH_combModel" -> "MRec";
+"gauss2_240GeV_bbH_combModel" -> "mean2_bbH";
+"gauss2_240GeV_bbH_combModel" -> "sigma2_bbH";
+"gauss3_240GeV_bbH_combModel" -> "MRec";
+"gauss3_240GeV_bbH_combModel" -> "mean3_bbH";
+"gauss3_240GeV_bbH_combModel" -> "sigma3_bbH";
+"gauss4_240GeV_bbH_combModel" -> "MRec";
+"gauss4_240GeV_bbH_combModel" -> "mean4_bbH";
+"gauss4_240GeV_bbH_combModel" -> "sigma4_bbH";
+"finalsig_recursive_fraction_gauss2_240GeV_bbH" -> "fsig_bbH";
+"finalsig_recursive_fraction_gauss2_240GeV_bbH" -> "fsig2_bbH";
+"finalsig_recursive_fraction_gauss3_240GeV_bbH" -> "fsig_bbH";
+"finalsig_recursive_fraction_gauss3_240GeV_bbH" -> "fsig2_bbH";
+"finalsig_recursive_fraction_gauss3_240GeV_bbH" -> "fsig3_bbH";
+"finalsig_recursive_fraction_gauss4_240GeV_bbH" -> "fsig_bbH";
+"finalsig_recursive_fraction_gauss4_240GeV_bbH" -> "fsig2_bbH";
+"finalsig_recursive_fraction_gauss4_240GeV_bbH" -> "fsig3_bbH";
+"finalsig_recursive_fraction_gauss4_240GeV_bbH" -> "1";
+"Lsmear_240GeV_bbH" -> "1";
+"Lsmear_240GeV_bbH" -> "Lmess_240GeV_bbH";
+"Lsmear_240GeV_bbH" -> "0.001";
+"varL_240GeV_bbH" -> "Lmess_240GeV_bbH";
+"varL_240GeV_bbH" -> "Lideal_240GeV";
+"varL_240GeV_bcH" -> "Lideal_240GeV";
+"varL_240GeV_bcH" -> "Lmess_240GeV_bcH";
+"Lsmear_240GeV_bcH" -> "1";
+"Lsmear_240GeV_bcH" -> "Lmess_240GeV_bcH";
+"Lsmear_240GeV_bcH" -> "0.001";
+"Lsmear_240GeV_bjH" -> "1";
+"Lsmear_240GeV_bjH" -> "0.001";
+"Lsmear_240GeV_bjH" -> "Lmess_240GeV_bjH";
+"varL_240GeV_bjH" -> "Lideal_240GeV";
+"varL_240GeV_bjH" -> "Lmess_240GeV_bjH";
+"varE_240GeV_bjH" -> "Emess_240GeV_bjH";
+"varE_240GeV_bjH" -> "Eideal_240GeV";
+"Esmear_240GeV_bjH" -> "1";
+"Esmear_240GeV_bjH" -> "Emess_240GeV_bjH";
+"Esmear_240GeV_bjH" -> "0.01";
+"Esmear_240GeV_bbH" -> "1";
+"Esmear_240GeV_bbH" -> "0.01";
+"Esmear_240GeV_bbH" -> "Emess_240GeV_bbH";
+"varE_240GeV_bbH" -> "Emess_240GeV_bbH";
+"varE_240GeV_bbH" -> "Eideal_240GeV";
+"varE_240GeV_bcH" -> "Eideal_240GeV";
+"varE_240GeV_bcH" -> "Emess_240GeV_bcH";
+"Esmear_240GeV_bcH" -> "1";
+"Esmear_240GeV_bcH" -> "0.01";
+"Esmear_240GeV_bcH" -> "Emess_240GeV_bcH";
+"gauss_240GeV_bcH_combModel" -> "MRec";
+"gauss_240GeV_bcH_combModel" -> "mean_bcH";
+"gauss_240GeV_bcH_combModel" -> "sigma_bcH";
+"gauss2_240GeV_bcH_combModel" -> "MRec";
+"gauss2_240GeV_bcH_combModel" -> "mean2_bcH";
+"gauss2_240GeV_bcH_combModel" -> "sigma2_bcH";
+"finalsig_bcH_combModel" -> "MRec";
+"finalsig_bcH_combModel" -> "gauss_240GeV_bcH_combModel";
+"finalsig_bcH_combModel" -> "gauss2_240GeV_bcH_combModel";
+"finalsig_bcH_combModel" -> "gauss3_240GeV_bcH_combModel";
+"finalsig_bcH_combModel" -> "gauss4_240GeV_bcH_combModel";
+"finalsig_bcH_combModel" -> "fsig_bcH";
+"finalsig_bcH_combModel" -> "finalsig_recursive_fraction_gauss2_240GeV_bcH";
+"finalsig_bcH_combModel" -> "finalsig_recursive_fraction_gauss3_240GeV_bcH";
+"finalsig_bcH_combModel" -> "finalsig_recursive_fraction_gauss4_240GeV_bcH";
+"gauss3_240GeV_bcH_combModel" -> "MRec";
+"gauss3_240GeV_bcH_combModel" -> "mean3_bcH";
+"gauss3_240GeV_bcH_combModel" -> "sigma3_bcH";
+"gauss4_240GeV_bcH_combModel" -> "MRec";
+"gauss4_240GeV_bcH_combModel" -> "mean4_bcH";
+"gauss4_240GeV_bcH_combModel" -> "sigma4_bcH";
+"finalsig_recursive_fraction_gauss2_240GeV_bcH" -> "fsig_bcH";
+"finalsig_recursive_fraction_gauss2_240GeV_bcH" -> "fsig2_bcH";
+"finalsig_recursive_fraction_gauss3_240GeV_bcH" -> "fsig_bcH";
+"finalsig_recursive_fraction_gauss3_240GeV_bcH" -> "fsig2_bcH";
+"finalsig_recursive_fraction_gauss3_240GeV_bcH" -> "fsig3_bcH";
+"finalsig_recursive_fraction_gauss4_240GeV_bcH" -> "1";
+"finalsig_recursive_fraction_gauss4_240GeV_bcH" -> "fsig_bcH";
+"finalsig_recursive_fraction_gauss4_240GeV_bcH" -> "fsig2_bcH";
+"finalsig_recursive_fraction_gauss4_240GeV_bcH" -> "fsig3_bcH";
+"varL_240GeV_ccH" -> "Lideal_240GeV";
+"varL_240GeV_ccH" -> "Lmess_240GeV_ccH";
+"Lsmear_240GeV_ccH" -> "1";
+"Lsmear_240GeV_ccH" -> "0.001";
+"Lsmear_240GeV_ccH" -> "Lmess_240GeV_ccH";
+"gauss_240GeV_ccH_combModel" -> "MRec";
+"gauss_240GeV_ccH_combModel" -> "mean_ccH";
+"gauss_240GeV_ccH_combModel" -> "sigma_ccH";
+"gauss2_240GeV_ccH_combModel" -> "MRec";
+"gauss2_240GeV_ccH_combModel" -> "mean2_ccH";
+"gauss2_240GeV_ccH_combModel" -> "sigma2_ccH";
+"finalsig_ccH_combModel" -> "MRec";
+"finalsig_ccH_combModel" -> "gauss_240GeV_ccH_combModel";
+"finalsig_ccH_combModel" -> "gauss2_240GeV_ccH_combModel";
+"finalsig_ccH_combModel" -> "fsig_ccH";
+"finalsig_ccH_combModel" -> "finalsig_recursive_fraction_gauss2_240GeV_ccH";
+"finalsig_recursive_fraction_gauss2_240GeV_ccH" -> "1";
+"finalsig_recursive_fraction_gauss2_240GeV_ccH" -> "fsig_ccH";
+"varE_240GeV_ccH" -> "Eideal_240GeV";
+"varE_240GeV_ccH" -> "Emess_240GeV_ccH";
+"Esmear_240GeV_ccH" -> "1";
+"Esmear_240GeV_ccH" -> "0.01";
+"Esmear_240GeV_ccH" -> "Emess_240GeV_ccH";
+"model_ccH_combModel" -> "Lsmear_240GeV_ccH";
+"model_ccH_combModel" -> "Esmear_240GeV_ccH";
+"model_ccH_combModel" -> "modelBare_ccH_combModel";
+"model_ccH_combModel" -> "BRsmear_240GeV_ccH";
+"modelBare_ccH_combModel" -> "MRec";
+"modelBare_ccH_combModel" -> "finalsig_ccH_combModel";
+"modelBare_ccH_combModel" -> "bkgModel_ccH_combModel";
+"modelBare_ccH_combModel" -> "muZHsig_ccH_combModel";
+"modelBare_ccH_combModel" -> "N_ccH";
+"bkgModel_ccH_combModel" -> "MRec";
+"muZHsig_ccH_combModel" -> "CSTrue_240GeV";
+"muZHsig_ccH_combModel" -> "BRideal_240GeV";
+"muZHsig_ccH_combModel" -> "varL_240GeV_ccH";
+"muZHsig_ccH_combModel" -> "varE_240GeV_ccH";
+"muZHsig_ccH_combModel" -> "muZH_240GeV";
+"muZHsig_bbH_combModel" -> "varL_240GeV_bbH";
+"muZHsig_bbH_combModel" -> "varE_240GeV_bbH";
+"muZHsig_bbH_combModel" -> "CSTrue_240GeV";
+"muZHsig_bbH_combModel" -> "BRideal_240GeV";
+"muZHsig_bbH_combModel" -> "muZH_240GeV";
+"muZHsig_bcH_combModel" -> "varL_240GeV_bcH";
+"muZHsig_bcH_combModel" -> "varE_240GeV_bcH";
+"muZHsig_bcH_combModel" -> "CSTrue_240GeV";
+"muZHsig_bcH_combModel" -> "BRideal_240GeV";
+"muZHsig_bcH_combModel" -> "muZH_240GeV";
+"modelBare_bcH_combModel" -> "MRec";
+"modelBare_bcH_combModel" -> "finalsig_bcH_combModel";
+"modelBare_bcH_combModel" -> "muZHsig_bcH_combModel";
+"modelBare_bcH_combModel" -> "bkgModel_bcH_combModel";
+"modelBare_bcH_combModel" -> "N_bcH";
+"bkgModel_bcH_combModel" -> "MRec";
+"BRsmear_240GeV_bbH" -> "1";
+"BRsmear_240GeV_bbH" -> "BRmess_240GeV_bbH";
+"BRsmear_240GeV_bbH" -> "0.002";
+"BRsmear_240GeV_bcH" -> "1";
+"BRsmear_240GeV_bcH" -> "BRmess_240GeV_bcH";
+"BRsmear_240GeV_bcH" -> "0.002";
+"model_bcH_combModel" -> "Lsmear_240GeV_bcH";
+"model_bcH_combModel" -> "Esmear_240GeV_bcH";
+"model_bcH_combModel" -> "modelBare_bcH_combModel";
+"model_bcH_combModel" -> "BRsmear_240GeV_bcH";
+"combModel" -> "model_ccH_combModel";
+"combModel" -> "model_bcH_combModel";
+"combModel" -> "model_bbH_combModel";
+"combModel" -> "model_bjH_combModel";
+"combModel" -> "channel";
+"combModel" -> "model_cjH_combModel";
+"combModel" -> "model_ijH_combModel";
+"combModel" -> "model_mumuH_combModel";
+"combModel" -> "model_eeH_combModel";
+"model_bbH_combModel" -> "modelBare_bbH_combModel";
+"model_bbH_combModel" -> "Lsmear_240GeV_bbH";
+"model_bbH_combModel" -> "Esmear_240GeV_bbH";
+"model_bbH_combModel" -> "BRsmear_240GeV_bbH";
+"model_bjH_combModel" -> "Lsmear_240GeV_bjH";
+"model_bjH_combModel" -> "Esmear_240GeV_bjH";
+"model_bjH_combModel" -> "modelBare_bjH_combModel";
+"model_bjH_combModel" -> "BRsmear_240GeV_bjH";
+"modelBare_bjH_combModel" -> "MRec";
+"modelBare_bjH_combModel" -> "bkgModel_bjH_combModel";
+"modelBare_bjH_combModel" -> "finalsig_bjH_combModel";
+"modelBare_bjH_combModel" -> "N_bjH";
+"modelBare_bjH_combModel" -> "muZHsig_bjH_combModel";
+"bkgModel_bjH_combModel" -> "MRec";
+"finalsig_bjH_combModel" -> "MRec";
+"finalsig_bjH_combModel" -> "gauss_240GeV_bjH_combModel";
+"finalsig_bjH_combModel" -> "gauss2_240GeV_bjH_combModel";
+"finalsig_bjH_combModel" -> "fsig_bjH";
+"finalsig_bjH_combModel" -> "finalsig_recursive_fraction_gauss2_240GeV_bjH";
+"finalsig_bjH_combModel" -> "finalsig_recursive_fraction_gauss3_240GeV_bjH";
+"finalsig_bjH_combModel" -> "finalsig_recursive_fraction_gauss4_240GeV_bjH";
+"finalsig_bjH_combModel" -> "gauss3_240GeV_bjH_combModel";
+"finalsig_bjH_combModel" -> "gauss4_240GeV_bjH_combModel";
+"gauss_240GeV_bjH_combModel" -> "MRec";
+"gauss_240GeV_bjH_combModel" -> "mean_bjH";
+"gauss_240GeV_bjH_combModel" -> "sigma_bjH";
+"gauss2_240GeV_bjH_combModel" -> "MRec";
+"gauss2_240GeV_bjH_combModel" -> "mean2_bjH";
+"gauss2_240GeV_bjH_combModel" -> "sigma2_bjH";
+"finalsig_recursive_fraction_gauss2_240GeV_bjH" -> "fsig_bjH";
+"finalsig_recursive_fraction_gauss2_240GeV_bjH" -> "fsig2_bjH";
+"finalsig_recursive_fraction_gauss3_240GeV_bjH" -> "fsig_bjH";
+"finalsig_recursive_fraction_gauss3_240GeV_bjH" -> "fsig2_bjH";
+"finalsig_recursive_fraction_gauss3_240GeV_bjH" -> "fsig3_bjH";
+"finalsig_recursive_fraction_gauss4_240GeV_bjH" -> "1";
+"finalsig_recursive_fraction_gauss4_240GeV_bjH" -> "fsig_bjH";
+"finalsig_recursive_fraction_gauss4_240GeV_bjH" -> "fsig2_bjH";
+"finalsig_recursive_fraction_gauss4_240GeV_bjH" -> "fsig3_bjH";
+"gauss3_240GeV_bjH_combModel" -> "MRec";
+"gauss3_240GeV_bjH_combModel" -> "mean3_bjH";
+"gauss3_240GeV_bjH_combModel" -> "sigma3_bjH";
+"gauss4_240GeV_bjH_combModel" -> "MRec";
+"gauss4_240GeV_bjH_combModel" -> "mean4_bjH";
+"gauss4_240GeV_bjH_combModel" -> "sigma4_bjH";
+"BRsmear_240GeV_bjH" -> "1";
+"BRsmear_240GeV_bjH" -> "0.002";
+"BRsmear_240GeV_bjH" -> "BRmess_240GeV_bjH";
+"gauss_240GeV_cjH_combModel" -> "MRec";
+"gauss_240GeV_cjH_combModel" -> "mean_cjH";
+"gauss_240GeV_cjH_combModel" -> "sigma_cjH";
+"gauss2_240GeV_cjH_combModel" -> "MRec";
+"gauss2_240GeV_cjH_combModel" -> "mean2_cjH";
+"gauss2_240GeV_cjH_combModel" -> "sigma2_cjH";
+"finalsig_cjH_combModel" -> "MRec";
+"finalsig_cjH_combModel" -> "gauss_240GeV_cjH_combModel";
+"finalsig_cjH_combModel" -> "gauss2_240GeV_cjH_combModel";
+"finalsig_cjH_combModel" -> "gauss3_240GeV_cjH_combModel";
+"finalsig_cjH_combModel" -> "gauss4_240GeV_cjH_combModel";
+"finalsig_cjH_combModel" -> "fsig_cjH";
+"finalsig_cjH_combModel" -> "finalsig_recursive_fraction_gauss2_240GeV_cjH";
+"finalsig_cjH_combModel" -> "finalsig_recursive_fraction_gauss3_240GeV_cjH";
+"finalsig_cjH_combModel" -> "finalsig_recursive_fraction_gauss4_240GeV_cjH";
+"gauss3_240GeV_cjH_combModel" -> "MRec";
+"gauss3_240GeV_cjH_combModel" -> "mean3_cjH";
+"gauss3_240GeV_cjH_combModel" -> "sigma3_cjH";
+"gauss4_240GeV_cjH_combModel" -> "MRec";
+"gauss4_240GeV_cjH_combModel" -> "mean4_cjH";
+"gauss4_240GeV_cjH_combModel" -> "sigma4_cjH";
+"finalsig_recursive_fraction_gauss2_240GeV_cjH" -> "fsig_cjH";
+"finalsig_recursive_fraction_gauss2_240GeV_cjH" -> "fsig2_cjH";
+"finalsig_recursive_fraction_gauss3_240GeV_cjH" -> "fsig_cjH";
+"finalsig_recursive_fraction_gauss3_240GeV_cjH" -> "fsig2_cjH";
+"finalsig_recursive_fraction_gauss3_240GeV_cjH" -> "fsig3_cjH";
+"finalsig_recursive_fraction_gauss4_240GeV_cjH" -> "1";
+"finalsig_recursive_fraction_gauss4_240GeV_cjH" -> "fsig_cjH";
+"finalsig_recursive_fraction_gauss4_240GeV_cjH" -> "fsig2_cjH";
+"finalsig_recursive_fraction_gauss4_240GeV_cjH" -> "fsig3_cjH";
+"varL_240GeV_cjH" -> "Lideal_240GeV";
+"varL_240GeV_cjH" -> "Lmess_240GeV_cjH";
+"Lsmear_240GeV_cjH" -> "1";
+"Lsmear_240GeV_cjH" -> "0.001";
+"Lsmear_240GeV_cjH" -> "Lmess_240GeV_cjH";
+"Esmear_240GeV_cjH" -> "1";
+"Esmear_240GeV_cjH" -> "0.01";
+"Esmear_240GeV_cjH" -> "Emess_240GeV_cjH";
+"varE_240GeV_cjH" -> "Eideal_240GeV";
+"varE_240GeV_cjH" -> "Emess_240GeV_cjH";
+"muZHsig_cjH_combModel" -> "CSTrue_240GeV";
+"muZHsig_cjH_combModel" -> "BRideal_240GeV";
+"muZHsig_cjH_combModel" -> "muZH_240GeV";
+"muZHsig_cjH_combModel" -> "varL_240GeV_cjH";
+"muZHsig_cjH_combModel" -> "varE_240GeV_cjH";
+"modelBare_cjH_combModel" -> "MRec";
+"modelBare_cjH_combModel" -> "finalsig_cjH_combModel";
+"modelBare_cjH_combModel" -> "muZHsig_cjH_combModel";
+"modelBare_cjH_combModel" -> "bkgModel_cjH_combModel";
+"modelBare_cjH_combModel" -> "N_cjH";
+"bkgModel_cjH_combModel" -> "MRec";
+"model_cjH_combModel" -> "Lsmear_240GeV_cjH";
+"model_cjH_combModel" -> "Esmear_240GeV_cjH";
+"model_cjH_combModel" -> "modelBare_cjH_combModel";
+"model_cjH_combModel" -> "BRsmear_240GeV_cjH";
+"BRsmear_240GeV_cjH" -> "1";
+"BRsmear_240GeV_cjH" -> "0.002";
+"BRsmear_240GeV_cjH" -> "BRmess_240GeV_cjH";
+"BRsmear_240GeV_ccH" -> "1";
+"BRsmear_240GeV_ccH" -> "0.002";
+"BRsmear_240GeV_ccH" -> "BRmess_240GeV_ccH";
+"modelBare_ijH_combModel" -> "MRec";
+"modelBare_ijH_combModel" -> "N_ijH";
+"modelBare_ijH_combModel" -> "bkgModel_ijH_combModel";
+"modelBare_ijH_combModel" -> "finalsig_ijH_combModel";
+"modelBare_ijH_combModel" -> "muZHsig_ijH_combModel";
+"bkgModel_ijH_combModel" -> "MRec";
+"finalsig_ijH_combModel" -> "fsig_ijH";
+"finalsig_ijH_combModel" -> "finalsig_recursive_fraction_gauss2_240GeV_ijH";
+"finalsig_ijH_combModel" -> "finalsig_recursive_fraction_gauss3_240GeV_ijH";
+"finalsig_ijH_combModel" -> "finalsig_recursive_fraction_gauss4_240GeV_ijH";
+"finalsig_ijH_combModel" -> "MRec";
+"finalsig_ijH_combModel" -> "gauss_240GeV_ijH_combModel";
+"finalsig_ijH_combModel" -> "gauss2_240GeV_ijH_combModel";
+"finalsig_ijH_combModel" -> "gauss3_240GeV_ijH_combModel";
+"finalsig_ijH_combModel" -> "gauss4_240GeV_ijH_combModel";
+"gauss_240GeV_ijH_combModel" -> "MRec";
+"gauss_240GeV_ijH_combModel" -> "mean_ijH";
+"gauss_240GeV_ijH_combModel" -> "sigma_ijH";
+"gauss2_240GeV_ijH_combModel" -> "MRec";
+"gauss2_240GeV_ijH_combModel" -> "mean2_ijH";
+"gauss2_240GeV_ijH_combModel" -> "sigma2_ijH";
+"gauss3_240GeV_ijH_combModel" -> "MRec";
+"gauss3_240GeV_ijH_combModel" -> "mean3_ijH";
+"gauss3_240GeV_ijH_combModel" -> "sigma3_ijH";
+"gauss4_240GeV_ijH_combModel" -> "MRec";
+"gauss4_240GeV_ijH_combModel" -> "mean4_ijH";
+"gauss4_240GeV_ijH_combModel" -> "sigma4_ijH";
+"varL_240GeV_ijH" -> "Lideal_240GeV";
+"varL_240GeV_ijH" -> "Lmess_240GeV_ijH";
+"Lsmear_240GeV_ijH" -> "1";
+"Lsmear_240GeV_ijH" -> "0.001";
+"Lsmear_240GeV_ijH" -> "Lmess_240GeV_ijH";
+"Esmear_240GeV_ijH" -> "1";
+"Esmear_240GeV_ijH" -> "0.01";
+"Esmear_240GeV_ijH" -> "Emess_240GeV_ijH";
+"varE_240GeV_ijH" -> "Eideal_240GeV";
+"varE_240GeV_ijH" -> "Emess_240GeV_ijH";
+"muZHsig_ijH_combModel" -> "CSTrue_240GeV";
+"muZHsig_ijH_combModel" -> "BRideal_240GeV";
+"muZHsig_ijH_combModel" -> "muZH_240GeV";
+"muZHsig_ijH_combModel" -> "varL_240GeV_ijH";
+"muZHsig_ijH_combModel" -> "varE_240GeV_ijH";
+"model_ijH_combModel" -> "modelBare_ijH_combModel";
+"model_ijH_combModel" -> "Lsmear_240GeV_ijH";
+"model_ijH_combModel" -> "Esmear_240GeV_ijH";
+"model_ijH_combModel" -> "BRsmear_240GeV_ijH";
+"BRsmear_240GeV_ijH" -> "1";
+"BRsmear_240GeV_ijH" -> "0.002";
+"BRsmear_240GeV_ijH" -> "BRmess_240GeV_ijH";
+"mean_eeH_combModel" -> "COMideal_240GeV";
+"mean_eeH_combModel" -> "COMmess_240GeV_eeH";
+"mean_eeH_combModel" -> "mHmess_240GeV";
+"mean_eeH_combModel" -> "mZ_eeH";
+"COMsmear_240GeV_eeH" -> "1";
+"COMsmear_240GeV_eeH" -> "COMmess_240GeV_eeH";
+"COMsmear_240GeV_eeH" -> "1.2e-05";
+"COMsmear_240GeV_mumuH" -> "1";
+"COMsmear_240GeV_mumuH" -> "1.2e-05";
+"COMsmear_240GeV_mumuH" -> "COMmess_240GeV_mumuH";
+"mean_mumuH_combModel" -> "COMideal_240GeV";
+"mean_mumuH_combModel" -> "COMmess_240GeV_mumuH";
+"mean_mumuH_combModel" -> "mZ_mumuH";
+"mean_mumuH_combModel" -> "mHmess_240GeV";
+"mHsmear_240GeV_eeH_combModel" -> "125";
+"mHsmear_240GeV_eeH_combModel" -> "mHmess_240GeV";
+"mHsmear_240GeV_eeH_combModel" -> "0.14";
+"mHsmear_240GeV_mumuH_combModel" -> "125";
+"mHsmear_240GeV_mumuH_combModel" -> "mHmess_240GeV";
+"mHsmear_240GeV_mumuH_combModel" -> "0.14";
+"model_mumuH_combModel" -> "COMsmear_240GeV_mumuH";
+"model_mumuH_combModel" -> "mHsmear_240GeV_mumuH_combModel";
+"model_mumuH_combModel" -> "modelBare_mumuH_combModel";
+"model_mumuH_combModel" -> "Lsmear_240GeV_mumuH";
+"model_mumuH_combModel" -> "Esmear_240GeV_mumuH";
+"model_mumuH_combModel" -> "BRsmear_240GeV_mumuH";
+"modelBare_mumuH_combModel" -> "MRec";
+"modelBare_mumuH_combModel" -> "bkgModel_mumuH_combModel";
+"modelBare_mumuH_combModel" -> "N_mumuH";
+"modelBare_mumuH_combModel" -> "finalsig_mumuH_combModel";
+"modelBare_mumuH_combModel" -> "muZHsig_mumuH_combModel";
+"bkgModel_mumuH_combModel" -> "MRec";
+"bkgModel_mumuH_combModel" -> "a0_mumuH";
+"bkgModel_mumuH_combModel" -> "a1_mumuH";
+"CB1sig_240GeV_mumuH_combModel" -> "MRec";
+"CB1sig_240GeV_mumuH_combModel" -> "mean_mumuH_combModel";
+"CB1sig_240GeV_mumuH_combModel" -> "sigma_mumuH";
+"CB1sig_240GeV_mumuH_combModel" -> "alphaL_mumuH";
+"CB1sig_240GeV_mumuH_combModel" -> "NL_mumuH";
+"finalsig_mumuH_combModel" -> "MRec";
+"finalsig_mumuH_combModel" -> "CB1sig_240GeV_mumuH_combModel";
+"finalsig_mumuH_combModel" -> "CB2sig_240GeV_mumuH_combModel";
+"finalsig_mumuH_combModel" -> "fsig_mumuH";
+"finalsig_mumuH_combModel" -> "finalsig_recursive_fraction_CB2sig_240GeV_mumuH";
+"finalsig_mumuH_combModel" -> "finalsig_recursive_fraction_gauss_240GeV_mumuH";
+"finalsig_mumuH_combModel" -> "gauss_240GeV_mumuH_combModel";
+"CB2sig_240GeV_mumuH_combModel" -> "MRec";
+"CB2sig_240GeV_mumuH_combModel" -> "mean_mumuH_combModel";
+"CB2sig_240GeV_mumuH_combModel" -> "sigma_mumuH";
+"CB2sig_240GeV_mumuH_combModel" -> "alphaR_mumuH";
+"CB2sig_240GeV_mumuH_combModel" -> "NR_mumuH";
+"finalsig_recursive_fraction_CB2sig_240GeV_mumuH" -> "fsig_mumuH";
+"finalsig_recursive_fraction_CB2sig_240GeV_mumuH" -> "fsig2_mumuH";
+"finalsig_recursive_fraction_gauss_240GeV_mumuH" -> "1";
+"finalsig_recursive_fraction_gauss_240GeV_mumuH" -> "fsig_mumuH";
+"finalsig_recursive_fraction_gauss_240GeV_mumuH" -> "fsig2_mumuH";
+"gauss_240GeV_mumuH_combModel" -> "MRec";
+"gauss_240GeV_mumuH_combModel" -> "mean2_240GeV_mumuH";
+"gauss_240GeV_mumuH_combModel" -> "sigma2_240GeV_mumuH";
+"varL_240GeV_mumuH" -> "Lideal_240GeV";
+"varL_240GeV_mumuH" -> "Lmess_240GeV_mumuH";
+"Lsmear_240GeV_mumuH" -> "1";
+"Lsmear_240GeV_mumuH" -> "0.001";
+"Lsmear_240GeV_mumuH" -> "Lmess_240GeV_mumuH";
+"Esmear_240GeV_mumuH" -> "1";
+"Esmear_240GeV_mumuH" -> "0.01";
+"Esmear_240GeV_mumuH" -> "Emess_240GeV_mumuH";
+"varE_240GeV_mumuH" -> "Eideal_240GeV";
+"varE_240GeV_mumuH" -> "Emess_240GeV_mumuH";
+"muZHsig_mumuH_combModel" -> "CSTrue_240GeV";
+"muZHsig_mumuH_combModel" -> "BRideal_240GeV";
+"muZHsig_mumuH_combModel" -> "muZH_240GeV";
+"muZHsig_mumuH_combModel" -> "varL_240GeV_mumuH";
+"muZHsig_mumuH_combModel" -> "varE_240GeV_mumuH";
+"BRsmear_240GeV_mumuH" -> "1";
+"BRsmear_240GeV_mumuH" -> "0.002";
+"BRsmear_240GeV_mumuH" -> "BRmess_240GeV_mumuH";
+"model_eeH_combModel" -> "COMsmear_240GeV_eeH";
+"model_eeH_combModel" -> "mHsmear_240GeV_eeH_combModel";
+"model_eeH_combModel" -> "modelBare_eeH_combModel";
+"model_eeH_combModel" -> "Lsmear_240GeV_eeH";
+"model_eeH_combModel" -> "Esmear_240GeV_eeH";
+"model_eeH_combModel" -> "BRsmear_240GeV_eeH";
+"modelBare_eeH_combModel" -> "MRec";
+"modelBare_eeH_combModel" -> "bkgModel_eeH_combModel";
+"modelBare_eeH_combModel" -> "finalsig_eeH_combModel";
+"modelBare_eeH_combModel" -> "muZHsig_eeH_combModel";
+"modelBare_eeH_combModel" -> "N_eeH";
+"bkgModel_eeH_combModel" -> "MRec";
+"bkgModel_eeH_combModel" -> "a0_eeH";
+"bkgModel_eeH_combModel" -> "a1_eeH";
+"CB2sig_240GeV_eeH_combModel" -> "MRec";
+"CB2sig_240GeV_eeH_combModel" -> "sigma_eeH";
+"CB2sig_240GeV_eeH_combModel" -> "mean_eeH_combModel";
+"CB2sig_240GeV_eeH_combModel" -> "alphaR_eeH";
+"CB2sig_240GeV_eeH_combModel" -> "NR_eeH";
+"finalsig_eeH_combModel" -> "MRec";
+"finalsig_eeH_combModel" -> "CB2sig_240GeV_eeH_combModel";
+"finalsig_eeH_combModel" -> "CB1sig_240GeV_eeH_combModel";
+"finalsig_eeH_combModel" -> "gauss_240GeV_eeH_combModel";
+"finalsig_eeH_combModel" -> "fsig_eeH";
+"finalsig_eeH_combModel" -> "finalsig_recursive_fraction_CB2sig_240GeV_eeH";
+"finalsig_eeH_combModel" -> "finalsig_recursive_fraction_gauss_240GeV_eeH";
+"CB1sig_240GeV_eeH_combModel" -> "MRec";
+"CB1sig_240GeV_eeH_combModel" -> "sigma_eeH";
+"CB1sig_240GeV_eeH_combModel" -> "mean_eeH_combModel";
+"CB1sig_240GeV_eeH_combModel" -> "alphaL_eeH";
+"CB1sig_240GeV_eeH_combModel" -> "NL_eeH";
+"gauss_240GeV_eeH_combModel" -> "MRec";
+"gauss_240GeV_eeH_combModel" -> "mean2_240GeV_eeH";
+"gauss_240GeV_eeH_combModel" -> "sigma2_240GeV_eeH";
+"finalsig_recursive_fraction_CB2sig_240GeV_eeH" -> "fsig_eeH";
+"finalsig_recursive_fraction_CB2sig_240GeV_eeH" -> "fsig2_eeH";
+"finalsig_recursive_fraction_gauss_240GeV_eeH" -> "1";
+"finalsig_recursive_fraction_gauss_240GeV_eeH" -> "fsig_eeH";
+"finalsig_recursive_fraction_gauss_240GeV_eeH" -> "fsig2_eeH";
+"varL_240GeV_eeH" -> "Lideal_240GeV";
+"varL_240GeV_eeH" -> "Lmess_240GeV_eeH";
+"Lsmear_240GeV_eeH" -> "1";
+"Lsmear_240GeV_eeH" -> "0.001";
+"Lsmear_240GeV_eeH" -> "Lmess_240GeV_eeH";
+"Esmear_240GeV_eeH" -> "1";
+"Esmear_240GeV_eeH" -> "0.01";
+"Esmear_240GeV_eeH" -> "Emess_240GeV_eeH";
+"varE_240GeV_eeH" -> "Eideal_240GeV";
+"varE_240GeV_eeH" -> "Emess_240GeV_eeH";
+"muZHsig_eeH_combModel" -> "CSTrue_240GeV";
+"muZHsig_eeH_combModel" -> "BRideal_240GeV";
+"muZHsig_eeH_combModel" -> "muZH_240GeV";
+"muZHsig_eeH_combModel" -> "varL_240GeV_eeH";
+"muZHsig_eeH_combModel" -> "varE_240GeV_eeH";
+"BRsmear_240GeV_eeH" -> "1";
+"BRsmear_240GeV_eeH" -> "0.002";
+"BRsmear_240GeV_eeH" -> "BRmess_240GeV_eeH";
+"muZHsig_bjH_combModel" -> "varL_240GeV_bjH";
+"muZHsig_bjH_combModel" -> "varE_240GeV_bjH";
+"muZHsig_bjH_combModel" -> "CSTrue_240GeV";
+"muZHsig_bjH_combModel" -> "BRideal_240GeV";
+"muZHsig_bjH_combModel" -> "muZH_240GeV";
+}

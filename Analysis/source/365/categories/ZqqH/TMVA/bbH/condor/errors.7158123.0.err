@@ -1,0 +1,50 @@
+Warning in <TInterpreter::ReadRootmapFile>: class  edm4hep::ObjectID found in libedm4hepDict.so  is already in libedm4drDict.so 
+Error in <TSystem::ExpandFileName>: input: $HOME/.root.mimes, output: $HOME/.root.mimes
+0%, time left: unknown
+6%, time left: 76 sec
+12%, time left: 70 sec
+18%, time left: 62 sec
+25%, time left: 55 sec
+31%, time left: 49 sec
+37%, time left: 44 sec
+43%, time left: 40 sec
+50%, time left: 35 sec
+56%, time left: 30 sec
+62%, time left: 26 sec
+68%, time left: 21 sec
+75%, time left: 17 sec
+81%, time left: 13 sec
+87%, time left: 8 sec
+93%, time left: 4 sec
+0%, time left: unknown
+7%, time left: 7 sec
+13%, time left: 7 sec
+19%, time left: 6 sec
+25%, time left: 6 sec
+32%, time left: 5 sec
+38%, time left: 5 sec
+44%, time left: 4 sec
+50%, time left: 4 sec
+57%, time left: 3 sec
+63%, time left: 2 sec
+69%, time left: 2 sec
+75%, time left: 2 sec
+82%, time left: 1 sec
+88%, time left: 0 sec
+94%, time left: 0 sec
+0%, time left: unknown
+6%, time left: 43 mins
+12%, time left: 43 mins
+18%, time left: 41 mins
+25%, time left: 36 mins
+31%, time left: 33 mins
+-36%, time left: 29 mins
+-30%, time left: 26 mins
+-23%, time left: 23 mins
+-17%, time left: 21 mins
+-11%, time left: 18 mins
+-5%, time left: 15 mins
+1%, time left: 12 mins
+7%, time left: 9 mins
+13%, time left: 6 mins
+19%, time left: 181 sec

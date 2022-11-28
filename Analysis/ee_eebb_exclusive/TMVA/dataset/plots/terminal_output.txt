@@ -1,0 +1,376 @@
+root [0] 
+Processing /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_eebb_exclusive/TMVA/TMVA_eebb_classification.C...
+
+==> Start TMVAClassification
+DataSetInfo              : [dataset] : Added class "Signal"
+                         : Add Tree events of type Signal with 100000 events
+DataSetInfo              : [dataset] : Added class "Background"
+                         : Add Tree events of type Background with 600000 events
+                         : Add Tree events of type Background with 600000 events
+                         : Add Tree events of type Background with 600000 events
+Factory                  : Booking method: BDT
+                         : 
+                         : Rebuilding Dataset dataset
+                         : Building event vectors for type 2 Signal
+                         : Dataset[dataset] :  create input formulas for tree events
+                         : Building event vectors for type 2 Background
+                         : Dataset[dataset] :  create input formulas for tree events
+<WARNING>                : Expression: zed_leptonic_m[0] does not provide data for this event. This event is not taken into account. --> please check if you use as a variable an entry of an array which is not filled for some events (e.g. arr[4] when arr has only 3 elements).
+<WARNING>                : If you want to take the event into account you can do something like: "Alt$(arr[4],0)" where in cases where arr doesn't have a 4th element,  0 is taken as an alternative.
+                         : Building event vectors for type 2 Background
+                         : Dataset[dataset] :  create input formulas for tree events
+<WARNING>                : Expression: zed_leptonic_m[0] does not provide data for this event. This event is not taken into account. --> please check if you use as a variable an entry of an array which is not filled for some events (e.g. arr[4] when arr has only 3 elements).
+<WARNING>                : If you want to take the event into account you can do something like: "Alt$(arr[4],0)" where in cases where arr doesn't have a 4th element,  0 is taken as an alternative.
+                         : Building event vectors for type 2 Background
+                         : Dataset[dataset] :  create input formulas for tree events
+<WARNING>                : Expression: zed_leptonic_m[0] does not provide data for this event. This event is not taken into account. --> please check if you use as a variable an entry of an array which is not filled for some events (e.g. arr[4] when arr has only 3 elements).
+<WARNING>                : If you want to take the event into account you can do something like: "Alt$(arr[4],0)" where in cases where arr doesn't have a 4th element,  0 is taken as an alternative.
+DataSetFactory           : [dataset] : Number of events in input trees
+                         : Dataset[dataset] :     Signal     requirement: "(higgs_hadronic_subjets_btag@.size()) > 1 && higgs_hadronic_subjets_btag[0] == 1 && higgs_hadronic_subjets_btag[1] == 1 && n_eminus == 1 && n_eplus == 1 && mass_ee > 110"
+                         : Dataset[dataset] :     Signal          -- number of events passed: 2115   / sum of weights: 2115 
+                         : Dataset[dataset] :     Signal          -- efficiency             : 0.0395431
+                         : Dataset[dataset] :     Background requirement: ""
+                         : Dataset[dataset] :     Background      -- number of events passed: 44653  / sum of weights: 44653
+                         : Dataset[dataset] :     Background      -- efficiency             : 1     
+                         : Dataset[dataset] :  you have opted for interpreting the requested number of training/testing events
+                         :  to be the number of events AFTER your preselection cuts
+                         : 
+                         : 
+                         : Number of training and testing events
+                         : ---------------------------------------------------------------------------
+                         : Signal     -- training events            : 500
+                         : Signal     -- testing events             : 1615
+                         : Signal     -- training and testing events: 2115
+                         : Dataset[dataset] : Signal     -- due to the preselection a scaling factor has been applied to the numbers of requested events: 0.0395431
+                         : Background -- training events            : 5000
+                         : Background -- testing events             : 39653
+                         : Background -- training and testing events: 44653
+                         : 
+DataSetInfo              : Correlation matrix (Signal):
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                                     jetNo_T bjetNo_T higgs_hadronic_subjets_E1_T higgs_hadronic_subjets_E2_T higgs_hadronic_subjets_pt1_T higgs_hadronic_subjets_pt2_T higgs_hadronic_subjets_acoll_T higgs_hadronic_subjets_acollPaPb_T higgs_hadronic_m_T higgs_hadronic_recoil_m_T higgs_hadronic_pt_T missingET_e_T missingET_costheta_T jet_HT_T DeltaEta_ij_T  M_ee_T higgs_hadronic_subjets_eta1_T higgs_hadronic_subjets_eta2_T
+                         :                            jetNo_T:  +1.000   +0.077                      -0.257                      -0.149                       -0.077                       -0.029                         -0.034                             -0.005             -0.451                    +0.371              +0.001        -0.194               -0.020   +0.170        -0.126  -0.016                        -0.075                        +0.067
+                         :                           bjetNo_T:  +0.077   +1.000                      +0.005                      -0.043                       +0.032                       +0.016                         +0.034                             -0.126             -0.113                    +0.008              +0.089        -0.058               -0.018   +0.057        -0.023  -0.064                        +0.026                        +0.005
+                         :        higgs_hadronic_subjets_E1_T:  -0.257   +0.005                      +1.000                      -0.530                       +0.428                       -0.236                         +0.081                             -0.471             +0.524                    -0.343              -0.053        +0.023               +0.061   -0.072        +0.125  -0.194                        +0.070                        +0.008
+                         :        higgs_hadronic_subjets_E2_T:  -0.149   -0.043                      -0.530                      +1.000                       -0.309                       +0.414                         -0.060                             +0.065             +0.203                    -0.572              +0.340        -0.065               -0.020   +0.086        +0.111  -0.190                        -0.002                        -0.079
+                         :       higgs_hadronic_subjets_pt1_T:  -0.077   +0.032                      +0.428                      -0.309                       +1.000                       +0.049                         +0.024                             -0.354             +0.224                    -0.039              +0.036        -0.064               -0.007   +0.305        -0.609  -0.110                        +0.038                        -0.032
+                         :       higgs_hadronic_subjets_pt2_T:  -0.029   +0.016                      -0.236                      +0.414                       +0.049                       +1.000                         -0.012                             -0.171             +0.010                    -0.215              +0.688        -0.175               -0.100   +0.688        -0.541  -0.379                        -0.012                        -0.004
+                         :     higgs_hadronic_subjets_acoll_T:  -0.034   +0.034                      +0.081                      -0.060                       +0.024                       -0.012                         +1.000                             -0.039             +0.002                    -0.018              -0.031        -0.026               +0.092   -0.013        -0.033  -0.015                        +0.653                        +0.408
+                         : higgs_hadronic_subjets_acollPaPb_T:  -0.005   -0.126                      -0.471                      +0.065                       -0.354                       -0.171                         -0.039                             +1.000             +0.028                    +0.472              -0.453        +0.133               +0.015   -0.289        +0.149  +0.639                        -0.032                        -0.004
+                         :                 higgs_hadronic_m_T:  -0.451   -0.113                      +0.524                      +0.203                       +0.224                       +0.010                         +0.002                             +0.028             +1.000                    -0.530              -0.032        +0.052               +0.080   -0.093        +0.225  +0.021                        +0.056                        -0.082
+                         :          higgs_hadronic_recoil_m_T:  +0.371   +0.008                      -0.343                      -0.572                       -0.039                       -0.215                         -0.018                             +0.472             -0.530                    +1.000              -0.353        +0.051               -0.021   -0.023        -0.232  +0.454                        -0.074                        +0.080
+                         :                higgs_hadronic_pt_T:  +0.001   +0.089                      -0.053                      +0.340                       +0.036                       +0.688                         -0.031                             -0.453             -0.032                    -0.353              +1.000        -0.175               -0.051   +0.658        -0.097  -0.524                        -0.034                        +0.001
+                         :                      missingET_e_T:  -0.194   -0.058                      +0.023                      -0.065                       -0.064                       -0.175                         -0.026                             +0.133             +0.052                    +0.051              -0.175        +1.000               +0.059   -0.216        +0.118  -0.133                        -0.059                        +0.033
+                         :               missingET_costheta_T:  -0.020   -0.018                      +0.061                      -0.020                       -0.007                       -0.100                         +0.092                             +0.015             +0.080                    -0.021              -0.051        +0.059               +1.000   -0.084        +0.085  -0.020                        +0.104                        -0.023
+                         :                           jet_HT_T:  +0.170   +0.057                      -0.072                      +0.086                       +0.305                       +0.688                         -0.013                             -0.289             -0.093                    -0.023              +0.658        -0.216               -0.084   +1.000        -0.487  -0.367                        -0.010                        +0.000
+                         :                      DeltaEta_ij_T:  -0.126   -0.023                      +0.125                      +0.111                       -0.609                       -0.541                         -0.033                             +0.149             +0.225                    -0.232              -0.097        +0.118               +0.085   -0.487        +1.000  +0.107                        -0.020                        -0.003
+                         :                             M_ee_T:  -0.016   -0.064                      -0.194                      -0.190                       -0.110                       -0.379                         -0.015                             +0.639             +0.021                    +0.454              -0.524        -0.133               -0.020   -0.367        +0.107  +1.000                        +0.038                        -0.059
+                         :      higgs_hadronic_subjets_eta1_T:  -0.075   +0.026                      +0.070                      -0.002                       +0.038                       -0.012                         +0.653                             -0.032             +0.056                    -0.074              -0.034        -0.059               +0.104   -0.010        -0.020  +0.038                        +1.000                        -0.400
+                         :      higgs_hadronic_subjets_eta2_T:  +0.067   +0.005                      +0.008                      -0.079                       -0.032                       -0.004                         +0.408                             -0.004             -0.082                    +0.080              +0.001        +0.033               -0.023   +0.000        -0.003  -0.059                        -0.400                        +1.000
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DataSetInfo              : Correlation matrix (Background):
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                                     jetNo_T bjetNo_T higgs_hadronic_subjets_E1_T higgs_hadronic_subjets_E2_T higgs_hadronic_subjets_pt1_T higgs_hadronic_subjets_pt2_T higgs_hadronic_subjets_acoll_T higgs_hadronic_subjets_acollPaPb_T higgs_hadronic_m_T higgs_hadronic_recoil_m_T higgs_hadronic_pt_T missingET_e_T missingET_costheta_T jet_HT_T DeltaEta_ij_T  M_ee_T higgs_hadronic_subjets_eta1_T higgs_hadronic_subjets_eta2_T
+                         :                            jetNo_T:  +1.000   +0.273                      -0.260                      -0.152                       -0.106                       +0.070                         -0.021                             +0.101             -0.222                    +0.356              +0.100        -0.546               +0.002   +0.584        -0.099  -0.344                        -0.017                        -0.001
+                         :                           bjetNo_T:  +0.273   +1.000                      -0.067                      -0.031                       +0.026                       +0.085                         -0.017                             -0.019             -0.060                    +0.086              +0.116        -0.212               +0.002   +0.277        -0.069  -0.110                        -0.028                        +0.014
+                         :        higgs_hadronic_subjets_E1_T:  -0.260   -0.067                      +1.000                      -0.427                       +0.449                       -0.237                         +0.019                             -0.061             +0.540                    -0.295              -0.225        +0.027               -0.010   -0.209        +0.228  +0.427                        +0.024                        -0.000
+                         :        higgs_hadronic_subjets_E2_T:  -0.152   -0.031                      -0.427                      +1.000                       -0.107                       +0.488                         -0.010                             +0.031             +0.225                    -0.600              +0.346        -0.007               +0.014   +0.093        -0.014  +0.206                        -0.021                        +0.007
+                         :       higgs_hadronic_subjets_pt1_T:  -0.106   +0.026                      +0.449                      -0.107                       +1.000                       +0.153                         -0.013                             -0.058             +0.380                    -0.148              +0.003        -0.031               +0.003   +0.240        -0.437  +0.274                        -0.014                        -0.001
+                         :       higgs_hadronic_subjets_pt2_T:  +0.070   +0.085                      -0.237                      +0.488                       +0.153                       +1.000                         -0.012                             -0.068             +0.078                    -0.264              +0.722        -0.099               +0.011   +0.626        -0.527  +0.085                        -0.018                        +0.003
+                         :     higgs_hadronic_subjets_acoll_T:  -0.021   -0.017                      +0.019                      -0.010                       -0.013                       -0.012                         +1.000                             -0.022             -0.015                    -0.026              -0.007        +0.020               -0.336   -0.028        +0.006  +0.002                        +0.608                        +0.505
+                         : higgs_hadronic_subjets_acollPaPb_T:  +0.101   -0.019                      -0.061                      +0.031                       -0.058                       -0.068                         -0.022                             +1.000             +0.578                    +0.414              -0.409        -0.147               +0.016   +0.002        +0.389  +0.289                        -0.024                        -0.004
+                         :                 higgs_hadronic_m_T:  -0.222   -0.060                      +0.540                      +0.225                       +0.380                       +0.078                         -0.015                             +0.578             +1.000                    -0.250              -0.217        -0.094               +0.014   -0.054        +0.368  +0.686                        -0.013                        -0.009
+                         :          higgs_hadronic_recoil_m_T:  +0.356   +0.086                      -0.295                      -0.600                       -0.148                       -0.264                         -0.026                             +0.414             -0.250                    +1.000              -0.290        -0.059               +0.006   +0.097        -0.006  -0.288                        -0.015                        -0.018
+                         :                higgs_hadronic_pt_T:  +0.100   +0.116                      -0.225                      +0.346                       +0.003                       +0.722                         -0.007                             -0.409             -0.217                    -0.290              +1.000        -0.109               +0.010   +0.536        -0.272  -0.094                        -0.008                        -0.004
+                         :                      missingET_e_T:  -0.546   -0.212                      +0.027                      -0.007                       -0.031                       -0.099                         +0.020                             -0.147             -0.094                    -0.059              -0.109        +1.000               -0.001   -0.575        -0.041  -0.015                        +0.011                        +0.003
+                         :               missingET_costheta_T:  +0.002   +0.002                      -0.010                      +0.014                       +0.003                       +0.011                         -0.336                             +0.016             +0.014                    +0.006              +0.010        -0.001               +1.000   +0.016        +0.001  +0.028                        -0.102                        -0.287
+                         :                           jet_HT_T:  +0.584   +0.277                      -0.209                      +0.093                       +0.240                       +0.626                         -0.028                             +0.002             -0.054                    +0.097              +0.536        -0.575               +0.016   +1.000        -0.430  -0.102                        -0.022                        -0.011
+                         :                      DeltaEta_ij_T:  -0.099   -0.069                      +0.228                      -0.014                       -0.437                       -0.527                         +0.006                             +0.389             +0.368                    -0.006              -0.272        -0.041               +0.001   -0.430        +1.000  +0.246                        +0.014                        -0.009
+                         :                             M_ee_T:  -0.344   -0.110                      +0.427                      +0.206                       +0.274                       +0.085                         +0.002                             +0.289             +0.686                    -0.288              -0.094        -0.015               +0.028   -0.102        +0.246  +1.000                        -0.004                        +0.002
+                         :      higgs_hadronic_subjets_eta1_T:  -0.017   -0.028                      +0.024                      -0.021                       -0.014                       -0.018                         +0.608                             -0.024             -0.013                    -0.015              -0.008        +0.011               -0.102   -0.022        +0.014  -0.004                        +1.000                        -0.353
+                         :      higgs_hadronic_subjets_eta2_T:  -0.001   +0.014                      -0.000                      +0.007                       -0.001                       +0.003                         +0.505                             -0.004             -0.009                    -0.018              -0.004        +0.003               -0.287   -0.011        -0.009  +0.002                        -0.353                        +1.000
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DataSetFactory           : [dataset] :  
+                         : 
+Factory                  : Train all methods
+Factory                  : [dataset] : Create Transformation "I" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'jetNo_T' <---> Output : variable 'jetNo_T'
+                         : Input : variable 'bjetNo_T' <---> Output : variable 'bjetNo_T'
+                         : Input : variable 'higgs_hadronic_subjets_E1_T' <---> Output : variable 'higgs_hadronic_subjets_E1_T'
+                         : Input : variable 'higgs_hadronic_subjets_E2_T' <---> Output : variable 'higgs_hadronic_subjets_E2_T'
+                         : Input : variable 'higgs_hadronic_subjets_pt1_T' <---> Output : variable 'higgs_hadronic_subjets_pt1_T'
+                         : Input : variable 'higgs_hadronic_subjets_pt2_T' <---> Output : variable 'higgs_hadronic_subjets_pt2_T'
+                         : Input : variable 'higgs_hadronic_subjets_acoll_T' <---> Output : variable 'higgs_hadronic_subjets_acoll_T'
+                         : Input : variable 'higgs_hadronic_subjets_acollPaPb_T' <---> Output : variable 'higgs_hadronic_subjets_acollPaPb_T'
+                         : Input : variable 'higgs_hadronic_m_T' <---> Output : variable 'higgs_hadronic_m_T'
+                         : Input : variable 'higgs_hadronic_recoil_m_T' <---> Output : variable 'higgs_hadronic_recoil_m_T'
+                         : Input : variable 'higgs_hadronic_pt_T' <---> Output : variable 'higgs_hadronic_pt_T'
+                         : Input : variable 'missingET_e_T' <---> Output : variable 'missingET_e_T'
+                         : Input : variable 'missingET_costheta_T' <---> Output : variable 'missingET_costheta_T'
+                         : Input : variable 'jet_HT_T' <---> Output : variable 'jet_HT_T'
+                         : Input : variable 'DeltaEta_ij_T' <---> Output : variable 'DeltaEta_ij_T'
+                         : Input : variable 'M_ee_T' <---> Output : variable 'M_ee_T'
+                         : Input : variable 'higgs_hadronic_subjets_eta1_T' <---> Output : variable 'higgs_hadronic_subjets_eta1_T'
+                         : Input : variable 'higgs_hadronic_subjets_eta2_T' <---> Output : variable 'higgs_hadronic_subjets_eta2_T'
+Factory                  : [dataset] : Create Transformation "P" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'jetNo_T' <---> Output : variable 'jetNo_T'
+                         : Input : variable 'bjetNo_T' <---> Output : variable 'bjetNo_T'
+                         : Input : variable 'higgs_hadronic_subjets_E1_T' <---> Output : variable 'higgs_hadronic_subjets_E1_T'
+                         : Input : variable 'higgs_hadronic_subjets_E2_T' <---> Output : variable 'higgs_hadronic_subjets_E2_T'
+                         : Input : variable 'higgs_hadronic_subjets_pt1_T' <---> Output : variable 'higgs_hadronic_subjets_pt1_T'
+                         : Input : variable 'higgs_hadronic_subjets_pt2_T' <---> Output : variable 'higgs_hadronic_subjets_pt2_T'
+                         : Input : variable 'higgs_hadronic_subjets_acoll_T' <---> Output : variable 'higgs_hadronic_subjets_acoll_T'
+                         : Input : variable 'higgs_hadronic_subjets_acollPaPb_T' <---> Output : variable 'higgs_hadronic_subjets_acollPaPb_T'
+                         : Input : variable 'higgs_hadronic_m_T' <---> Output : variable 'higgs_hadronic_m_T'
+                         : Input : variable 'higgs_hadronic_recoil_m_T' <---> Output : variable 'higgs_hadronic_recoil_m_T'
+                         : Input : variable 'higgs_hadronic_pt_T' <---> Output : variable 'higgs_hadronic_pt_T'
+                         : Input : variable 'missingET_e_T' <---> Output : variable 'missingET_e_T'
+                         : Input : variable 'missingET_costheta_T' <---> Output : variable 'missingET_costheta_T'
+                         : Input : variable 'jet_HT_T' <---> Output : variable 'jet_HT_T'
+                         : Input : variable 'DeltaEta_ij_T' <---> Output : variable 'DeltaEta_ij_T'
+                         : Input : variable 'M_ee_T' <---> Output : variable 'M_ee_T'
+                         : Input : variable 'higgs_hadronic_subjets_eta1_T' <---> Output : variable 'higgs_hadronic_subjets_eta1_T'
+                         : Input : variable 'higgs_hadronic_subjets_eta2_T' <---> Output : variable 'higgs_hadronic_subjets_eta2_T'
+Factory                  : [dataset] : Create Transformation "G" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'jetNo_T' <---> Output : variable 'jetNo_T'
+                         : Input : variable 'bjetNo_T' <---> Output : variable 'bjetNo_T'
+                         : Input : variable 'higgs_hadronic_subjets_E1_T' <---> Output : variable 'higgs_hadronic_subjets_E1_T'
+                         : Input : variable 'higgs_hadronic_subjets_E2_T' <---> Output : variable 'higgs_hadronic_subjets_E2_T'
+                         : Input : variable 'higgs_hadronic_subjets_pt1_T' <---> Output : variable 'higgs_hadronic_subjets_pt1_T'
+                         : Input : variable 'higgs_hadronic_subjets_pt2_T' <---> Output : variable 'higgs_hadronic_subjets_pt2_T'
+                         : Input : variable 'higgs_hadronic_subjets_acoll_T' <---> Output : variable 'higgs_hadronic_subjets_acoll_T'
+                         : Input : variable 'higgs_hadronic_subjets_acollPaPb_T' <---> Output : variable 'higgs_hadronic_subjets_acollPaPb_T'
+                         : Input : variable 'higgs_hadronic_m_T' <---> Output : variable 'higgs_hadronic_m_T'
+                         : Input : variable 'higgs_hadronic_recoil_m_T' <---> Output : variable 'higgs_hadronic_recoil_m_T'
+                         : Input : variable 'higgs_hadronic_pt_T' <---> Output : variable 'higgs_hadronic_pt_T'
+                         : Input : variable 'missingET_e_T' <---> Output : variable 'missingET_e_T'
+                         : Input : variable 'missingET_costheta_T' <---> Output : variable 'missingET_costheta_T'
+                         : Input : variable 'jet_HT_T' <---> Output : variable 'jet_HT_T'
+                         : Input : variable 'DeltaEta_ij_T' <---> Output : variable 'DeltaEta_ij_T'
+                         : Input : variable 'M_ee_T' <---> Output : variable 'M_ee_T'
+                         : Input : variable 'higgs_hadronic_subjets_eta1_T' <---> Output : variable 'higgs_hadronic_subjets_eta1_T'
+                         : Input : variable 'higgs_hadronic_subjets_eta2_T' <---> Output : variable 'higgs_hadronic_subjets_eta2_T'
+TFHandler_Factory        :                           Variable                                  Mean                                  RMS                          [        Min                                  Max ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                            jetNo_T:                              3.8635                              1.1105   [                              2.0000                              9.0000 ]
+                         :                           bjetNo_T:                             0.50855                             0.79047   [                              0.0000                              3.0000 ]
+                         :        higgs_hadronic_subjets_E1_T:                              59.721                              31.300   [                              6.8112                              182.38 ]
+                         :        higgs_hadronic_subjets_E2_T:                              107.84                              33.467   [                              21.450                              182.55 ]
+                         :       higgs_hadronic_subjets_pt1_T:                              37.060                              17.012   [                              5.0157                              147.24 ]
+                         :       higgs_hadronic_subjets_pt2_T:                              77.192                              29.648   [                              11.263                              170.27 ]
+                         :     higgs_hadronic_subjets_acoll_T:                            0.016155                             0.88036   [                             -2.3503                              2.5928 ]
+                         : higgs_hadronic_subjets_acollPaPb_T:                              2.0264                             0.53119   [                             0.51590                              3.1409 ]
+                         :                 higgs_hadronic_m_T:                              122.85                              38.954   [                              20.162                              364.93 ]
+                         :          higgs_hadronic_recoil_m_T:                              154.70                              59.950   [                             -57.931                              326.30 ]
+                         :                higgs_hadronic_pt_T:                              68.247                              36.776   [                             0.22297                              165.77 ]
+                         :                      missingET_e_T:                              41.292                              47.255   [                            0.098533                              170.92 ]
+                         :               missingET_costheta_T:                          -0.0050918                             0.75546   [                             -1.0000                              1.0000 ]
+                         :                           jet_HT_T:                              204.64                              74.563   [                              32.893                              362.49 ]
+                         :                      DeltaEta_ij_T:                              1.4038                             0.96947   [                          1.6101e-05                              5.0593 ]
+                         :                             M_ee_T:                              110.58                              53.315   [                          0.00051100                              339.06 ]
+                         :      higgs_hadronic_subjets_eta1_T:                            0.017055                              1.1148   [                             -3.5453                              3.7314 ]
+                         :      higgs_hadronic_subjets_eta2_T:                           0.0063492                             0.95445   [                             -2.5420                              2.5758 ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         : Preparing the Principle Component (PCA) transformation...
+TFHandler_Factory        :                           Variable                                  Mean                                  RMS                          [        Min                                  Max ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                            jetNo_T:                         -4.8167e-08                              85.573   [                             -196.53                              219.03 ]
+                         :                           bjetNo_T:                         -5.1968e-10                              70.774   [                             -312.77                              258.37 ]
+                         :        higgs_hadronic_subjets_E1_T:                         -9.3598e-09                              59.498   [                             -189.10                              200.96 ]
+                         :        higgs_hadronic_subjets_E2_T:                          5.1519e-10                              39.583   [                             -173.47                              112.82 ]
+                         :       higgs_hadronic_subjets_pt1_T:                         -2.1432e-08                              35.700   [                             -131.62                              148.34 ]
+                         :       higgs_hadronic_subjets_pt2_T:                         -2.9991e-08                              29.080   [                             -223.38                              140.33 ]
+                         :     higgs_hadronic_subjets_acoll_T:                          6.6758e-09                              21.479   [                             -95.568                              87.421 ]
+                         : higgs_hadronic_subjets_acollPaPb_T:                          2.6748e-09                              13.277   [                             -39.365                              38.745 ]
+                         :                 higgs_hadronic_m_T:                         -9.7022e-09                              12.678   [                             -46.556                              45.514 ]
+                         :          higgs_hadronic_recoil_m_T:                          2.6619e-10                              3.4874   [                             -28.231                              16.827 ]
+                         :                higgs_hadronic_pt_T:                          9.1645e-10                              1.2955   [                             -3.7009                              3.6367 ]
+                         :                      missingET_e_T:                          1.5431e-10                              1.1530   [                             -2.9604                              2.9073 ]
+                         :               missingET_costheta_T:                         -2.0564e-10                             0.75748   [                             -2.0780                              3.2259 ]
+                         :                           jet_HT_T:                         -2.4873e-11                             0.68544   [                             -1.7964                              1.7310 ]
+                         :                      DeltaEta_ij_T:                         -2.0979e-10                             0.68411   [                             -2.1441                              3.5418 ]
+                         :                             M_ee_T:                         -2.0942e-10                             0.35445   [                             -2.3139                              1.5430 ]
+                         :      higgs_hadronic_subjets_eta1_T:                          1.2507e-11                             0.18379   [                            -0.86342                             0.78156 ]
+                         :      higgs_hadronic_subjets_eta2_T:                          4.4516e-11                             0.11841   [                            -0.74701                             0.81203 ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         : Preparing the Gaussian transformation...
+TFHandler_Factory        :                           Variable                                  Mean                                  RMS                          [        Min                                  Max ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                            jetNo_T:                            -0.49953                              1.7925   [                             -4.2057                              5.7307 ]
+                         :                           bjetNo_T:                            -0.99859                              1.1877   [                             -1.7622                              5.7307 ]
+                         :        higgs_hadronic_subjets_E1_T:                            0.011317                              1.0020   [                             -3.0076                              5.7307 ]
+                         :        higgs_hadronic_subjets_E2_T:                            0.011959                              1.0043   [                             -3.0076                              5.7307 ]
+                         :       higgs_hadronic_subjets_pt1_T:                            0.011827                              1.0049   [                             -3.0075                              5.7307 ]
+                         :       higgs_hadronic_subjets_pt2_T:                            0.011772                              1.0023   [                             -3.0076                              5.7307 ]
+                         :     higgs_hadronic_subjets_acoll_T:                            0.010447                             0.99746   [                             -3.0074                              5.7307 ]
+                         : higgs_hadronic_subjets_acollPaPb_T:                            0.012040                              1.0047   [                             -3.0070                              5.7307 ]
+                         :                 higgs_hadronic_m_T:                            0.011500                              1.0021   [                             -3.0076                              5.7307 ]
+                         :          higgs_hadronic_recoil_m_T:                            0.010303                             0.99596   [                             -3.0076                              5.7307 ]
+                         :                higgs_hadronic_pt_T:                            0.013416                              1.0100   [                             -3.0076                              5.7307 ]
+                         :                      missingET_e_T:                            0.011112                              1.0007   [                             -3.0073                              5.7307 ]
+                         :               missingET_costheta_T:                           0.0072490                             0.99129   [                             -2.7754                              2.7231 ]
+                         :                           jet_HT_T:                            0.010589                             0.99792   [                             -3.0076                              5.7307 ]
+                         :                      DeltaEta_ij_T:                            0.011835                              1.0047   [                             -3.0003                              5.7307 ]
+                         :                             M_ee_T:                          0.00091273                             0.99850   [                             -2.5603                              5.7307 ]
+                         :      higgs_hadronic_subjets_eta1_T:                            0.010657                             0.99697   [                             -3.0075                              5.7307 ]
+                         :      higgs_hadronic_subjets_eta2_T:                            0.012057                              1.0047   [                             -3.0072                              5.7307 ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         : Ranking input variables (method unspecific)...
+IdTransformation         : Ranking result (top variable is best ranked)
+                         : -----------------------------------------------------------
+                         : Rank : Variable                           : Separation
+                         : -----------------------------------------------------------
+                         :    1 : M_ee_T                             : 7.605e-01
+                         :    2 : bjetNo_T                           : 5.224e-01
+                         :    3 : missingET_e_T                      : 2.404e-01
+                         :    4 : higgs_hadronic_m_T                 : 2.230e-01
+                         :    5 : jetNo_T                            : 1.589e-01
+                         :    6 : higgs_hadronic_recoil_m_T          : 1.464e-01
+                         :    7 : jet_HT_T                           : 1.243e-01
+                         :    8 : higgs_hadronic_subjets_E2_T        : 1.200e-01
+                         :    9 : higgs_hadronic_subjets_acollPaPb_T : 1.167e-01
+                         :   10 : higgs_hadronic_subjets_pt2_T       : 7.274e-02
+                         :   11 : higgs_hadronic_subjets_acoll_T     : 5.786e-02
+                         :   12 : higgs_hadronic_subjets_eta2_T      : 4.872e-02
+                         :   13 : missingET_costheta_T               : 4.870e-02
+                         :   14 : higgs_hadronic_pt_T                : 4.736e-02
+                         :   15 : higgs_hadronic_subjets_E1_T        : 3.298e-02
+                         :   16 : higgs_hadronic_subjets_pt1_T       : 3.151e-02
+                         :   17 : higgs_hadronic_subjets_eta1_T      : 2.879e-02
+                         :   18 : DeltaEta_ij_T                      : 2.683e-02
+                         : -----------------------------------------------------------
+Factory                  : Train method: BDT for Classification
+                         : 
+BDT                      : #events: (reweighted) sig: 2750 bkg: 2750
+                         : #events: (unweighted) sig: 500 bkg: 5000
+                         : Training 800 Decision Trees ... patience please
+                         : Elapsed time for training with 5500 events: 2.53 sec         
+BDT                      : [dataset] : Evaluation of BDT on training sample (5500 events)
+                         : Elapsed time for evaluation of 5500 events: 0.448 sec       
+                         : Creating xml weight file: dataset/weights/TMVAClassification_BDT.weights.xml
+                         : Creating standalone class: dataset/weights/TMVAClassification_BDT.class.C
+                         : /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_eebb_exclusive/TMVA/output/TMVAClassification.root:/dataset/Method_BDT/BDT
+Factory                  : Training finished
+                         : 
+                         : Ranking input variables (method specific)...
+BDT                      : Ranking result (top variable is best ranked)
+                         : --------------------------------------------------------------------
+                         : Rank : Variable                           : Variable Importance
+                         : --------------------------------------------------------------------
+                         :    1 : M_ee_T                             : 1.437e-01
+                         :    2 : bjetNo_T                           : 1.015e-01
+                         :    3 : missingET_e_T                      : 7.220e-02
+                         :    4 : jet_HT_T                           : 5.819e-02
+                         :    5 : higgs_hadronic_subjets_acollPaPb_T : 5.491e-02
+                         :    6 : higgs_hadronic_recoil_m_T          : 5.339e-02
+                         :    7 : higgs_hadronic_m_T                 : 5.198e-02
+                         :    8 : jetNo_T                            : 5.030e-02
+                         :    9 : higgs_hadronic_subjets_pt2_T       : 4.670e-02
+                         :   10 : higgs_hadronic_subjets_E2_T        : 4.613e-02
+                         :   11 : missingET_costheta_T               : 4.444e-02
+                         :   12 : higgs_hadronic_subjets_eta2_T      : 4.388e-02
+                         :   13 : higgs_hadronic_pt_T                : 4.111e-02
+                         :   14 : higgs_hadronic_subjets_pt1_T       : 4.059e-02
+                         :   15 : higgs_hadronic_subjets_acoll_T     : 3.905e-02
+                         :   16 : higgs_hadronic_subjets_eta1_T      : 3.899e-02
+                         :   17 : DeltaEta_ij_T                      : 3.896e-02
+                         :   18 : higgs_hadronic_subjets_E1_T        : 3.395e-02
+                         : --------------------------------------------------------------------
+Factory                  : === Destroy and recreate all methods via weight files for testing ===
+                         : 
+                         : Reading weight file: dataset/weights/TMVAClassification_BDT.weights.xml
+Factory                  : Test all methods
+Factory                  : Test method: BDT for Classification performance
+                         : 
+BDT                      : [dataset] : Evaluation of BDT on testing sample (41268 events)
+                         : Elapsed time for evaluation of 41268 events: 2.22 sec       
+Factory                  : Evaluate all methods
+Factory                  : Evaluate classifier: BDT
+                         : 
+BDT                      : [dataset] : Loop over test events and fill histograms with classifier response...
+                         : 
+TFHandler_BDT            :                           Variable                                  Mean                                  RMS                          [        Min                                  Max ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         :                            jetNo_T:                              3.8460                              1.1314   [                              2.0000                              10.000 ]
+                         :                           bjetNo_T:                             0.45175                             0.75617   [                              0.0000                              4.0000 ]
+                         :        higgs_hadronic_subjets_E1_T:                              59.197                              31.576   [                              5.2280                              183.87 ]
+                         :        higgs_hadronic_subjets_E2_T:                              109.10                              34.032   [                              12.018                              186.01 ]
+                         :       higgs_hadronic_subjets_pt1_T:                              36.715                              16.826   [                              5.0019                              171.21 ]
+                         :       higgs_hadronic_subjets_pt2_T:                              77.526                              30.153   [                              9.0398                              179.36 ]
+                         :     higgs_hadronic_subjets_acoll_T:                          -0.0017483                             0.87223   [                             -2.6380                              2.6285 ]
+                         : higgs_hadronic_subjets_acollPaPb_T:                              2.0244                             0.52949   [                             0.50214                              3.1416 ]
+                         :                 higgs_hadronic_m_T:                              122.86                              39.924   [                              10.798                              369.86 ]
+                         :          higgs_hadronic_recoil_m_T:                              153.24                              59.912   [                             -63.503                              329.54 ]
+                         :                higgs_hadronic_pt_T:                              69.276                              36.944   [                             0.11718                              174.17 ]
+                         :                      missingET_e_T:                              43.128                              47.866   [                            0.012279                              178.35 ]
+                         :               missingET_costheta_T:                          -0.0015341                             0.75609   [                             -1.0000                              1.0000 ]
+                         :                           jet_HT_T:                              204.79                              76.146   [                              23.295                              366.96 ]
+                         :                      DeltaEta_ij_T:                              1.4175                             0.97219   [                          0.00010578                              5.5969 ]
+                         :                             M_ee_T:                              106.14                              51.855   [                          0.00051100                              352.31 ]
+                         :      higgs_hadronic_subjets_eta1_T:                         -0.00069078                              1.1116   [                             -3.8013                              3.9560 ]
+                         :      higgs_hadronic_subjets_eta2_T:                          0.00017386                             0.96644   [                             -3.4720                              3.3930 ]
+                         : ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : dataset       BDT            : 0.996
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : dataset              BDT            : 0.916 (0.936)       1.000 (1.000)      1.000 (1.000)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+Dataset:dataset          : Created tree 'TestTree' with 41268 events
+                         : 
+Dataset:dataset          : Created tree 'TrainTree' with 5500 events
+                         : 
+Factory                  : Thank you for using TMVA!
+                         : For citation information, please visit: http://tmva.sf.net/citeTMVA.html
+==> Wrote root file: /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_eebb_exclusive/TMVA/output/TMVAClassification.root
+==> TMVAClassification is done!
+--- Launch TMVA GUI to view input file: /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_eebb_exclusive/TMVA/output/TMVAClassification.root
+=== Note: inactive buttons indicate classifiers that were not trained, ===
+===       or functionalities that were not invoked during the training ===
+(int) 0
+root [1] --- Opening root file /afs/cern.ch/user/n/niharrin/work/public/MA/Analysis/ee_eebb_exclusive/TMVA/output/TMVAClassification.root in read mode
+--- Found directory for method: BDT::BDT containing MVA_BDT_S/_B
+--- Mean and RMS (S): 0.428565, 0.214903
+--- Mean and RMS (B): -0.682919, 0.177221
+--- Found comparison histograms for overtraining check
+--- Perform Kolmogorov-Smirnov tests
+--- Goodness of signal (background) consistency: 0.602 (0.964)
+Info in <TCanvas::Print>: file dataset/plots/overtrain_BDT.png has been created
+--- Found 1 classifier types
+--- Found 1 instance(s) of the method Method_BDT
+--- Found 1 classifier types
+--- Found 1 instance(s) of the method Method_BDT
+Info in <TCanvas::Print>: file dataset/plots/rejBvsS.png has been created
+Info in <TCanvas::Print>: file dataset/plots/variables_id_c1.png has been created
+Info in <TCanvas::Print>: file dataset/plots/variables_id_c2.png has been created
+Info in <TCanvas::Print>: file dataset/plots/variables_id_c3.png has been created
+--- Found directory: Method_BDT
+--- Classifier: BDT
+--- ==================================================================================================
+--- Classifier   (  #signal, #backgr.)  Optimal-cut  S/sqrt(S+B)      NSig      NBkg   EffSig   EffBkg
+--- --------------------------------------------------------------------------------------------------
+---        BDT:  (     1000,     1000)      -0.2532      30.9608  989.4737  31.90175   0.9895   0.0319
+--- --------------------------------------------------------------------------------------------------
+
+Info in <TCanvas::Print>: file dataset/plots/mvaeffs_BDT.png has been created
+--- ==================================================================================================
+--- Classifier   (  #signal, #backgr.)  Optimal-cut  S/sqrt(S+B)      NSig      NBkg   EffSig   EffBkg
+--- --------------------------------------------------------------------------------------------------
+---        BDT:  (      219,      524)      -0.2227      14.1976  215.7455   15.1704   0.9851  0.02895
+--- --------------------------------------------------------------------------------------------------

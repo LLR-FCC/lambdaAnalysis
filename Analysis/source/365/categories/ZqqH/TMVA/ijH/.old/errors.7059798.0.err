@@ -1,0 +1,52 @@
+Warning in <TInterpreter::ReadRootmapFile>: class  edm4hep::ObjectID found in libedm4hepDict.so  is already in libedm4drDict.so 
+Error in <TSystem::ExpandFileName>: input: $HOME/.root.mimes, output: $HOME/.root.mimes
+Error in <TH1F::Smooth>: Smooth only supported for histograms with >= 3 bins. Nbins = 2
+Error in <TH1F::Smooth>: Smooth only supported for histograms with >= 3 bins. Nbins = 2
+0%, time left: unknown
+6%, time left: 42 sec
+12%, time left: 37 sec
+18%, time left: 34 sec
+25%, time left: 31 sec
+31%, time left: 28 sec
+37%, time left: 25 sec
+43%, time left: 23 sec
+50%, time left: 20 sec
+56%, time left: 17 sec
+62%, time left: 15 sec
+68%, time left: 12 sec
+75%, time left: 10 sec
+81%, time left: 7 sec
+87%, time left: 5 sec
+93%, time left: 2 sec
+0%, time left: unknown
+7%, time left: 3 sec
+13%, time left: 2 sec
+19%, time left: 2 sec
+25%, time left: 2 sec
+32%, time left: 2 sec
+38%, time left: 2 sec
+44%, time left: 1 sec
+50%, time left: 1 sec
+57%, time left: 1 sec
+63%, time left: 1 sec
+69%, time left: 1 sec
+75%, time left: 0 sec
+82%, time left: 0 sec
+88%, time left: 0 sec
+94%, time left: 0 sec
+0%, time left: unknown
+6%, time left: 287 sec
+12%, time left: 250 sec
+18%, time left: 209 sec
+25%, time left: 175 sec
+31%, time left: 154 sec
+37%, time left: 147 sec
+43%, time left: 132 sec
+50%, time left: 112 sec
+56%, time left: 96 sec
+62%, time left: 81 sec
+68%, time left: 66 sec
+75%, time left: 50 sec
+81%, time left: 37 sec
+87%, time left: 24 sec
+93%, time left: 12 sec
